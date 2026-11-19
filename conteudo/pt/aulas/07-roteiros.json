@@ -1,0 +1,94 @@
+{
+  "slug": "roteiros",
+  "num": 7,
+  "menu": "Roteiros",
+  "titulo": "Roteiros: estrutura, não texto",
+  "titulo_curto": "Roteiros",
+  "minutos": 16,
+  "lead": "Um roteiro não existe para ser lido em voz alta. Existe para dar estrutura, e estrutura faz o outro lado sentir que você já fez isso muitas vezes. Aqui estão as falas da conversa de diagnóstico, das perguntas, do preço e do limite honesto, prontas para você adaptar à sua boca.",
+  "objetivo": "adaptar roteiros de abertura, perguntas, preço e limite honesto à sua voz e lê-los em voz alta sem travar.",
+  "competencias": ["usar-roteiro-como-estrutura", "perguntar-dor-e-decisao", "dar-veredito-honesto"],
+  "aprende": [
+    {"t": "Adaptar um roteiro sem decorar"},
+    {"t": "Abrir a conversa com estrutura e três fios"},
+    {"t": "Separar perguntas de temperatura, de dor e de decisão"},
+    {"t": "Dizer o preço e dizer o que você não faz"}
+  ],
+  "hero_alt": "Profissional fala ao telefone de forma relaxada, com uma folha de roteiro manuscrito à frente.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O arco da conversa",
+      "sub": "Você só fala nos primeiros blocos. Do meio em diante, o trabalho é ouvir. Clique em cada bloco.",
+      "nos": [
+        {"icone": "chat", "titulo": "Abertura", "sub": "calma", "detalhe": "\"Oi, tudo certo? Como foi o dia aí?\" Câmera ligada, tom de quem já fez isso muitas vezes."},
+        {"icone": "lista", "titulo": "Estrutura", "sub": "como vai ser", "detalhe": "Conto rapidinho o que faço, pergunto como funciona aí, e no fim digo com sinceridade se tenho algo que ajuda ou não."},
+        {"icone": "camadas", "titulo": "Três fios", "sub": "e silêncio", "detalhe": "Um trabalho real que você está fazendo, sem detalhe técnico, e três frentes em que você entra. Depois, dois segundos de silêncio para ele escolher o fio."},
+        {"icone": "lupa", "titulo": "Perguntas", "sub": "temperatura, dor, decisão", "detalhe": "Temperatura mede confiança pelo tamanho da resposta. Dor mede quanto o problema custa. Decisão mostra quem mais precisa concordar."},
+        {"icone": "grafico", "titulo": "Preço e próximo passo", "sub": "no mesmo fôlego", "detalhe": "Amarre no número do cliente, diga o valor sem cerimônia, emende pagamento e prazo e ofereça duas datas."},
+        {"icone": "escudo", "titulo": "Veredito honesto", "sub": "inclusive o não", "forte": true, "detalhe": "Se não é com você, diga e indique quem faz. Se está tudo redondo, diga para não mexer. É o que separa quem vende confiança de quem vende qualquer coisa."}
+      ],
+      "legenda": "Roteiro é estrutura: troque as palavras, mantenha a ordem e a intenção de cada bloco."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como usar um roteiro",
+      "sub": "O que fazer e o que evitar.",
+      "passos": [
+        {"titulo": "Adapte, não decore", "sub": "leia em voz alta uma vez", "texto": ["Reescreva cada linha com as suas palavras, mantendo a ordem dos passos. Troque o setor do exemplo pelo seu perfil de cliente.", "Toda frase que travar na sua boca, troque. Um roteiro que você não consegue falar com naturalidade é pior do que nenhum."]},
+        {"titulo": "Acompanhe a conversa", "sub": "não o papel", "texto": ["Se o cliente mudou de assunto, siga o cliente. O roteiro serve para você saber onde está, não para obrigá-lo a voltar.", "Não use palavras que você não usaria no cafezinho."]},
+        {"titulo": "Pergunte antes de precificar", "sub": "a frase de teste", "texto": ["No fim da conversa, você precisa conseguir escrever \"esse problema custa cerca de tanto por mês para eles\".", "Se não consegue, faltou pergunta de dor, e você ainda não pode falar de preço."]},
+        {"titulo": "O limite também tem roteiro", "sub": "dizer o que não sabe", "texto": ["\"Isso eu não faço\", \"ainda estou medindo\" e \"para isso você precisa de um especialista\" são falas de quem tem critério, não de quem falhou.", "Ensaie essas frases como ensaia o preço: o que trai insegurança é a hesitação antes de dizê-las."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Roteiros para copiar",
+      "sub": "Abra ao lado durante a conversa. Adapte antes de usar.",
+      "blocos": [
+        {"rot": "Abertura e estrutura da conversa de diagnóstico", "icone": "chat", "conteudo": "[abertura · tom calmo, câmera ligada]\n\"Oi <nome>, tudo certo? Como foi o dia aí?\"\n\n[estrutura]\n\"Deixa eu te falar como eu costumo conduzir: eu te conto rapidinho\no que eu faço, faço umas perguntas para entender como funciona aí,\ne no fim eu te digo com sinceridade se eu tenho algo que ajuda ou não.\nFechado?\"\n\n[contexto · um trabalho real, sem detalhe técnico]\n\"Estou agora <diagnosticando / revisando / ensinando> <o quê> para\n<tipo de empresa>. A parte chata foi <dificuldade concreta>.\"\n\n[três fios]\n\"No geral eu entro em três frentes: <frente 1>, <frente 2> e <frente 3>.\"\n\n[silêncio de dois segundos]\n\n[transição]\n\"Antes de eu chutar qualquer coisa: me conta como vocês fazem isso hoje.\nNão quero supor.\""},
+        {"rot": "Banco de perguntas · temperatura, dor, decisão", "icone": "lista", "conteudo": "TEMPERATURA (leia o TAMANHO da resposta)\n- \"Como foi a semana aí?\"\n- \"Há quanto tempo você está nessa operação?\"\n- \"Como vocês fazem <o processo> hoje?\"\n→ resposta de 3 palavras = guarda alta · resposta com história = pode aprofundar\n\nDOR (leia os NÚMEROS da resposta)\n- \"Quantos <ligações, pedidos, orçamentos> por dia?\"\n- \"Desses, quantos vocês perdem ou deixam passar?\"\n- \"Quanto vale, em média, um <evento> fechado?\"\n- \"Quem cuida disso hoje e quanto tempo por dia isso toma?\"\n- \"Se continuar assim pelos próximos 12 meses, qual o custo?\"\n\nDECISÃO\n- \"Além de você, quem mais precisa concordar?\"\n- \"Vocês já tentaram resolver isso antes? O que aconteceu?\""},
+        {"rot": "Roteiro de preço e próximo passo", "icone": "grafico", "conteudo": "[amarrar no problema, com o número dele]\n\"Pelo que você me contou, isso custa perto de <valor por mês> para vocês hoje.\"\n\n[o preço, sem cerimônia]\n\"Para <o escopo pequeno>, fica <valor>.\"\n\n[emendar: pagamento e prazo, tom de rotina]\n\"A maioria faz por transferência ou cartão, e eu costumo entregar isso\nem <prazo curto>.\"\n\n[próximo passo com duas datas]\n\"Te mando o resumo hoje ainda. Para revisar junto, tenho quarta às 10h\nou quinta às 16h. Qual funciona melhor?\""},
+        {"rot": "Roteiro do limite honesto", "icone": "escudo", "conteudo": "[quando não é com você]\n\"Isso eu não faço. Para <parecer jurídico / teste de invasão / mudança\nno sistema>, você precisa de <tipo de especialista>. Posso indicar e\ncontinuo cuidando da parte de <seu serviço>.\"\n\n[quando está tudo redondo]\n\"Olhando o que você me mostrou, isso está funcionando. Meu conselho é\nnão mexer agora. Se <sinal> aparecer, me chama.\"\n\n[quando você não tem o número]\n\"Ainda estou medindo. Te trago o número até <data>.\"\n\n[quando o pedido cresce no meio]\n\"Dá para fazer, só não agora. Isso entra na etapa dois.\""}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Adapte e fale em voz alta. Gravar no celular ajuda.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Três roteiros na sua voz", "min": "30 min", "texto": "Adapte a abertura, o banco de perguntas e o roteiro de preço ao seu perfil de cliente e ao seu serviço. Leia cada um em voz alta e troque toda frase que travar.", "pronto": "os 3 roteiros estão salvos com o seu setor e o seu serviço, e você os lê em voz alta do começo ao fim sem tropeçar em nenhuma frase."},
+        {"id": "e2", "titulo": "2 · Suas frases de limite", "min": "15 min", "texto": "Complete o roteiro do limite honesto com os especialistas que você indicaria e ensaie cada frase cinco vezes, como ensaia o preço.", "pronto": "você diz as 4 frases de limite de memória, sem pedir desculpa, e tem pelo menos 1 especialista que pode indicar de verdade."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Qual é o jeito certo de usar um roteiro?", "opcoes": ["Ler palavra por palavra para não esquecer nada", "Manter a ordem e a intenção dos blocos, com as suas palavras", "Seguir o roteiro mesmo quando o cliente muda de assunto"], "certa": 1, "ref": "passos", "explica": "Ler palavra por palavra soa como robô de telefonia. O roteiro dá estrutura; a fala é sua."},
+        {"p": "Depois de dizer os três fios, o que você faz?", "opcoes": ["Explica os três em detalhe", "Fica em silêncio e deixa o cliente escolher o fio", "Pergunta o orçamento"], "certa": 1, "ref": "diagrama", "explica": "O fio que ele puxa é o problema que dói. Se ninguém puxar nenhum, seus fios não eram sobre ele."},
+        {"p": "Qual destas é uma pergunta de dor?", "opcoes": ["\"Vocês têm problema com isso?\"", "\"Desses, quantos vocês perdem ou deixam passar?\"", "\"Posso te mostrar a minha solução?\""], "certa": 1, "ref": "codigo", "explica": "Pergunta de dor traz número. \"Vocês têm problema?\" se responde com \"não\" e encerra o assunto."},
+        {"p": "Você olhou o processo do cliente e ele está funcionando bem. O que diz?", "opcoes": ["Inventa um ajuste para não sair sem venda", "Diz que está funcionando, aconselha não mexer agora e combina o sinal para ele te chamar", "Oferece um projeto maior para tudo"], "certa": 1, "ref": "codigo", "explica": "O veredito honesto, inclusive o de não mexer, é a prova mais forte de que você vende confiança. Ele volta quando o sinal aparecer."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Estrutura, não texto", "texto": "Adapte para a sua boca; decorar soa pior que improvisar."},
+        {"t": "Fale pouco no começo, ouça depois", "texto": "Três fios, silêncio, e perguntas de temperatura, dor e decisão."},
+        {"t": "Pergunte antes de precificar", "texto": "Sem o problema em número, qualquer valor é chute."},
+        {"t": "O limite tem roteiro", "texto": "\"Não faço\", \"ainda medindo\", \"não mexa agora\" e \"chame um especialista\"."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Ligação fria e e-mail frio: curso 4 da formação, Do Zero ao Primeiro Cliente", "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/", "icone": "seta"},
+        {"t": "A call de descoberta completa: curso 2, Playbook de Consultoria", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/", "icone": "seta"}
+      ]
+    }
+  ]
+}

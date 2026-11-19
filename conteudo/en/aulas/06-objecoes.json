@@ -1,0 +1,367 @@
+{
+  "slug": "objecoes",
+  "num": 6,
+  "menu": "Objections",
+  "titulo": "Objections: the receipt for an earlier failure",
+  "titulo_curto": "Objections",
+  "minutos": 19,
+  "lead": "There is a whole industry teaching you to \"break objections\" with a catchy line. The view here is different: a price objection is the receipt for a failure that happened earlier. Either the problem was never measured, or trust was missing. If the earlier work was done well, the final conversation is about logistics, and almost never about convincing.",
+  "objetivo": "read an objection as an earlier failure, measure the problem before the price, and respond by reducing the scope, not by discounting.",
+  "competencias": [
+    "diagnosticar-objecao",
+    "dimensionar-problema",
+    "reduzir-escopo-sem-desconto"
+  ],
+  "aprende": [
+    {
+      "t": "Tell apart the only two causes of a price objection"
+    },
+    {
+      "t": "Do the math on the problem in front of the client"
+    },
+    {
+      "t": "State the price and follow it with the next step"
+    },
+    {
+      "t": "Practice in a simulated conversation with a scoreboard"
+    }
+  ],
+  "hero_alt": "A renovation company owner, arms crossed, skeptical but open, talks with a consultant who listens calmly.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From the objection to the next date",
+      "sub": "One question separates the two causes. No path is called \"arguing better.\" Click each step.",
+      "nos": [
+        {
+          "icone": "x",
+          "titulo": "\"That's expensive\"",
+          "sub": "the objection",
+          "detalhe": "An objection is any reason not to move forward now: \"it's expensive,\" \"I'll think about it,\" \"I need to talk to my partner.\" Treat it as a note on your own conversation."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Was the problem measured?",
+          "sub": "the middle question",
+          "forte": true,
+          "detalhe": "If you don't know how much the problem costs per month, the price has nothing to be compared against. A US$ 500-a-month problem can't support a US$ 10,000 proposal, and no sentence fixes that."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "No: do the math",
+          "sub": "frequency × value × days",
+          "detalhe": "How often it happens, what each time is worth, how many business days. The math protects you from charging too much and from selling to someone who shouldn't buy."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Yes: trust was missing",
+          "sub": "smaller scope",
+          "detalhe": "The problem is big and the price is fair, but there's no track record yet. The fix isn't arguing: it's cutting the scope down to a small first step."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Next date",
+          "sub": "always",
+          "detalhe": "Every conversation ends with the next one on both calendars, with two concrete time options. Without a date, assume it won't happen."
+        }
+      ],
+      "legenda": "Dollar amounts are only illustrative references; adapt to your market."
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated conversation: the owner of a remodeling company",
+      "sub": "Fiction for practice. You proposed a diagnosis of their customer service with a 30-day plan. Choose the answer you would give.",
+      "personagem": {
+        "nome": "Remodeling company owner",
+        "papel": "decides alone · misses calls from new clients"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "I like the idea of the diagnosis. But, to be honest, it seems expensive.",
+          "opcoes": [
+            {
+              "t": "I understand. If you sign today, I'll give you 30% off.",
+              "vai": "fim-desconto",
+              "nota": 0,
+              "comenta": "A discount solves today's conversation and ruins the next ones: it teaches him that the price was made up and that complaining works."
+            },
+            {
+              "t": "I understand, it's not a small amount of money. Before we talk about price: how many calls from new clients go unanswered, and what is one closed remodel worth?",
+              "vai": "conta",
+              "nota": 2,
+              "comenta": "You acknowledged the objection without apologizing and went to measure the problem. Without that number, any price is a guess."
+            },
+            {
+              "t": "The price is justified: I'll map the whole flow, interview your team and build the plan.",
+              "vai": "conta",
+              "nota": 1,
+              "comenta": "Explaining the technical work defends the price, but it doesn't compare it to anything. What kills an objection is the size of his problem."
+            }
+          ]
+        },
+        "conta": {
+          "cliente": "Around five a day nobody answers. A closed remodel is worth a lot. Now, how many of those were real clients, I don't know.",
+          "opcoes": [
+            {
+              "t": "Then the problem is huge. You need to sign with me.",
+              "vai": "fim-pressao",
+              "nota": 0,
+              "comenta": "Pushing turns his own number against him. And you haven't even confirmed the data: he himself said he doesn't know how many were real clients."
+            },
+            {
+              "t": "Let's do the math together: five a day, about twenty business days. What you don't know I'll mark as \"assumed,\" and the diagnosis will measure it for real. If the number doesn't justify it, I'll tell you myself.",
+              "vai": "pensar",
+              "nota": 2,
+              "comenta": "He did the calculation himself, and nobody argues with their own math. Separating assumed from stated and promising an honest verdict is selling trust."
+            },
+            {
+              "t": "I can start with just the most painful part, for a lower price.",
+              "vai": "pensar",
+              "nota": 1,
+              "comenta": "Reducing scope is the right path, but too early: without the math, he doesn't know whether even the smaller part is worth it."
+            }
+          ]
+        },
+        "pensar": {
+          "cliente": "Makes sense. Let me think about it and I'll get back to you.",
+          "opcoes": [
+            {
+              "t": "Sure, no rush. Let me know if anything comes up.",
+              "vai": "fim-solto",
+              "nota": 0,
+              "comenta": "\"Let me know if anything comes up\" is not a next step, it's a goodbye. Without a date, the \"I'll think about it\" becomes a polite no."
+            },
+            {
+              "t": "Of course. What was less clear: the result, the timeline or the price? I'll send you a one-page summary today and we can talk for 15 minutes on Thursday or Friday. Which do you prefer?",
+              "vai": "ja-tem",
+              "nota": 2,
+              "comenta": "You turned the delay into a date, with two concrete options, and sent the summary while the conversation is fresh."
+            },
+            {
+              "t": "Deal. I'll send you the full proposal by the end of the week.",
+              "vai": "ja-tem",
+              "nota": 1,
+              "comenta": "The proposal will arrive without the context that justified it. The price stays, the value fades. Better to send it today and schedule the review together."
+            }
+          ]
+        },
+        "ja-tem": {
+          "cliente": "Okay. Oh, one thing: my nephew already handles this AI stuff for us.",
+          "opcoes": [
+            {
+              "t": "Great, that means the problem is real. What still bothers you even with him taking care of it? If everything is running smoothly, I'll be the first to tell you not to touch it.",
+              "vai": "escopo",
+              "nota": 2,
+              "comenta": "Honest verdict: you don't compete with whoever is already there, and you show that you say what doesn't need to be done. That's what builds trust."
+            },
+            {
+              "t": "With all due respect, this is not work for an amateur.",
+              "vai": "fim-pressao",
+              "nota": 0,
+              "comenta": "Attacking the person the client chose puts you against him. Nobody buys trust from someone who disqualifies their family."
+            }
+          ]
+        },
+        "escopo": {
+          "cliente": "What bothers me is the phone. He can handle the rest. But the price still weighs on me.",
+          "opcoes": [
+            {
+              "t": "Then we start with just the phone service: smaller scope, same price per part of the work, in two weeks. If it works, we revisit the rest. Wednesday at 10 a.m. or Thursday at 3 p.m. to start?",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "The scope goes down, the price per unit doesn't. And the sentence ends on a choice of date, not a question about price."
+            },
+            {
+              "t": "I'll do the full diagnosis for half the price.",
+              "vai": "fim-desconto",
+              "nota": 0,
+              "comenta": "Same scope, half the price: at renewal he'll remember the discounted price, not the original."
+            },
+            {
+              "t": "We can do just the phone. Let me know when you want to start.",
+              "vai": "fim-solto",
+              "nota": 1,
+              "comenta": "The scope was right, but you left without a date. The one who follows up is you, with a day and time set."
+            }
+          ]
+        },
+        "fim-desconto": {
+          "fim": true,
+          "titulo": "Closed with a discount",
+          "texto": "Maybe it closes, but your price became a guess for good on this account. The price objection had two possible causes, and a discount fixes neither one."
+        },
+        "fim-pressao": {
+          "fim": true,
+          "titulo": "His guard went up",
+          "texto": "Pressuring or disqualifying makes the client defend himself. The trust you built up to here goes back to zero."
+        },
+        "fim-solto": {
+          "fim": true,
+          "titulo": "No date, no conversation",
+          "texto": "The conversation was good, but it ended without the next one scheduled. In practice, it won't happen. Every conversation leaves with a day and time."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "First step set",
+          "texto": "You measured the problem with them, gave an honest verdict on what doesn't need to change, cut the scope without touching the price, and left with a date. The objection became logistics."
+        }
+      },
+      "licao": "You solve an objection before it comes up: with the problem measured, a scope sized to the trust, and the next date set. Never with a discount."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The four rules after the number",
+      "sub": "They apply with or without an objection.",
+      "passos": [
+        {
+          "titulo": "Give the price and move on",
+          "sub": "price is information",
+          "texto": [
+            "Silence after the number turns the price into an event and forces the other person to react.",
+            "Say the amount in the same tone as the rest of the conversation and, in the same breath, add the payment terms and what happens next."
+          ],
+          "exemplo": {
+            "rot": "How it sounds",
+            "texto": "\"For this scope, it comes to this amount. Most people pay in two installments. If it makes sense, I'll send you the summary today and we start on Monday. Shall I reserve the week?\""
+          }
+        },
+        {
+          "titulo": "Scope goes down, price doesn't",
+          "sub": "never negotiate price",
+          "texto": [
+            "A discount becomes the new starting point: at renewal, the client remembers the discounted price.",
+            "Cut scope: one channel instead of three, one branch instead of the whole company, a two-week pilot instead of three months."
+          ]
+        },
+        {
+          "titulo": "The next step, inside the meeting",
+          "sub": "two options",
+          "texto": [
+            "\"When are you available?\" hands the work over, and the easiest way out wins: postponing.",
+            "\"Wednesday at 10 a.m. or Thursday at 3 p.m.?\" asks for a choice. Send the invite while you're talking and ask them to confirm it arrived."
+          ]
+        },
+        {
+          "titulo": "Value decays over time",
+          "sub": "shorten the gap",
+          "texto": [
+            "A proposal that arrives days later gets read without the conversation that justified it: the price stays, the value evaporates.",
+            "Send it the same day, open with the measured problem, keep it to one or two pages, and book the review at the same time."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "You run the prompt right after the conversation. The answers stay open next to it in the next lesson.",
+      "blocos": [
+        {
+          "rot": "Prompt · problem-size calculator",
+          "icone": "grafico",
+          "conteudo": "You are my sales support. Below are the notes from a conversation\nwith a potential client. Do the following, in this order:\n1. Calculate the size of the problem per month, with the calculation step by step\n   (frequency × unit value × working days). Mark every estimate\n   as \"assumed\" and list what I still need to ask.\n2. Tell me whether my price is a small, visible fraction of that number. If it\n   isn't, tell me frankly that this proposal should not be made.\n3. Write the price sentence in at most 3 sentences: value + payment\n   terms + next step with two date options.\n4. Write the smaller-scope version, same price per unit of delivery.\n\nNOTES\nsector: <e.g., home renovation company>\nreported problem: <e.g., calls from new clients going unanswered>\nfrequency: <e.g., 5 per day>\nvalue of one closed client: <amount>\nwhat I offer: <diagnosis / review / advisory / teaching>\nmy price: <amount>"
+        },
+        {
+          "rot": "Script · the four most common objections",
+          "icone": "lista",
+          "conteudo": "1) \"IT'S TOO EXPENSIVE.\"\n\"I understand, it really is not a small amount. My suggestion: we start\nwith just <the most painful part>, which costs a lot less. You see how I\nwork and then we revisit the rest. Does that make sense?\"\n→ reduces SCOPE. Never: \"I can do it for half\".\n\n2) \"I'LL THINK ABOUT IT.\"\n\"Of course. Just so I can help you think it through: what was less clear,\nthe result, the timeline or the price? I'll send you a one-page summary\ntoday and we talk for 15 minutes on Thursday or Friday. Which do you prefer?\"\n→ turns the postponement into a date.\n\n3) \"WE ALREADY HAVE SOMEONE WHO DOES THAT.\"\n\"Great, that means the problem is real. What still bothers you\neven with <the current solution>? If everything is running smoothly, I'll be the\nfirst to tell you not to change anything.\"\n→ honest verdict.\n\n4) \"NOW IS NOT A PRIORITY.\"\n\"I understand. When does this usually become a priority? After <event>?\nI'll reach out in <agreed timeframe> and put it on the calendar right now.\"\n→ leave with the next date, even if it's 90 days away."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "One with a case of your own, one in the simulation.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The math of a real problem",
+          "min": "20 min",
+          "texto": "Pick a real case (from a conversation or from your 7-day plan) and run the calculator. If data is missing, write down the questions you will ask in the next conversation.",
+          "pronto": "you have the calculation open, with what is assumed kept separate from what was reported, and a price sentence of up to 3 sentences that ends in two date options."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Simulated conversation with a top score",
+          "min": "10 min",
+          "texto": "Do this lesson's simulated conversation. If you don't reach the top score, read the comments, click restart, and try again.",
+          "pronto": "you finished the conversation with the top score and can explain in one sentence why a discount fixes neither of the two causes of an objection."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The client says the price is too high. Which response follows this lesson?",
+          "opcoes": [
+            "Offer a 20% discount to close today",
+            "Keep the price and propose a smaller scope, with a date to revisit the rest",
+            "Explain in detail the technical work that justifies the amount"
+          ],
+          "certa": 1,
+          "ref": "simconversa",
+          "explica": "Scope goes down, price doesn't. A discount teaches that the number was made up; a technical explanation doesn't compare the price to anything."
+        },
+        {
+          "p": "What are the two causes of a price objection?",
+          "opcoes": [
+            "A stingy client and a cheaper competitor",
+            "Value oversized for the problem, or lack of trust",
+            "An ugly proposal and a long email"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Either the problem is smaller than the proposal, or there is still no track record. Each has its own fix: redo the math or reduce the scope."
+        },
+        {
+          "p": "Which question helps you size the problem?",
+          "opcoes": [
+            "\"What's your budget?\"",
+            "\"How many of these happen per day, on average?\"",
+            "\"How much would you pay for a solution like this?\""
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Frequency, unit value and current rate size the problem. Asking about budget invites them to make up a ceiling and anchors you low."
+        },
+        {
+          "p": "The conversation went great and the client said \"I'll think about it.\" What can never be missing?",
+          "opcoes": [
+            "A seven-page proposal",
+            "The next conversation on the calendar, with two concrete time options",
+            "A \"did you get a chance to look?\" message two days later"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Without a date, assume the conversation will not happen. Chasing later by message takes away the authority you built."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "An objection is a diagnosis",
+          "texto": "Either the value was oversized, or trust was missing. Neither one gets fixed by arguing."
+        },
+        {
+          "t": "Do the math before the number",
+          "texto": "Frequency × value × days, worked out together with the client."
+        },
+        {
+          "t": "Scope goes down, price doesn't",
+          "texto": "State the price, add payment and the next step right after, and never offer a discount."
+        },
+        {
+          "t": "Always the next one booked",
+          "texto": "Two time options, confirmed on the spot."
+        }
+      ]
+    }
+  ]
+}

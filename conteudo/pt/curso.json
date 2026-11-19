@@ -1,0 +1,182 @@
+{
+  "id": "formacao-vendas-ia-fundamentos-v72",
+  "lang": "pt-BR",
+  "url": "https://inematds.github.io/formacao-vendas-ia-fundamentos-v72/",
+  "nome": "Vendas com IA 3 · Fundamentos de Vender IA",
+  "sub": "Formação Vendas com IA · curso 3 de 5",
+  "volta": {
+    "t": "Área Consultoria de IA",
+    "href": "https://eventos.inema.pro/consultoria-ia/"
+  },
+  "lado_card": {
+    "rot": "Formação Vendas com IA",
+    "t": "Curso 3 de 5",
+    "texto": "Na ordem sugerida, o próximo é o curso 2: o playbook de consultoria, com a call de descoberta e o preço em degraus.",
+    "link": "Ir para o curso 2",
+    "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/"
+  },
+  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/consultoria-ia/\">eventos.inema.pro/consultoria-ia</a> · <a href=\"https://eventos.inema.pro/prof2030/\">Profissional 2030</a> · <a href=\"https://inema.club/\">inema.club</a> <!-- inema-backlink:v1 --><br><a href=\"https://www.inema.club/cursos/332-formacao-vendas-com-ia-3-fundamentos-de-vender-ia-v7-2/\">Ficha completa deste curso no INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a><!-- /inema-backlink:v1 -->",
+  "videos": {},
+  "inicio": {
+    "kicker": "Formação Vendas com IA · curso 3 de 5 · 8 aulas",
+    "titulo": "Fundamentos de Vender IA: vender confiança, não construção",
+    "lead": "Construir ficou fácil. Confiar no que foi construído, não. Em oito aulas você troca a sensação de impostor por prova própria, se apresenta como quem diz o que sabe e o que não sabe, fecha sem forçar, responde objeções sem desconto e sai com um plano de 30 dias.",
+    "cta": "Começar pela aula 1",
+    "cta2": {
+      "t": "Ver a área Consultoria de IA",
+      "href": "https://eventos.inema.pro/consultoria-ia/"
+    },
+    "capa_alt": "Consultora conversa com calma com o dono de uma pequena empresa, com o caderno aberto e o notebook fechado.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "aulas curtas"
+      },
+      {
+        "v": "16",
+        "t": "exercícios práticos"
+      },
+      {
+        "v": "1",
+        "t": "conversa simulada"
+      },
+      {
+        "v": "30",
+        "t": "dias de plano"
+      }
+    ],
+    "aulas_titulo": "As aulas",
+    "aulas_sub": "Na ordem de quem começa: tirar a trava, definir quem você é, ganhar confiança, provar, fechar, responder, falar e executar.",
+    "blocos": [
+      {
+        "t": "Para quem é",
+        "itens": [
+          "Quem sabe usar IA, mas trava na hora de cobrar ou de puxar a conversa.",
+          "Consultor, freelancer ou profissional técnico começando a vender para empresas.",
+          "Quem quer vender diagnóstico, revisão, acompanhamento e ensino, e não só \"eu construo o seu agente\"."
+        ]
+      },
+      {
+        "t": "O que você sai fazendo",
+        "itens": [
+          "Mostrar prova própria em vez de discurso, sem inventar número.",
+          "Dizer em uma frase quem você ajuda, o que não faz e quando chama um especialista.",
+          "Pedir o menor sim, responder objeção reduzindo escopo e sair de toda conversa com data marcada.",
+          "Entregar um relatório de uma página e seguir um plano de 30 dias."
+        ]
+      },
+      {
+        "t": "Onde este curso entra no Profissional 2030",
+        "itens": [
+          "O <a href=\"https://eventos.inema.pro/prof2030/\">Profissional 2030</a> tem quatro papéis: Consultor, Auditor, Mentor e Treinador. Os quatro vendem confiança, não construção.",
+          "Este curso é a base dos quatro: a <b>identidade</b> de quem diagnostica, revisa, acompanha e ensina, e diz o que sabe e o que não sabe.",
+          "Base comum que ele usa: ética e limites (quando chamar um especialista) e o relatório de uma página."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Pular para o conteúdo",
+    "aulas": "Aulas",
+    "concluido": "concluído",
+    "aula": "Aula",
+    "nesta_aula": "Nesta aula, você vai aprender:",
+    "objetivo": "Objetivo:",
+    "proxima_aula": "Próxima aula",
+    "aula_anterior": "Aula anterior",
+    "voltar_inicio": "Voltar ao início do curso",
+    "marcar_concluida": "Marcar aula como concluída",
+    "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_real": "Exemplo do repositório",
+    "pronto_quando": "Pronto quando:",
+    "fiz": "Fiz este exercício",
+    "video_pagina": "Página do vídeo com roteiro",
+    "pergunta": "Pergunta",
+    "de": "de",
+    "cert_tag": "competência",
+    "correto": "Correto",
+    "errado": "Não é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "proxima_pergunta": "Próxima pergunta",
+    "quiz_ver": "Ver resultado",
+    "quiz_fim": "Teste concluído",
+    "quiz_total": "Você acertou {a} de {n}. Acertando todas, a aula é marcada como concluída.",
+    "aparencia": "Aparência",
+    "tamanho_texto": "Tamanho do texto",
+    "tema": "Tema",
+    "tema_escuro": "Escuro",
+    "tema_papel": "Papel claro",
+    "role_dica": "Role a página: cada etapa abaixo acende a sua parte do diagrama.",
+    "pre_requisito": "requer",
+    "ver_aula": "Ver a aula",
+    "mapa_dica": "Clique num exercício para ver o que fazer e o \"pronto quando\".",
+    "etapas": "Etapas",
+    "exercicios": "exercícios",
+    "rever": "Rever:",
+    "revisar_erradas": "Revisar as erradas",
+    "refazer": "Refazer o teste",
+    "h_semana": "h por semana",
+    "data_inicio": "Data de início",
+    "ritmo": "Tempo disponível",
+    "gerar_plano": "Gerar meu plano",
+    "baixar_md": "Baixar plano.md",
+    "baixar_ics": "Baixar para o calendário (.ics)",
+    "ind_estudo": "Estudo (aulas)",
+    "ind_pratica": "Prática declarada",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "estudo": {
+      "titulo": "Seu estudo",
+      "continuar": "Continuar de onde parei",
+      "comecar": "Começar pela aula 1",
+      "cta_continuar": "Continuar a aula {n}",
+      "hoje": "hoje",
+      "ontem": "ontem",
+      "ha_dias": "há {n} dias",
+      "desempenho": "Desempenho nos testes",
+      "notas": "Minhas anotações",
+      "dados": "Copiar meus dados",
+      "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
+      "nao_fez": "teste ainda não feito",
+      "ultimo": "Último",
+      "melhor": "Melhor",
+      "tentativas": "tentativas",
+      "tentativa": "tentativa",
+      "tudo_certo": "Acertou tudo no último teste.",
+      "rever": "Para rever",
+      "resposta": "Resposta certa:",
+      "ir_teste": "Refazer o teste",
+      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "so_marcado": "(só marcado)",
+      "marcar": "Marcar",
+      "anotar": "Anotar",
+      "salvar": "Salvar",
+      "apagar": "Apagar marca",
+      "fechar": "Fechar",
+      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "um_bloco": "Marque dentro de um parágrafo só.",
+      "nao_marca": "Este trecho não pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "exportar": "Baixar cópia",
+      "importar": "Carregar cópia",
+      "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
+      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
+      "export_ok": "Cópia baixada."
+    },
+    "conv_dica": "Escolha a sua resposta. O comentário aparece logo depois e a conversa segue conforme a escolha.",
+    "conv_voce": "Você",
+    "conv_escolha": "Sua resposta",
+    "conv_boa": "Boa escolha",
+    "conv_meio": "Dá para melhorar",
+    "conv_ruim": "Escolha fraca",
+    "conv_fim": "Fim da conversa",
+    "conv_placar": "Você fez {p} de {m} pontos possíveis.",
+    "conv_licao": "Lição:",
+    "conv_recomecar": "Recomeçar a conversa",
+    "conv_feita": "Seu melhor placar: {p} de {m} pontos."
+  },
+  "icone": "escudo"
+}

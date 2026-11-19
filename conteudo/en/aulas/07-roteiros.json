@@ -1,0 +1,253 @@
+{
+  "slug": "roteiros",
+  "num": 7,
+  "menu": "Scripts",
+  "titulo": "Scripts: structure, not text",
+  "titulo_curto": "Scripts",
+  "minutos": 16,
+  "lead": "A script is not meant to be read out loud. It exists to give structure, and structure makes the other side feel you have done this many times before. Here are the lines for the diagnostic call, the questions, the price and the honest limit, ready for you to adapt to your own voice.",
+  "objetivo": "adapt opening, question, price and honest-limit scripts to your voice and read them aloud without stumbling.",
+  "competencias": [
+    "usar-roteiro-como-estrutura",
+    "perguntar-dor-e-decisao",
+    "dar-veredito-honesto"
+  ],
+  "aprende": [
+    {
+      "t": "Adapt a script without memorizing it"
+    },
+    {
+      "t": "Open the conversation with structure and three threads"
+    },
+    {
+      "t": "Separate temperature, pain and decision questions"
+    },
+    {
+      "t": "State the price and state what you don't do"
+    }
+  ],
+  "hero_alt": "A professional talks on the phone in a relaxed way, with a handwritten script sheet in front of them.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The arc of the conversation",
+      "sub": "You only talk in the first few blocks. From the middle on, the work is listening. Click each block.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Opening",
+          "sub": "calm",
+          "detalhe": "\"Hi, how's it going? How was your day over there?\" Camera on, the tone of someone who has done this many times."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Structure",
+          "sub": "how it will go",
+          "detalhe": "I'll quickly tell you what I do, ask how things work on your side, and at the end I'll tell you honestly whether I have something that helps or not."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Three threads",
+          "sub": "and silence",
+          "detalhe": "One real job you are doing, with no technical detail, and three areas you step into. Then two seconds of silence so they can pick the thread."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Questions",
+          "sub": "temperature, pain, decision",
+          "detalhe": "Temperature measures trust by the length of the answer. Pain measures how much the problem costs. Decision shows who else needs to agree."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Price and next step",
+          "sub": "in the same breath",
+          "detalhe": "Tie it to the client's number, state the price without ceremony, follow with payment and timing, and offer two dates."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Honest verdict",
+          "sub": "including the no",
+          "forte": true,
+          "detalhe": "If it's not for you, say so and point to who does it. If everything is running fine, say to leave it alone. That's what separates those who sell trust from those who sell anything."
+        }
+      ],
+      "legenda": "A script is structure: swap the words, keep the order and the intent of each block."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to use a script",
+      "sub": "What to do and what to avoid.",
+      "passos": [
+        {
+          "titulo": "Adapt, don't memorize",
+          "sub": "read it aloud once",
+          "texto": [
+            "Rewrite each line in your own words, keeping the order of the steps. Swap the example's industry for your ideal customer profile.",
+            "Any sentence that gets stuck in your mouth, change it. A script you can't say naturally is worse than none."
+          ]
+        },
+        {
+          "titulo": "Follow the conversation",
+          "sub": "not the paper",
+          "texto": [
+            "If the client changes the subject, follow the client. The script is there so you know where you are, not to force them back.",
+            "Don't use words you wouldn't use over coffee."
+          ]
+        },
+        {
+          "titulo": "Ask before you price",
+          "sub": "the test sentence",
+          "texto": [
+            "By the end of the conversation, you need to be able to write \"this problem costs them about this much per month.\"",
+            "If you can't, a pain question is missing, and you can't talk about price yet."
+          ]
+        },
+        {
+          "titulo": "The limit has a script too",
+          "sub": "saying what you don't know",
+          "texto": [
+            "\"I don't do that,\" \"I'm still measuring,\" and \"for that you need a specialist\" are things said by someone with standards, not by someone who failed.",
+            "Rehearse these lines the way you rehearse the price: what gives away insecurity is the hesitation before saying them."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Scripts to copy",
+      "sub": "Keep it open next to you during the conversation. Adapt before using.",
+      "blocos": [
+        {
+          "rot": "Opening and structure of the diagnostic call",
+          "icone": "chat",
+          "conteudo": "[opening · calm tone, camera on]\n\"Hi <name>, how are you? How was your day?\"\n\n[structure]\n\"Let me tell you how I usually run this: I'll quickly tell you\nwhat I do, ask a few questions to understand how things work there,\nand at the end I'll tell you honestly whether I have something that helps or not.\nSound good?\"\n\n[context · a real job, no technical detail]\n\"I'm currently <diagnosing / reviewing / teaching> <what> for\n<type of company>. The tedious part was <concrete difficulty>.\"\n\n[three threads]\n\"Generally I work on three fronts: <front 1>, <front 2> and <front 3>.\"\n\n[two seconds of silence]\n\n[transition]\n\"Before I guess at anything: tell me how you do this today.\nI don't want to assume.\""
+        },
+        {
+          "rot": "Question bank · temperature, pain, decision",
+          "icone": "lista",
+          "conteudo": "TEMPERATURE (read the LENGTH of the answer)\n- \"How was the week there?\"\n- \"How long have you been in this operation?\"\n- \"How do you handle <the process> today?\"\n→ 3-word answer = guard up · answer with a story = you can go deeper\n\nPAIN (read the NUMBERS in the answer)\n- \"How many <calls, orders, quotes> per day?\"\n- \"Of those, how many do you lose or let slip?\"\n- \"On average, how much is a closed <event> worth?\"\n- \"Who handles this today and how much time a day does it take?\"\n- \"If it keeps going like this for the next 12 months, what's the cost?\"\n\nDECISION\n- \"Besides you, who else needs to agree?\"\n- \"Have you tried to solve this before? What happened?\""
+        },
+        {
+          "rot": "Price and next step script",
+          "icone": "grafico",
+          "conteudo": "[tie it to the problem, with their number]\n\"From what you told me, this costs close to <amount per month> for you today.\"\n\n[the price, without ceremony]\n\"For <the small scope>, it's <amount>.\"\n\n[follow with: payment and timing, routine tone]\n\"Most people pay by transfer or card, and I usually deliver this\nin <short timeframe>.\"\n\n[next step with two dates]\n\"I'll send you the summary today. To review it together, I have Wednesday at 10am\nor Thursday at 4pm. Which works better?\""
+        },
+        {
+          "rot": "Honest limit script",
+          "icone": "escudo",
+          "conteudo": "[when it's not for you]\n\"I don't do that. For <legal opinion / penetration test / change\nto the system>, you need <type of specialist>. I can refer you and\nI'll keep taking care of the <your service> part.\"\n\n[when everything is running fine]\n\"Looking at what you showed me, this is working. My advice is\nto leave it alone for now. If <signal> shows up, call me.\"\n\n[when you don't have the number]\n\"I'm still measuring. I'll bring you the number by <date>.\"\n\n[when the request grows midway]\n\"We can do it, just not now. That goes in phase two.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Adapt it and say it out loud. Recording on your phone helps.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Three scripts in your voice",
+          "min": "30 min",
+          "texto": "Adapt the opening, the question bank and the price script to your ideal customer profile and your service. Read each one aloud and change any sentence that gets stuck.",
+          "pronto": "the 3 scripts are saved with your industry and your service, and you read them aloud from start to finish without stumbling on a single sentence."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your limit lines",
+          "min": "15 min",
+          "texto": "Complete the honest limit script with the specialists you would refer to and rehearse each line five times, the way you rehearse the price.",
+          "pronto": "you say the 4 limit lines from memory, without apologizing, and you have at least 1 specialist you can genuinely refer to."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What is the right way to use a script?",
+          "opcoes": [
+            "Read word for word so you don't forget anything",
+            "Keep the order and the intent of the blocks, in your own words",
+            "Follow the script even when the client changes the subject"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Reading word for word sounds like a telephone robot. The script gives structure; the speech is yours."
+        },
+        {
+          "p": "After you say the three threads, what do you do?",
+          "opcoes": [
+            "Explain all three in detail",
+            "Stay quiet and let the client pick the thread",
+            "Ask about the budget"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The thread they pull is the problem that hurts. If nobody pulls any, your threads weren't about them."
+        },
+        {
+          "p": "Which of these is a pain question?",
+          "opcoes": [
+            "\"Do you have a problem with this?\"",
+            "\"Of these, how many do you lose or let slip through?\"",
+            "\"Can I show you my solution?\""
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "A pain question brings a number. \"Do you have a problem?\" gets answered with \"no\" and that ends the conversation."
+        },
+        {
+          "p": "You looked at the client's process and it's working well. What do you say?",
+          "opcoes": [
+            "Make up a tweak so you don't leave without a sale",
+            "Say it's working, advise them not to change anything now, and agree on the signal for them to call you",
+            "Offer a bigger project to fix everything"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "The honest verdict, even when it's \"don't touch it,\" is the strongest proof that you sell trust. They'll come back when the signal shows up."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Structure, not a script",
+          "texto": "Adapt it to your own voice; memorizing sounds worse than improvising."
+        },
+        {
+          "t": "Talk little at first, listen after",
+          "texto": "Three threads, silence, and questions about temperature, pain and decision."
+        },
+        {
+          "t": "Ask before you price",
+          "texto": "Without the problem as a number, any price is a guess."
+        },
+        {
+          "t": "The limit has a script",
+          "texto": "\"I don't do that,\" \"still measuring,\" \"don't touch it now,\" and \"call a specialist.\""
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Cold calls and cold emails: course 4 of the program, From Zero to First Client",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "The full discovery call: course 2, Consulting Playbook",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

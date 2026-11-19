@@ -1,0 +1,234 @@
+{
+  "slug": "identidade",
+  "num": 2,
+  "menu": "Identidad",
+  "titulo": "Identidad: la persona de confianza",
+  "titulo_curto": "Identidad",
+  "minutos": 17,
+  "lead": "Nadie se despierta queriendo un agente, una automatización o una auditoría. La gente quiere dejar de perder clientes y salir del correo electrónico. Quien vende IA en 2030 vende ese después, y lo vende con una identidad clara: alguien que dice lo que sabe, lo que no sabe y cuándo llamar a un especialista.",
+  "objetivo": "escribir a quién ayudas, el resultado que entregas, lo que no haces y cuándo llamas a un especialista, en una frase de diez segundos.",
+  "competencias": [
+    "traduzir-tecnologia-em-resultado",
+    "definir-perfil-de-cliente",
+    "declarar-limites"
+  ],
+  "aprende": [
+    {
+      "t": "Traducir lo que haces en resultado para el cliente"
+    },
+    {
+      "t": "Saber en cuál de las dos puertas empezó la conversación"
+    },
+    {
+      "t": "Escribir el perfil de cliente ideal con un corte claro"
+    },
+    {
+      "t": "Armar la frase de presentación y la frase de límite"
+    }
+  ],
+  "hero_alt": "Una consultora de pie en una pequeña carpintería escucha con calma al dueño, sosteniendo un cuaderno cerrado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Las piezas de tu identidad",
+      "sub": "Cinco piezas, una frase al final. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Quién",
+          "sub": "perfil de cliente ideal",
+          "detalhe": "Sector, tamaño, región, quién decide y cuál es el dolor. No es \"a quién acepto atender\": es a quién quiero buscar. El corte siempre es dinero disponible y acceso directo a quien firma."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Resultado",
+          "sub": "el después",
+          "detalhe": "\"Agente de voz que atiende llamadas\" se convierte en \"dejas de perder al cliente que llama y no recibe respuesta\". La herramienta es solo el camino."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Miedo del cliente",
+          "sub": "la objeción anticipada",
+          "detalhe": "Cambiar de sistema, despedir gente, quedar atado. Decir el \"sin\" en la frase responde al miedo antes de que se vuelva objeción."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Límites",
+          "sub": "lo que no hago",
+          "forte": true,
+          "detalhe": "La persona de confianza puede decir \"eso no lo hago\" sin disculparse y sabe cuándo llamar a un especialista: dictamen jurídico, prueba de intrusión, respuesta a incidentes, cambios en el sistema de TI."
+        },
+        {
+          "icone": "chat",
+          "titulo": "La frase",
+          "sub": "diez segundos",
+          "detalhe": "\"Yo ayudo a QUIÉN a RESULTADO sin DOLOR.\" Seguida, cuando cabe, de la frase de límite: \"No hago X; cuando aparece, te indico quién lo hace.\""
+        }
+      ],
+      "legenda": "Tu capacidad de cobrar depende mucho más de cuánto confían en ti que de la complejidad de lo que entregas."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "De dónde viene la confianza en el primer minuto",
+      "sub": "La misma reunión empieza con saldos de confianza opuestos.",
+      "passos": [
+        {
+          "titulo": "Las dos puertas",
+          "sub": "tú vas o él viene",
+          "texto": [
+            "O tú vas hasta el cliente (prospección), o él viene hasta ti (contenido, recomendación).",
+            "Si fuiste tú quien lo buscó, la primera meta es ganarte el derecho de preguntar. Si él vino, es entender rápido lo que ya decidió que quiere."
+          ],
+          "exemplo": {
+            "rot": "Antes de cada reunión",
+            "texto": "Escribe al inicio de tus apuntes: \"fui\" o \"vino\"."
+          }
+        },
+        {
+          "titulo": "Autoridad",
+          "sub": "quien te busca ya confía",
+          "texto": [
+            "Quien busca a un médico no pide pruebas: cuenta el síntoma y sigue la receta. Quien llega por tu contenido entra en esa posición.",
+            "Si eres tú quien llama, hay una desconfianza de partida, y es sana. Dedica los primeros minutos a mostrar trabajo concreto, no credenciales. Si alguien te recomendó, menciona la recomendación desde el principio."
+          ]
+        },
+        {
+          "titulo": "El contenido se acumula",
+          "sub": "la prospección no",
+          "texto": [
+            "La prospección es un grifo: si lo cierras, se corta. El contenido es interés compuesto: tarda meses en rendir y después sigue rindiendo.",
+            "Al principio, cerca de 80% prospección y 20% contenido. Cada trabajo entregado se convierte en un tema publicado, y con el tiempo la balanza se inclina."
+          ],
+          "exemplo": {
+            "rot": "Atención",
+            "texto": "Es común que las primeras publicaciones no traigan ningún cliente. Apostar solo por ellas, sin ingresos, lleva a rendirse antes de que la curva cambie."
+          }
+        },
+        {
+          "titulo": "Lo específico se vuelve señal",
+          "sub": "lo genérico se vuelve ruido",
+          "texto": [
+            "La bandeja de entrada del cliente está llena. Te destacas siendo específico para un tipo de empresa, no siendo más barato.",
+            "Definir un perfil parece rechazar dinero. Es exactamente eso, y por eso funciona: el perfil decide hacia dónde van tus horas."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Ejecútalos en orden: primero el perfil, después la frase. La frase de límite la escribes a mano.",
+      "blocos": [
+        {
+          "rot": "Prompt · tu perfil de cliente ideal",
+          "icone": "alvo",
+          "conteudo": "Actúa como un estratega comercial. Quiero que escribas mi perfil\nde cliente ideal.\n\nEl servicio que entrego: <diagnosticar / revisar / acompañar / enseñar + el resultado>\nSectores donde ya trabajé o que conozco bien: <2 a 4>\nRegión donde puedo atender: <ciudad, estado o país>\nValor que necesito cobrar para que valga la pena: <valor>\n\nEntrega:\n1. Tres perfiles candidatos, cada uno con sector, tamaño, rango de facturación,\n   quién decide la compra y el dolor principal.\n2. Para cada perfil, la prueba de corte: por qué las empresas más pequeñas no tienen\n   presupuesto y por qué las más grandes esconden a quien decide.\n3. Recomienda UN perfil y justifícalo en 3 líneas.\n4. Cinco preguntas que yo haga en una conversación para confirmar si la empresa\n   que tengo enfrente encaja en ese perfil.\nNo inventes cifras de mercado: donde falte el dato, escribe \"conferir\"."
+        },
+        {
+          "rot": "Prompt · tu frase en tres versiones",
+          "icone": "caneta",
+          "conteudo": "Eres un redactor especializado en posicionamiento. Escribe mi frase de\npresentación en el formato: \"Yo ayudo a QUIÉN a RESULTADO sin DOLOR.\"\n\nMi perfil de cliente ideal: <pega el perfil>\nEl servicio que entrego: <diagnóstico, revisión, acompañamiento, enseñanza>\nEl resultado en dinero o tiempo: <lo que el cliente gana o deja de perder>\nEl miedo más común de ese cliente: <cambiar de sistema, despedir gente, quedar rehén>\n\nReglas:\n- Prohibido usar \"inteligencia artificial\", \"solución\" e \"innovador\".\n- Máximo 20 palabras.\n- Lenguaje que usaría el dueño de la empresa, no lenguaje técnico.\nEntrega 3 versiones y di cuál de ellas un dueño repetiría a su socio."
+        },
+        {
+          "rot": "Modelo · frase de límite",
+          "icone": "escudo",
+          "conteudo": "LO QUE HAGO\nYo ayudo a <quién> a <resultado> sin <dolor>.\n\nLO QUE NO HAGO (y lo digo sin disculparme)\n- <ej.: no doy dictámenes jurídicos>\n- <ej.: no hago pruebas de intrusión ni respuesta a incidentes>\n- <ej.: no toco el sistema de TI sin que TI esté presente>\n\nCUÁNDO LLAMO A UN ESPECIALISTA\n- Si aparece <situación>, recomiendo a <tipo de profesional> y acompaño el traspaso.\n\nFRASE PARA DECIR EN VOZ ALTA\n\"Eso no lo hago. Cuando aparece, recomiendo a quien lo hace y sigo cuidando la parte que me corresponde.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Las dos salen de esta clase y vuelven en todas las demás.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Perfil de cliente ideal con corte",
+          "min": "20 min",
+          "texto": "Ejecuta el prompt del perfil con tus datos reales y elige un perfil. Escribe las cinco preguntas de confirmación en el mismo archivo.",
+          "pronto": "el perfil elegido tiene rango de tamaño o facturación, el cargo de quien decide y las 5 preguntas; no aparece \"empresas que quieren innovar\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Frase de presentación y frase de límite",
+          "min": "20 min",
+          "texto": "Ejecuta el prompt de la frase, elige una versión y completa el modelo de límite con al menos dos \"no hago\" y un caso de \"llamo a un especialista\". Léelo todo en voz alta.",
+          "pronto": "la frase tiene hasta 20 palabras, la dices de memoria sin necesidad de explicar después, y la frase de límite menciona al menos 2 cosas que no haces."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuál de estas presentaciones vende mejor?",
+          "opcoes": [
+            "\"Yo trabajo con inteligencia artificial.\"",
+            "\"Ayudo a empresas de remodelaciones a responder cada presupuesto el mismo día sin que el dueño se quede noches enteras frente al computador.\"",
+            "\"Uso el modelo más nuevo con una arquitectura de agentes.\""
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El cliente compra el después. La frase buena tiene quién, resultado y el miedo respondido, sin siglas. Mencionar una herramienta en la primera frase aleja."
+        },
+        {
+          "p": "El cliente te pide un dictamen sobre si el uso de sus datos cumple la ley. Tú no eres abogado. ¿Qué hace la persona de confianza?",
+          "opcoes": [
+            "Da una opinión segura para no perder al cliente",
+            "Dice que eso no lo hace, recomienda a quien sí lo hace y sigue cuidando la parte que le corresponde",
+            "Cambia de tema"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Decir lo que no sabes y cuándo llamar a un especialista es lo que separa a quien vende confianza de quien vende cualquier cosa. Rechazar sin disculparte también comunica que tienes criterio."
+        },
+        {
+          "p": "Estás empezando, sin clientes y sin nada publicado. ¿Qué división de esfuerzo tiene sentido?",
+          "opcoes": [
+            "100% contenido, porque el contenido se acumula",
+            "Cerca de 80% prospección y 20% contenido, invirtiéndose con el tiempo",
+            "100% prospección y nunca publicar"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La prospección paga las cuentas y genera temas. El contenido tarda meses en rendir; solo él, sin ingresos, suele llevar a rendirse antes de que la curva cambie."
+        },
+        {
+          "p": "¿Por qué funciona definir un perfil de cliente con corte?",
+          "opcoes": [
+            "Porque impide atender cualquier excepción",
+            "Porque decide a dónde van las horas de prospección y hace que tu mensaje sea específico",
+            "Porque las empresas grandes siempre pagan más"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Sin un corte le hablas a todo el mundo de la misma manera y no convences a nadie. El perfil no prohíbe excepciones; orienta el esfuerzo."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Resultado, no tecnología",
+          "texto": "El cliente compra el después; la herramienta es solo el camino."
+        },
+        {
+          "t": "Dos puertas, dos juegos",
+          "texto": "Quien busca ya confía; a quien buscan le toca ganarse el derecho de preguntar."
+        },
+        {
+          "t": "Perfil con corte",
+          "texto": "Dinero disponible y acceso directo a quien firma."
+        },
+        {
+          "t": "Frase y límite",
+          "texto": "A quién ayudas, qué cambia, qué no haces y cuándo llamas a un especialista."
+        }
+      ]
+    }
+  ]
+}

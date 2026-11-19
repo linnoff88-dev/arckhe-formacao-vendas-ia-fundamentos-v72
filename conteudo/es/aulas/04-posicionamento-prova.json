@@ -1,0 +1,235 @@
+{
+  "slug": "posicionamento-prova",
+  "num": 4,
+  "menu": "Prueba",
+  "titulo": "Posicionamiento y prueba: un caso y una página",
+  "titulo_curto": "Posicionamiento y prueba",
+  "minutos": 17,
+  "lead": "Existe lo que pasó y existe lo que el cliente vio pasar. Solo la segunda versión entra en la decisión. Tu esfuerzo invisible no es prueba. En esta clase la prueba se vuelve dos cosas concretas: un caso real, contado sin exagerar, y un informe de una página que el cliente puede verificar por sí solo.",
+  "objetivo": "convertir un trabajo hecho en un caso real y en un informe de una página que el cliente pueda verificar.",
+  "competencias": [
+    "comunicar-trabajo-feito",
+    "escrever-relatorio-de-uma-pagina",
+    "provar-sem-inventar"
+  ],
+  "aprende": [
+    {
+      "t": "Hacer que el trabajo cruce hacia el lado que el cliente ve"
+    },
+    {
+      "t": "Ofrecer hilos y dejar que el cliente tire"
+    },
+    {
+      "t": "Probar cuando todavía no tienes casos"
+    },
+    {
+      "t": "Escribir el informe de una página"
+    }
+  ],
+  "hero_alt": "Una hoja única de informe sobre una mesa oscura, con una mano señalando un gráfico simple de barras.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del trabajo invisible a la prueba",
+      "sub": "Todo lo que no cruza hacia el lado del cliente no participa en la decisión. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "camadas",
+          "titulo": "Trabajo hecho",
+          "sub": "invisible",
+          "detalhe": "Ajustaste un proceso el sábado, corregiste un error antes de que se volviera problema. Si nada de eso llegó al cliente, el efecto comercial es cero, igual que no haberlo hecho."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Comunicar el mismo día",
+          "sub": "3 a 5 líneas",
+          "detalhe": "Qué cambió, qué evita eso, cuál es el próximo paso y cuándo. Lo bastante corto para leerlo en el celular entre dos compromisos."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Registrar el efecto",
+          "sub": "antes → después",
+          "detalhe": "Guarda el número de antes y el número de después. Si todavía no lo tienes, escribe \"todavía midiendo\". Nadie perdió un contrato por eso."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Caso real",
+          "sub": "específico",
+          "detalhe": "Un diagnóstico, una revisión o una sesión de enseñanza que hiciste, contado con el detalle que solo conoce quien lo hizo. Sin citar a la empresa si no lo autorizó."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Informe de una página",
+          "sub": "la prueba que queda",
+          "forte": true,
+          "detalhe": "Qué se hizo, el efecto en número (o \"todavía midiendo\"), qué quedó fuera y por qué, el riesgo o límite, y el próximo paso con fecha. Cabe en una página y el cliente lo verifica por sí solo."
+        }
+      ],
+      "legenda": "Sin exagerar y sin inventar: el trabajo es comunicar lo que es verdad."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo se forma la percepción",
+      "sub": "Cuatro ideas para la próxima conversación.",
+      "passos": [
+        {
+          "titulo": "La noche que no existió",
+          "sub": "realidad percibida",
+          "texto": [
+            "Un empleado se pasa la noche resolviendo un problema y sale a las 6:59. El jefe llega a las 7:00. En la percepción del jefe, se fue a las 17:00 como todos.",
+            "Con el cliente es igual: el fin de semana que pasaste en su solución no ocurrió si él no recibió ninguna señal."
+          ]
+        },
+        {
+          "titulo": "Hilos",
+          "sub": "deja que el cliente tire",
+          "texto": [
+            "En vez de presentar durante veinte minutos, di una frase con tres aperturas y para. Él cruza una puerta; esa puerta es su problema real.",
+            "Habla solo del hilo que tiró. De los otros dos te olvidas."
+          ],
+          "exemplo": {
+            "rot": "Tres hilos en una frase",
+            "texto": "\"Mapeamos dónde la atención al cliente pierde clientes, revisamos lo que el equipo ya usa de IA y formamos al equipo para usarla con seguridad.\""
+          }
+        },
+        {
+          "titulo": "Habla para que él hable",
+          "sub": "la proporción cambia",
+          "texto": [
+            "Al principio hablas más tú. En el medio, equilibrio. Al final, él habla mucho más que tú.",
+            "Anota las palabras exactas que usa para el problema y usa esas palabras en el informe y en la propuesta."
+          ]
+        },
+        {
+          "titulo": "Prueba sin casos",
+          "sub": "la línea que no se cruza",
+          "texto": [
+            "Si no tienes un cliente para mostrar, habla de lo que estás haciendo ahora, con detalle específico. El detalle es imposible de improvisar, por eso convence.",
+            "Inventar un cliente, un número, un porcentaje o un testimonio es fraude. Basta una pregunta de seguimiento para que la historia se caiga, y ahí pierdes la reputación, no solo la venta."
+          ],
+          "exemplo": {
+            "rot": "Prueba honesta",
+            "texto": "Hacer un diagnóstico gratuito y hablar de lo que encontraste, sin citar la empresa."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El informe es la prueba que queda. La actualización del viernes mantiene el trabajo visible cada semana.",
+      "blocos": [
+        {
+          "rot": "Informe de una página",
+          "icone": "arquivo",
+          "conteudo": "INFORME · <servicio: diagnóstico / revisión / acompañamiento / enseñanza>\n<empresa o \"empresa del sector X\" si no hay autorización> · <fecha>\n\n1. EL PROBLEMA, en las palabras del cliente\n   \"<frase exacta que usó>\"\n\n2. QUÉ SE HIZO\n   - <ítem>\n   - <ítem>\n\n3. EFECTO\n   antes: <número>   después: <número>   (o: todavía midiendo, hasta <fecha>)\n\n4. QUÉ QUEDÓ FUERA Y POR QUÉ\n   - <ítem> · <motivo: fuera del alcance / necesita un especialista / necesita a TI>\n\n5. RIESGO O LÍMITE QUE EL CLIENTE NECESITA SABER\n   - <ítem>\n\n6. PRÓXIMO PASO\n   <qué> · <quién> · hasta <fecha>"
+        },
+        {
+          "rot": "Actualización del viernes",
+          "icone": "enviar",
+          "conteudo": "Asunto: <nombre del trabajo> · qué avanzó esta semana\n\nHola <nombre>, resumen rápido:\n- Hecho: <qué cambió, en lenguaje de resultado>\n- Efecto: <número antes → número después, o \"todavía midiendo\">\n- Próximo: <el próximo paso>, hasta <fecha>\n- Te necesito: <nada, o el ítem que depende de él>"
+        },
+        {
+          "rot": "Prompt · tus tres hilos de la semana",
+          "icone": "chat",
+          "conteudo": "Eres mi editor comercial. Abajo están mis notas de lo que hice\nesta semana:\n<en viñetas: qué diagnostiqué, revisé, acompañé o enseñé; qué\nse rompió; qué aprendí>\n\n1) Escribe 3 \"hilos\": frases de máximo 12 palabras, cada una\n   describiendo UN resultado para el cliente (resultado, no tecnología).\n   Tienen que caber en una misma frase hablada, separadas por coma.\n2) Para cada hilo, la pregunta que haría un cliente si ese fuera\n   su problema.\nRegla: solo hechos que estén en mis notas, sin adjetivos de publicidad."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa un trabajo que ya hiciste, incluido el del plan de 7 días de la clase 1.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tu primer informe de una página",
+          "min": "30 min",
+          "texto": "Elige un diagnóstico, revisión o sesión de enseñanza que hiciste (puede ser sin cobrar). Llena el informe con lo que es verdad. Si la empresa no autorizó citar el nombre, cámbialo por \"empresa del sector X\".",
+          "pronto": "el informe cabe en una página, tiene número antes y después o \"todavía midiendo\" con fecha, enumera al menos 1 ítem que quedó fuera y no tiene ninguna frase que no puedas comprobar hoy."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tres hilos y cuatro viernes",
+          "min": "15 min",
+          "dias": "4 semanas",
+          "texto": "Ejecuta el prompt de los hilos con las notas de esta semana. Si tienes un cliente o alguien que sigue tu trabajo, manda la actualización del viernes cuatro semanas seguidas.",
+          "pronto": "tienes 3 hilos que hablan de resultado, ninguno empezando con el nombre de una herramienta, y la primera actualización del viernes fue enviada."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Abriste tres hilos y el cliente preguntó solo por uno. ¿Qué haces?",
+          "opcoes": [
+            "Explicar los tres, para que vea todo lo que haces",
+            "Enfocarte solo en el hilo que tiró: es su problema real",
+            "Abrir tres hilos más para aumentar las posibilidades"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El hilo que tiró es el dolor que ya intentaba resolver solo. Insistir en los otros es volver a presentar sin saber qué quiere oír."
+        },
+        {
+          "p": "El cliente pregunta cuánto ahorró tu diagnóstico. Todavía no mediste. ¿Qué dices?",
+          "opcoes": [
+            "Redondear un porcentaje que parezca razonable",
+            "\"Todavía estoy midiendo; te traigo el número hasta tal fecha\"",
+            "Citar el resultado de otra empresa como si fuera suyo"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Un número inventado es una deuda que vence en la primera pregunta de seguimiento. \"Todavía midiendo\", con fecha, es prueba de método."
+        },
+        {
+          "p": "¿Qué elemento NO puede faltar en el informe de una página?",
+          "opcoes": [
+            "La lista de herramientas usadas",
+            "Lo que quedó fuera y por qué, con el próximo paso y la fecha",
+            "Un testimonio elogioso"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Lo que quedó fuera (y cuándo llamar a un especialista) es lo que muestra que dices lo que sabes y lo que no sabes. La herramienta no decide nada por el ejecutivo."
+        },
+        {
+          "p": "Corregiste un error en el proceso del cliente el sábado y no se lo contaste. ¿Cuál es el efecto comercial?",
+          "opcoes": [
+            "Grande: el cliente notará la mejora",
+            "Cero: si él no lo sabe, para él no ocurrió",
+            "Negativo: pensará que trabajas demasiado"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El trabajo invisible no construye confianza. Comunícalo el mismo día en pocas líneas y registra el efecto."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Solo la percepción decide",
+          "texto": "Lo que el cliente no ve no entró en su cuenta."
+        },
+        {
+          "t": "Hilos, no presentación",
+          "texto": "El hilo que se jala es el dolor real; habla solo de él."
+        },
+        {
+          "t": "Comunica todo, no inventes nada",
+          "texto": "El trabajo en curso es una prueba honesta; un número falso es una deuda."
+        },
+        {
+          "t": "Un caso y una página",
+          "texto": "Hecho, efecto, lo que quedó fuera, riesgo y próximo paso."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "slug": "posicionamento-prova",
+  "num": 4,
+  "menu": "Proof",
+  "titulo": "Positioning and proof: one case and one page",
+  "titulo_curto": "Positioning and proof",
+  "minutos": 17,
+  "lead": "There is what happened, and there is what the client saw happen. Only the second version enters the decision. Your invisible effort is not proof. In this lesson, proof becomes two concrete things: a real case, told without exaggeration, and a one-page report the client can check on their own.",
+  "objetivo": "turn work you've done into a real case and a one-page report the client can check.",
+  "competencias": [
+    "comunicar-trabalho-feito",
+    "escrever-relatorio-de-uma-pagina",
+    "provar-sem-inventar"
+  ],
+  "aprende": [
+    {
+      "t": "Make the work cross over to the side the client sees"
+    },
+    {
+      "t": "Offer threads and let the client pull"
+    },
+    {
+      "t": "Prove it when you don't have cases yet"
+    },
+    {
+      "t": "Write the one-page report"
+    }
+  ],
+  "hero_alt": "A single report sheet on a dark table, with a hand pointing at a simple bar chart.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From invisible work to proof",
+      "sub": "Anything that doesn't cross over to the client's side plays no part in the decision. Tap each step.",
+      "nos": [
+        {
+          "icone": "camadas",
+          "titulo": "Work done",
+          "sub": "invisible",
+          "detalhe": "You tweaked a process on Saturday, fixed an error before it became a problem. If none of that reached the client, the commercial effect is zero, the same as not having done it."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Communicate the same day",
+          "sub": "3 to 5 lines",
+          "detalhe": "What changed, what it prevents, what the next step is and when. Short enough to read on your phone between two appointments."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Record the effect",
+          "sub": "before → after",
+          "detalhe": "Keep the number before and the number after. If you don't have it yet, write \"still measuring\". Nobody ever lost a contract over that."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Real case",
+          "sub": "specific",
+          "detalhe": "A diagnosis, a review or a teaching session you did, told with the detail only someone who did it would know. Don't name the company if they didn't authorize it."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "One-page report",
+          "sub": "the proof that stays",
+          "forte": true,
+          "detalhe": "What was done, the effect in numbers (or \"still measuring\"), what was left out and why, the risk or limit, and the next step with a date. It fits on one page and the client can check it on their own."
+        }
+      ],
+      "legenda": "No exaggeration and no invention: the job is to communicate what is true."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How perception forms",
+      "sub": "Four ideas for your next conversation.",
+      "passos": [
+        {
+          "titulo": "The night that never happened",
+          "sub": "perceived reality",
+          "texto": [
+            "An employee stays up all night solving a problem and leaves at 6:59 a.m. The boss arrives at 7:00. In the boss's perception, the employee left at 5 p.m. like everyone else.",
+            "It's the same with clients: the weekend you spent on their solution didn't happen if they never got a signal."
+          ]
+        },
+        {
+          "titulo": "Threads",
+          "sub": "let the client pull",
+          "texto": [
+            "Instead of presenting for twenty minutes, say one sentence with three openings and stop. They walk through one door, and it's their real problem.",
+            "Talk only about the thread they pulled. Forget the other two."
+          ],
+          "exemplo": {
+            "rot": "Three threads in one sentence",
+            "texto": "\"We map where customer service loses customers, review what your team already uses AI for, and train the team to use it safely.\""
+          }
+        },
+        {
+          "titulo": "Talk so they talk",
+          "sub": "the ratio shifts",
+          "texto": [
+            "At the start, you talk more. In the middle, it's balanced. At the end, they talk much more than you.",
+            "Write down the exact words they use for the problem, and use those words in the report and the proposal."
+          ]
+        },
+        {
+          "titulo": "Proof without cases",
+          "sub": "the line you don't cross",
+          "texto": [
+            "With no client to show, talk about what you're doing right now, with specific detail. Detail is impossible to improvise, which is why it convinces.",
+            "Making up a client, number, percentage or testimonial is fraud. One follow-up question is enough to bring the story down, and then you lose your reputation, not just the sale."
+          ],
+          "exemplo": {
+            "rot": "Honest proof",
+            "texto": "Do a free diagnosis and talk about what you found, without naming the company."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The report is the proof that stays. The Friday update keeps the work visible every week.",
+      "blocos": [
+        {
+          "rot": "One-page report",
+          "icone": "arquivo",
+          "conteudo": "REPORT · <service: diagnosis / review / advisory / teaching>\n<company or \"company in the X sector\" if there is no permission> · <date>\n\n1. THE PROBLEM, in the client's words\n   \"<exact phrase they used>\"\n\n2. WHAT WAS DONE\n   - <item>\n   - <item>\n\n3. EFFECT\n   before: <number>   after: <number>   (or: still measuring, until <date>)\n\n4. WHAT WAS LEFT OUT AND WHY\n   - <item> · <reason: out of scope / needs a specialist / needs IT>\n\n5. RISK OR LIMIT THE CLIENT NEEDS TO KNOW\n   - <item>\n\n6. NEXT STEP\n   <what> · <who> · by <date>"
+        },
+        {
+          "rot": "Friday update",
+          "icone": "enviar",
+          "conteudo": "Subject: <name of the work> · what moved this week\n\nHi <name>, quick summary:\n- Done: <what changed, in results language>\n- Effect: <number before → number after, or \"still measuring\">\n- Next: <the next step>, by <date>\n- I need you for: <nothing, or the item that depends on them>"
+        },
+        {
+          "rot": "Prompt · your three threads for the week",
+          "icone": "chat",
+          "conteudo": "You are my commercial editor. Below are my notes on what I did\nthis week:\n<in bullet points: what I diagnosed, reviewed, advised on or taught; what\nbroke; what I learned>\n\n1) Write 3 \"threads\": sentences of at most 12 words, each\n   describing ONE result for the client (result, not technology).\n   They must fit in a single spoken line, separated by commas.\n2) For each thread, the question a client would ask if that were\n   their problem.\nRule: only facts that are in my notes, with no advertising adjectives."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use a job you've already done, including the one from the 7-day plan in lesson 1.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your first one-page report",
+          "min": "30 min",
+          "texto": "Pick a diagnosis, review or teaching session you've done (it can be unpaid). Fill in the report with what is true. If the company didn't give permission to use its name, replace it with \"company in the X sector\".",
+          "pronto": "the report fits on one page, has a before and after number or \"still measuring\" with a date, lists at least 1 item that was left out, and has no sentence you can't back up today."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Three threads and four Fridays",
+          "min": "15 min",
+          "dias": "4 semanas",
+          "texto": "Run the threads prompt with this week's notes. If you have a client or someone following your work, send the Friday update four weeks in a row.",
+          "pronto": "you have 3 threads that talk about results, none starting with a tool name, and the first Friday update has been sent."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "You opened three threads and the client asked about only one. What do you do?",
+          "opcoes": [
+            "Explain all three, so they see everything you do",
+            "Focus only on the thread they pulled: it's their real problem",
+            "Open three more threads to improve your chances"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The thread they pulled is the pain they were already trying to solve on their own. Pushing the others means going back to presenting without knowing what they want to hear."
+        },
+        {
+          "p": "The client asks how much your diagnosis saved. You haven't measured yet. What do you say?",
+          "opcoes": [
+            "Round off a percentage that sounds reasonable",
+            "\"I'm still measuring; I'll bring you the number by such-and-such date\"",
+            "Quote another company's result as if it were theirs"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "A made-up number is a debt that comes due at the first follow-up question. \"Still measuring,\" with a date, is proof of method."
+        },
+        {
+          "p": "Which item can NOT be missing from the one-page report?",
+          "opcoes": [
+            "The list of tools used",
+            "What was left out and why, with the next step and the date",
+            "A glowing testimonial"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "What was left out (and when to call a specialist) is what shows you say what you know and what you don't. A tool doesn't decide anything for the executive."
+        },
+        {
+          "p": "You fixed an error in the client's process on Saturday and didn't tell them. What is the business effect?",
+          "opcoes": [
+            "Big: the client will notice the improvement",
+            "Zero: if they don't know, for them it didn't happen",
+            "Negative: they'll think you work too much"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Invisible work doesn't build trust. Communicate it the same day in a few lines and record the effect."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Only perception decides",
+          "texto": "What the client doesn't see didn't make it into their books."
+        },
+        {
+          "t": "Threads, not a presentation",
+          "texto": "The thread you pull is the real pain; talk only about that."
+        },
+        {
+          "t": "Communicate everything, invent nothing",
+          "texto": "Work in progress is honest proof; a made-up number is debt."
+        },
+        {
+          "t": "One case and one page",
+          "texto": "Done, effect, what was left out, risk and next step."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "objecoes",
+  "num": 6,
+  "menu": "Objeções",
+  "titulo": "Objeções: o recibo de uma falha anterior",
+  "titulo_curto": "Objeções",
+  "minutos": 19,
+  "lead": "Existe uma indústria inteira ensinando a \"quebrar objeções\" com frase de efeito. A leitura aqui é outra: uma objeção de preço é o recibo de uma falha que aconteceu antes. Ou o problema não foi medido, ou faltou confiança. Se o trabalho anterior foi bem feito, a conversa final é sobre logística, e quase nunca sobre convencer.",
+  "objetivo": "ler uma objeção como falha anterior, medir o problema antes do preço e responder reduzindo escopo, sem desconto.",
+  "competencias": ["diagnosticar-objecao", "dimensionar-problema", "reduzir-escopo-sem-desconto"],
+  "aprende": [
+    {"t": "Separar as duas únicas causas de uma objeção de preço"},
+    {"t": "Fazer a conta do problema na frente do cliente"},
+    {"t": "Dizer o preço e emendar o próximo passo"},
+    {"t": "Treinar numa conversa simulada com placar"}
+  ],
+  "hero_alt": "Dono de empresa de reformas de braços cruzados, cético mas aberto, conversa com um consultor que escuta com calma.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Da objeção à próxima data",
+      "sub": "Uma pergunta separa as duas causas. Nenhum caminho se chama \"argumentar melhor\". Clique em cada etapa.",
+      "nos": [
+        {"icone": "x", "titulo": "\"Tá caro\"", "sub": "a objeção", "detalhe": "Objeção é qualquer motivo para não avançar agora: \"está caro\", \"vou pensar\", \"preciso falar com meu sócio\". Trate como nota da sua própria conversa."},
+        {"icone": "lupa", "titulo": "O problema foi medido?", "sub": "a pergunta do meio", "forte": true, "detalhe": "Se você não sabe quanto o problema custa por mês, o preço não tem com o que ser comparado. Um problema de US$ 500 por mês não sustenta uma proposta de US$ 10.000, e nenhuma frase conserta isso."},
+        {"icone": "grafico", "titulo": "Não: faça a conta", "sub": "frequência × valor × dias", "detalhe": "Quantas vezes acontece, quanto vale cada uma, quantos dias úteis. A conta protege você de cobrar demais e de vender para quem não deveria comprar."},
+        {"icone": "escudo", "titulo": "Sim: faltou confiança", "sub": "escopo menor", "detalhe": "O problema é grande e o preço é justo, mas falta histórico. A correção não é argumentar: é reduzir o escopo para um primeiro passo pequeno."},
+        {"icone": "calendario", "titulo": "Próxima data", "sub": "sempre", "detalhe": "Toda conversa termina com a próxima marcada na agenda dos dois, com duas opções concretas de horário. Sem data, assuma que ela não vai acontecer."}
+      ],
+      "legenda": "Valores em dólar só como referência ilustrativa; adapte ao seu mercado."
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Conversa simulada: o dono da empresa de reformas",
+      "sub": "Ficção para treinar. Você propôs um diagnóstico do atendimento com plano de 30 dias. Escolha a resposta que você daria.",
+      "personagem": {"nome": "Dono de empresa de reformas", "papel": "decide sozinho · perde ligações de clientes novos"},
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Gostei da ideia do diagnóstico. Mas, sendo sincero, achei caro.",
+          "opcoes": [
+            {"t": "Entendo. Se fechar hoje, faço 30% mais barato.", "vai": "fim-desconto", "nota": 0, "comenta": "Desconto resolve a conversa de hoje e estraga as próximas: ensina que o preço foi inventado e que reclamar funciona."},
+            {"t": "Entendo, não é pouco dinheiro. Antes de falar de valor: quantas ligações de cliente novo ficam sem resposta e quanto vale uma reforma fechada?", "vai": "conta", "nota": 2, "comenta": "Você reconheceu a objeção sem se desculpar e foi medir o problema. Sem esse número, qualquer preço é chute."},
+            {"t": "O valor se justifica: vou mapear o fluxo inteiro, entrevistar a equipe e montar o plano.", "vai": "conta", "nota": 1, "comenta": "Explicar o trabalho técnico defende o preço, mas não compara com nada. O que mata objeção é o tamanho do problema dele."}
+          ]
+        },
+        "conta": {
+          "cliente": "Umas cinco por dia ninguém atende. Uma reforma fechada vale bem. Agora, quantas eram de cliente de verdade, eu não sei.",
+          "opcoes": [
+            {"t": "Então o problema é enorme. Você precisa fechar comigo.", "vai": "fim-pressao", "nota": 0, "comenta": "Empurrar usa o número contra ele. E você ainda nem confirmou os dados: ele mesmo disse que não sabe quantas eram de cliente."},
+            {"t": "Vamos fazer a conta juntos: cinco por dia, uns vinte dias úteis. O que você não sabe eu marco como \"assumido\", e o diagnóstico mede de verdade. Se o número não justificar, eu mesmo te digo.", "vai": "pensar", "nota": 2, "comenta": "Quem calculou foi ele, e ninguém discute com a própria conta. Separar assumido de informado e prometer um veredito honesto é vender confiança."},
+            {"t": "Posso começar só pela parte mais dolorida, por um valor menor.", "vai": "pensar", "nota": 1, "comenta": "Reduzir escopo é o caminho certo, mas cedo demais: sem a conta, ele não sabe se nem a parte menor vale a pena."}
+          ]
+        },
+        "pensar": {
+          "cliente": "Faz sentido. Deixa eu pensar e te falo.",
+          "opcoes": [
+            {"t": "Claro, sem pressa. Qualquer coisa me avisa.", "vai": "fim-solto", "nota": 0, "comenta": "\"Qualquer coisa me avisa\" não é próximo passo, é despedida. Sem data, o \"vou pensar\" vira um não educado."},
+            {"t": "Claro. O que ficou menos claro: o resultado, o prazo ou o valor? Te mando um resumo de uma página hoje e conversamos 15 minutos na quinta ou na sexta. Qual prefere?", "vai": "ja-tem", "nota": 2, "comenta": "Você transformou o adiamento em data, com duas opções concretas, e mandou o resumo enquanto a conversa está fresca."},
+            {"t": "Combinado. Te mando a proposta completa até o fim da semana.", "vai": "ja-tem", "nota": 1, "comenta": "A proposta vai chegar sem o contexto que a justificava. O preço fica, o valor decai. Melhor mandar hoje e marcar a revisão juntos."}
+          ]
+        },
+        "ja-tem": {
+          "cliente": "Tá bom. Ah, uma coisa: meu sobrinho já mexe com essas coisas de IA para a gente.",
+          "opcoes": [
+            {"t": "Ótimo, quer dizer que o problema é real. O que ainda incomoda mesmo com ele cuidando? Se estiver tudo redondo, sou o primeiro a dizer para não mexer.", "vai": "escopo", "nota": 2, "comenta": "Veredito honesto: você não disputa com quem já está lá e mostra que diz o que não precisa ser feito. É isso que constrói confiança."},
+            {"t": "Com todo respeito, isso não é trabalho para amador.", "vai": "fim-pressao", "nota": 0, "comenta": "Atacar quem o cliente escolheu coloca você contra ele. Ninguém compra confiança de quem desqualifica a família dele."}
+          ]
+        },
+        "escopo": {
+          "cliente": "O que incomoda é o telefone. O resto ele dá conta. Mas o valor ainda pesa.",
+          "opcoes": [
+            {"t": "Então começamos só pelo atendimento do telefone: escopo menor, mesmo preço por parte do trabalho, em duas semanas. Se funcionar, revisitamos o resto. Quarta às 10h ou quinta às 15h para começar?", "vai": "fim-bom", "nota": 2, "comenta": "Escopo desce, preço por unidade não. E a frase termina numa escolha de data, não numa pergunta sobre o preço."},
+            {"t": "Faço o diagnóstico completo pela metade do preço.", "vai": "fim-desconto", "nota": 0, "comenta": "Mesmo escopo, metade do valor: na renovação ele vai lembrar do preço com desconto, não do original."},
+            {"t": "Podemos fazer só o telefone. Me avisa quando quiser começar.", "vai": "fim-solto", "nota": 1, "comenta": "O escopo ficou certo, mas você saiu sem data. Quem retorna é você, com dia e hora marcados."}
+          ]
+        },
+        "fim-desconto": {"fim": true, "titulo": "Fechou com desconto", "texto": "Talvez feche, mas o seu preço virou chute para sempre nesta conta. A objeção de preço tinha duas causas possíveis, e desconto não corrige nenhuma delas."},
+        "fim-pressao": {"fim": true, "titulo": "A guarda subiu", "texto": "Pressionar ou desqualificar faz o cliente se defender. A confiança que você construiu até aqui volta a zero."},
+        "fim-solto": {"fim": true, "titulo": "Sem data, sem conversa", "texto": "A conversa foi boa, mas terminou sem a próxima marcada. Na prática, ela não vai acontecer. Toda conversa sai com dia e hora."},
+        "fim-bom": {"fim": true, "titulo": "Primeiro passo marcado", "texto": "Você mediu o problema com ele, deu um veredito honesto sobre o que não precisa mexer, reduziu escopo sem tocar no preço e saiu com data. A objeção virou logística."}
+      },
+      "licao": "Objeção se resolve antes dela: com o problema medido, um escopo do tamanho da confiança e a próxima data marcada, nunca com desconto."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "As quatro regras depois do número",
+      "sub": "Elas valem com ou sem objeção.",
+      "passos": [
+        {"titulo": "Dê o preço e siga", "sub": "preço é informação", "texto": ["Silêncio depois do número transforma o preço num evento e obriga o outro a reagir.", "Diga o valor no mesmo tom do resto da conversa e emende, no mesmo fôlego, a forma de pagamento e o que acontece depois."], "exemplo": {"rot": "Como soa", "texto": "\"Para esse escopo, fica nesse valor. A maioria faz em duas parcelas. Se fizer sentido, te mando o resumo hoje e começamos na segunda. Reservo a semana?\""}},
+        {"titulo": "Escopo desce, preço não", "sub": "nunca negocie preço", "texto": ["Desconto vira o novo ponto de partida: na renovação, o cliente lembra do valor com desconto.", "Corte escopo: um canal em vez de três, uma filial em vez da empresa inteira, duas semanas de piloto em vez de três meses."]},
+        {"titulo": "A próxima dentro da reunião", "sub": "duas opções", "texto": ["\"Quando você pode?\" transfere trabalho e a saída mais fácil vence: adiar.", "\"Quarta às 10h ou quinta às 15h?\" pede uma escolha. Mande o convite enquanto conversam e peça para ele confirmar que chegou."]},
+        {"titulo": "Valor decai com o tempo", "sub": "encurte o intervalo", "texto": ["A proposta que chega dias depois é lida sem a conversa que a justificava: o preço fica, o valor evapora.", "Mande no mesmo dia, abra pelo problema medido, em uma ou duas páginas, e marque a revisão junto."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O prompt você roda logo depois da conversa. As respostas ficam abertas ao lado na próxima.",
+      "blocos": [
+        {"rot": "Prompt · calculadora do tamanho do problema", "icone": "grafico", "conteudo": "Você é meu apoio comercial. Abaixo estão as anotações de uma conversa\ncom um cliente potencial. Faça, nesta ordem:\n1. Calcule o tamanho do problema por mês, com a conta passo a passo\n   (frequência × valor unitário × dias úteis). Marque toda estimativa\n   como \"assumido\" e liste o que eu ainda preciso perguntar.\n2. Diga se o meu preço é uma fração pequena e visível desse número. Se\n   não for, diga com franqueza que esta proposta não deveria ser feita.\n3. Escreva a frase de preço em no máximo 3 frases: valor + forma de\n   pagamento + próximo passo com duas opções de data.\n4. Escreva a versão com escopo menor, mesmo preço por unidade de entrega.\n\nANOTAÇÕES\nsetor: <ex.: empresa de reformas>\nproblema relatado: <ex.: ligações de clientes novos sem resposta>\nfrequência: <ex.: 5 por dia>\nvalor de um cliente fechado: <valor>\no que eu ofereço: <diagnóstico / revisão / acompanhamento / ensino>\nmeu preço: <valor>"},
+        {"rot": "Roteiro · as quatro objeções mais comuns", "icone": "lista", "conteudo": "1) \"TÁ CARO.\"\n\"Entendo, não é pouco dinheiro mesmo. Minha sugestão: a gente começa\nsó por <a parte mais dolorida>, que sai bem menos. Você vê como eu\ntrabalho e depois revisitamos o resto. Faz sentido?\"\n→ reduz ESCOPO. Nunca: \"consigo fazer por metade\".\n\n2) \"VOU PENSAR.\"\n\"Claro. Só para eu te ajudar a pensar: o que ficou menos claro,\no resultado, o prazo ou o valor? Te mando um resumo de uma página\nhoje e conversamos 15 minutos na quinta ou na sexta. Qual prefere?\"\n→ transforma o adiamento em data.\n\n3) \"JÁ TEMOS ALGUÉM QUE FAZ ISSO.\"\n\"Ótimo, isso quer dizer que o problema é real. O que ainda incomoda\nmesmo com <a solução atual>? Se estiver tudo redondo, eu sou o\nprimeiro a dizer para você não mexer.\"\n→ veredito honesto.\n\n4) \"AGORA NÃO É PRIORIDADE.\"\n\"Entendo. Quando isso costuma virar prioridade? Depois de <evento>?\nTe procuro em <prazo combinado> e já deixo marcado na agenda.\"\n→ saia com a próxima data, mesmo que seja daqui a 90 dias."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Uma com um caso seu, outra na simulação.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · A conta de um problema real", "min": "20 min", "texto": "Pegue um caso real (de uma conversa ou do seu plano de 7 dias) e rode a calculadora. Se faltar dado, escreva as perguntas que você vai fazer na próxima conversa.", "pronto": "você tem a conta aberta com o que é assumido separado do que foi informado, e uma frase de preço de até 3 frases que termina em duas opções de data."},
+        {"id": "e2", "titulo": "2 · Conversa simulada com placar máximo", "min": "10 min", "texto": "Faça a conversa simulada desta aula. Se não chegar ao placar máximo, leia os comentários, clique em recomeçar e tente de novo.", "pronto": "você terminou a conversa com o placar máximo e explica em uma frase por que desconto não corrige nenhuma das duas causas de objeção."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "O cliente diz que o preço está alto. Qual resposta segue esta aula?", "opcoes": ["Oferecer 20% de desconto para fechar hoje", "Manter o preço e propor um escopo menor, com data para revisitar o resto", "Explicar em detalhe o trabalho técnico que justifica o valor"], "certa": 1, "ref": "simconversa", "explica": "Escopo desce, preço não. Desconto ensina que o número era inventado; explicação técnica não compara o preço com nada."},
+        {"p": "Quais são as duas causas de uma objeção de preço?", "opcoes": ["Cliente pão-duro e concorrente mais barato", "Valor superdimensionado para o problema, ou falta de confiança", "Proposta feia e e-mail longo"], "certa": 1, "ref": "diagrama", "explica": "Ou o problema é menor do que a proposta, ou ainda falta histórico. Cada uma tem a sua correção: refazer a conta ou reduzir o escopo."},
+        {"p": "Qual pergunta ajuda a dimensionar o problema?", "opcoes": ["\"Qual é o seu orçamento?\"", "\"Quantas dessas acontecem por dia, em média?\"", "\"Quanto você pagaria por uma solução dessas?\""], "certa": 1, "ref": "diagrama", "explica": "Frequência, valor unitário e taxa atual dimensionam. Perguntar orçamento convida a inventar um teto e ancora você para baixo."},
+        {"p": "A conversa foi ótima e o cliente disse \"vou pensar\". O que nunca pode faltar?", "opcoes": ["Uma proposta de sete páginas", "A próxima conversa marcada, com duas opções concretas de horário", "Uma mensagem de \"conseguiu ver?\" dois dias depois"], "certa": 1, "ref": "passos", "explica": "Sem data, assuma que a conversa não vai acontecer. Perseguir depois por mensagem tira a autoridade que você construiu."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Objeção é diagnóstico", "texto": "Ou o valor foi superdimensionado, ou faltou confiança. Nenhuma das duas se corrige argumentando."},
+        {"t": "Conta antes do número", "texto": "Frequência × valor × dias, feita junto com o cliente."},
+        {"t": "Escopo desce, preço não", "texto": "Diga o valor, emende pagamento e próximo passo, nunca dê desconto."},
+        {"t": "Sempre a próxima marcada", "texto": "Duas opções de horário, confirmadas na hora."}
+      ]
+    }
+  ]
+}

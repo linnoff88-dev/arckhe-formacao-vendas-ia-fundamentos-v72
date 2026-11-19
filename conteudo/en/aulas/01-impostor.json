@@ -1,0 +1,230 @@
+{
+  "slug": "impostor",
+  "num": 1,
+  "menu": "Impostor",
+  "titulo": "Impostor syndrome: proof before speeches",
+  "titulo_curto": "Impostor syndrome",
+  "minutos": 15,
+  "lead": "You feel you can't charge for something you haven't yet seen work with your own hands. The suspicion is reasonable, which is why a pep talk doesn't fix it. What fixes it is your own proof: do the service you sell a few times, record what happened, and book a conversation.",
+  "objetivo": "replace the impostor feeling with your own proof: do the service you sell three times and book a conversation within 7 days.",
+  "competencias": [
+    "gerar-prova-propria",
+    "registrar-evidencia",
+    "sair-da-preparacao-infinita"
+  ],
+  "aprende": [
+    {
+      "t": "See selling as getting the next step"
+    },
+    {
+      "t": "Recognize the impostor cycle and its only way out"
+    },
+    {
+      "t": "Do the service you sell before you defend it"
+    },
+    {
+      "t": "Build your 7-day anti-impostor plan"
+    }
+  ],
+  "hero_alt": "A professional reviews printed pages of a diagnostic with a pen, with folders of previous cases beside them.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The impostor cycle and the way out",
+      "sub": "The cycle feeds itself and never produces experience. Only one arrow leads out of it. Click each stage.",
+      "nos": [
+        {
+          "icone": "cerebro",
+          "titulo": "\"I can't charge\"",
+          "sub": "the suspicion",
+          "detalhe": "It's not a generic fear of failing. It's the suspicion, almost always correct, that you're promising a result without having your own track record with it."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "More preparation",
+          "sub": "feels like progress",
+          "detalhe": "One more tool, another niche, the presentation redone. Six months later your technical repertoire has doubled and your conversations with clients are still at zero."
+        },
+        {
+          "icone": "check",
+          "titulo": "Do the service",
+          "sub": "the only way out",
+          "forte": true,
+          "detalhe": "Do you sell diagnostics? Diagnose three companies, even without charging. Do you sell review or teaching? Review three processes, teach three people. You don't need to believe it works: you need to have seen it work."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Record",
+          "sub": "historical data",
+          "detalhe": "How long it took, what broke, where the person got stuck. This becomes your estimate and your answers to the hard questions."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Conversation booked",
+          "sub": "the trigger",
+          "detalhe": "No certificate will make the feeling of being ready appear. What exists is the first conversation on the calendar, and it works as a trigger."
+        }
+      ],
+      "legenda": "Confidence in yourself doesn't come from conviction. It comes from your own historical data."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Four ideas that unlock you",
+      "sub": "Each one answers a common excuse.",
+      "passos": [
+        {
+          "titulo": "Everyone sells",
+          "sub": "selling = next step",
+          "texto": [
+            "Selling, here, means getting another person to accept the next step with you: replying, booking the conversation, approving a small test.",
+            "You already do this every day, you just don't call it that. If you already sell without noticing, the problem isn't aptitude: it's method."
+          ],
+          "exemplo": {
+            "rot": "A reading that blocks you",
+            "texto": "\"If the service is good, it sells itself.\" A good service nobody knows about doesn't bring in revenue."
+          }
+        },
+        {
+          "titulo": "Repetition that counts",
+          "sub": "the car test",
+          "texto": [
+            "You turn the car key without anxiety because it started the last hundred times. The confidence to say your price is built the same way: recorded repetition.",
+            "Counts: the same service in different contexts, with the time noted and another person using it. Doesn't count: redoing the test just for yourself or switching tools with every project."
+          ]
+        },
+        {
+          "titulo": "The opposite trap",
+          "sub": "preparing forever",
+          "texto": [
+            "\"I need to do one more\" can become a permanent excuse. The \"being ready\" line moves a little further ahead every time you get close.",
+            "The yardstick: keep going until you can show one complete thing from start to finish. From then on, service and conversation move together."
+          ],
+          "exemplo": {
+            "rot": "Escape signal",
+            "texto": "You have more versions of the presentation than conversations you've had."
+          }
+        },
+        {
+          "titulo": "Nobody is ready",
+          "sub": "clarity comes later",
+          "texto": [
+            "People who are already established also started without knowing how to price or where to find clients. They started and corrected along the way.",
+            "Swap \"am I ready?\" for \"what's the smallest thing I can deliver well this week?\" The second question has an answer, and it fits on a calendar."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Run the prompt in the AI assistant you use. The plan is saved in a file with today's date.",
+      "blocos": [
+        {
+          "rot": "Prompt · proof inventory",
+          "icone": "chat",
+          "conteudo": "You are my sales coach. I sell <the service: diagnosis, review,\nadvisory or teaching> to <type of company I want to serve>.\n\nHere is everything I have already done or tested, unfiltered:\n<one line per item, including unpaid work and tests that failed>\n\nDo three things, in this order:\n1. For each item, write the EVIDENCE in one sentence that I could say\n   in a conversation with a client, without exaggerating and without making up numbers.\n2. Point out the GAPS: what a buyer of this service would ask that I\n   still can't answer from my own experience.\n3. Propose 3 small things I can do in 7 days to close the\n   most serious gaps, each with the observable result it would give me.\n\nBe tough. If a piece of evidence is weak, say it's weak and explain why."
+        },
+        {
+          "rot": "Anti-impostor plan · 7 days",
+          "icone": "calendario",
+          "conteudo": "ANTI-IMPOSTOR PLAN · start <date>\n\nDays 1 and 2 · pick ONE service and do it once\n  - service: <diagnosis / review / teaching session>\n  - case: <real or fictional company, but realistic>\n  - if you don't finish in 2 days, the scope was too big: cut it in half\n\nDays 3 and 4 · redo it in 2 other contexts (different industries)\n  - time for each run: ___ / ___ / ___\n  - what broke: ___\n\nDay 5 · 3 outside people use or read it, with no explanation from you\n  - where they got stuck: ___\n\nDay 6 · proof inventory (prompt above), one sentence per piece of evidence\n\nDay 7 · one scheduled conversation\n  - with whom: ___   date and time: ___"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Do this week. The two together break the cycle with facts, not willpower.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Proof inventory",
+          "min": "25 min",
+          "texto": "List everything you've already done related to the service you want to sell and run the inventory prompt. Save the answer in a file with today's date.",
+          "pronto": "the file has at least 3 pieces of evidence, one sentence each, with no made-up numbers, and at least 2 uncomfortable gaps pointed out."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · 7-day plan with the conversation scheduled",
+          "min": "20 min",
+          "dias": "7 dias",
+          "texto": "Fill in the anti-impostor plan. Before starting day 1, put the day 7 conversation on your calendar with someone you already know. The goal is not to sell: it's to talk about what you did with someone who isn't you.",
+          "pronto": "the day 7 conversation is on your calendar with name, date and time, and the service was done in 3 contexts with the time noted."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "You feel you can't charge for what you sell. What is the antidote in this lesson?",
+          "opcoes": [
+            "Study one more tool until you feel confident",
+            "Do the service you sell a few times and record what happened",
+            "Lower the price until someone accepts"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The impostor's suspicion is reasonable: you lack a track record of your own. Only proof fixes that. Studying more feels like progress, but it generates no data of your own."
+        },
+        {
+          "p": "Which of these repetitions builds real confidence?",
+          "opcoes": [
+            "Redoing the same test on your machine ten times",
+            "Doing the same diagnosis at three companies in different industries, noting the time",
+            "Watching someone do it and feeling like you learned"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "What counts is repetition in different contexts, with a record. Watching someone else do it leaves the track record with them, not with you."
+        },
+        {
+          "p": "You keep putting off the first conversation because of a detail no client would ask about. What is happening?",
+          "opcoes": [
+            "Professional care: better to wait",
+            "Preparation has become escape; set the date and show whatever is ready by then",
+            "A sign the service is not for you"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The \"being ready\" line moves every time you get close. A fixed date stops it from moving."
+        },
+        {
+          "p": "In the day 7 conversation, what is the goal?",
+          "opcoes": [
+            "Close the first contract",
+            "Talk about what you did with someone who isn't you",
+            "Present all the tools you've mastered"
+          ],
+          "certa": 1,
+          "ref": "pratica",
+          "explica": "Day 7 exists so you sit in the chair. Selling comes later; the first conversation already breaks the cycle."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Selling is the next step",
+          "texto": "You already do this every day. What's missing is method, not aptitude."
+        },
+        {
+          "t": "The block is a lack of proof",
+          "texto": "Talk doesn't fix it. Doing the work and recording it does."
+        },
+        {
+          "t": "Recorded repetition",
+          "texto": "Same service, different contexts, time noted."
+        },
+        {
+          "t": "Nobody is ready",
+          "texto": "Clarity is a result of acting. The scheduled conversation is the trigger."
+        }
+      ]
+    }
+  ]
+}

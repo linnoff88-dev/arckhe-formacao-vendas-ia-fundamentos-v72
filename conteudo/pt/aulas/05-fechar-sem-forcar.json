@@ -1,0 +1,83 @@
+{
+  "slug": "fechar-sem-forcar",
+  "num": 5,
+  "menu": "Fechar",
+  "titulo": "Fechar sem forçar: o menor sim",
+  "titulo_curto": "Fechar sem forçar",
+  "minutos": 17,
+  "lead": "Quem chega na primeira conversa querendo assinar um projeto grande pede algo que o outro lado ainda não pode dar: falta confiança acumulada. O que se fecha na primeira call é o próximo passo. Nesta aula o primeiro sim é um serviço de confiança pequeno, com escopo escrito, e cada promessa cumprida sobe um degrau.",
+  "objetivo": "propor um primeiro sim pequeno de diagnóstico, revisão ou ensino, com escopo escrito e o que fica de fora.",
+  "competencias": ["desenhar-oferta-de-entrada", "proteger-escopo", "gerenciar-expectativa"],
+  "aprende": [
+    {"t": "Pedir um sim do tamanho da confiança que existe"},
+    {"t": "Achar o preço em que o cliente decide sozinho, sem parecer suspeito"},
+    {"t": "Proteger o escopo dos esqueletos no armário"},
+    {"t": "Dizer \"não agora\" e subir a escada de escopo"}
+  ],
+  "hero_alt": "Consultora e dono de padaria conversam com tranquilidade numa mesa ao fundo da padaria vazia.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A escada de escopo",
+      "sub": "Você não pula degraus com técnica de persuasão. Sobe com histórico. Clique em cada degrau.",
+      "estilo": "escada",
+      "nos": [
+        {"icone": "check", "titulo": "Primeiro sim", "sub": "pequeno e rápido", "detalhe": "Um mini diagnóstico de um processo, a revisão de um uso de IA que a equipe já tem, uma sessão de ensino para uma área. Cabe em poucos dias e não exige reunião de diretoria."},
+        {"icone": "lupa", "titulo": "Acesso por dentro", "sub": "o que a entrega comprou", "detalhe": "Este degrau não é uma venda: é o acesso que a primeira entrega comprou. Você vê a planilha, o sistema e as pessoas de verdade. Trate cada entrega como investigação paga."},
+        {"icone": "arquivo", "titulo": "Trabalho delimitado", "sub": "baseado no que você viu", "detalhe": "A proposta seguinte nasce do que você encontrou por dentro, não do que te contaram. A conversa deixa de ser venda e vira consultoria: ele pergunta o que você recomenda."},
+        {"icone": "calendario", "titulo": "Acompanhamento", "sub": "mensal", "forte": true, "detalhe": "Com saldo de confiança, o pedido pode ser o combinado mensal: acompanhar, revisar e ensinar de forma contínua. O saldo paga a diferença de confiança."}
+      ],
+      "legenda": "O tamanho do sim que você pode pedir é sempre proporcional à confiança que já existe."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "As regras do primeiro sim",
+      "sub": "Cada uma evita um jeito comum de perder o cliente.",
+      "passos": [
+        {"titulo": "Abaixo do patamar de decisão", "sub": "mais barato experimentar que decidir", "texto": ["Existe um valor abaixo do qual as pessoas param de deliberar. Em pequenas e médias empresas abordadas a frio, esse patamar costuma girar em torno de US$ 100, só como referência; adapte ao seu mercado.", "A lógica não é o dinheiro: discutir internamente custaria mais tempo do que o valor em jogo."], "exemplo": {"rot": "Pergunte na call", "texto": "\"Quando vocês testam um fornecedor novo, até quanto costuma passar sem virar processo de aprovação?\""}},
+        {"titulo": "Barato, não suspeito", "sub": "nem de graça", "texto": ["O primeiro sim é barato em relação ao valor percebido, nunca barato demais para o tamanho do problema: preço fora da escala vira sinal de golpe.", "De graça também piora: sem preço, o cliente não calibra o que recebe, não prioriza na agenda e você perde a referência para o segundo pedido."]},
+        {"titulo": "Esqueletos no armário", "sub": "o risco do escopo grande", "texto": ["Toda empresa tem a planilha que sustenta tudo, o sistema antigo e a pessoa que nunca responde. O cliente convive com eles há tanto tempo que nem os enxerga.", "Peça para ver uma tela ou relatório real antes de orçar e escreva no acordo o que não está incluído."]},
+        {"titulo": "Prometer menos", "sub": "satisfação = realidade ÷ expectativa", "texto": ["Quem promete o mundo infla o denominador e garante a decepção antes de começar.", "O teste antes de prometer: \"eu cumpriria isso mesmo se a semana der errado?\". Se não, você está criando uma dívida que vence na entrega."], "exemplo": {"rot": "Dizer não constrói confiança", "texto": "\"Isso a gente faz na etapa dois.\" Preserva a ideia do cliente, protege o prazo e cria o motivo da próxima conversa."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O prompt desenha a oferta. A frase você usa quando o cliente começa a despejar ideias.",
+      "blocos": [
+        {"rot": "Prompt · sua oferta de primeiro sim", "icone": "chat", "conteudo": "Você é um estrategista de vendas para quem vende serviços de confiança\nem IA (diagnosticar, revisar, acompanhar, ensinar).\nO que eu vendo hoje: <1 frase>\nMeu cliente-alvo: <setor, porte e cargo de quem decide>\n\nDesenhe 3 ofertas de \"primeiro sim\", uma para cada serviço que fizer\nsentido (diagnóstico curto, revisão, sessão de ensino). Cada uma com:\n1. Nome da entrega (curto, sem jargão)\n2. O que é entregue (no máximo 3 itens) e prazo (cabe em 5 dias úteis)\n3. O que NÃO está incluído\n4. Faixa de preço ilustrativa no patamar em que o cliente decide sozinho\n   (vou adaptar ao meu mercado)\n5. O resultado que ele percebe (tempo, dinheiro ou risco)\n6. O que essa entrega me revela sobre o negócio dele\nRanqueie por facilidade de entrega x valor percebido e explique em 2\nlinhas por que a nº 1 venceu. Não proponha construir agente ou sistema."},
+        {"rot": "Frase · reduzir sem recusar", "icone": "caneta", "conteudo": "\"Gostei de tudo isso, dá para fazer. Só não ao mesmo tempo.\nDas coisas que você citou, qual delas, se estivesse resolvida\naté <prazo curto, ex.: sexta que vem>, já mudaria a sua semana?\nComeço por essa. As outras entram na conversa seguinte,\nquando eu já conhecer os seus <processos / sistemas / dados> de verdade.\""}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Saia com uma oferta pronta para a próxima conversa.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Oferta de primeiro sim", "min": "25 min", "texto": "Rode o prompt e escolha a oferta nº 1. Escreva numa nota: nome, o que entrega, o que não entrega, prazo e faixa de preço adaptada ao seu mercado.", "pronto": "a oferta escolhida passa nos 3 testes: entregável em até 5 dias úteis sem acesso a sistemas internos, preço que o cliente decide sozinho e uma linha de \"não está incluído\"."},
+        {"id": "e2", "titulo": "2 · Frase de \"não agora\" ensaiada", "min": "10 min", "texto": "Adapte a frase de reduzir sem recusar ao seu serviço e ensaie em voz alta cinco vezes.", "pronto": "você diz a frase de memória, sem pedir desculpa, e ela termina numa pergunta que pede ao cliente escolher uma coisa só."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Primeira conversa com um cliente abordado a frio. O que você pede no fim?", "opcoes": ["O contrato longo com preço cheio", "Uma entrega pequena, rápida e barata, como um mini diagnóstico", "Nada: espera ele voltar"], "certa": 1, "ref": "diagrama", "explica": "Confiança zero pede o menor sim. O contrato longo vem depois de promessas cumpridas."},
+        {"p": "Para \"provar valor\", você oferece fazer o primeiro trabalho de graça. Qual o problema?", "opcoes": ["Nenhum, é investimento", "O cliente não calibra o que recebe, não prioriza e você perde a referência de preço", "Só o problema de perder dinheiro"], "certa": 1, "ref": "passos", "explica": "Cobrar pouco é diferente de não cobrar. Sem preço, a entrega não tem peso na agenda dele nem base para o segundo pedido."},
+        {"p": "O cliente começa a pedir \"isso, e isso, e aquilo\" ainda na primeira entrega. O que fazer?", "opcoes": ["Aceitar tudo para não perder a venda", "Pedir que ele escolha uma coisa e deixar as outras para a etapa dois", "Recusar o cliente"], "certa": 1, "ref": "codigo", "explica": "Aceitar dez e entregar seis produz desculpa; escolher uma e entregar bem produz prova. \"Não agora\" preserva a ideia e cria a próxima conversa."},
+        {"p": "Satisfação é realidade dividida por expectativa. O que você controla primeiro?", "opcoes": ["A realidade, trabalhando mais horas", "A expectativa, prometendo só o que cumpre mesmo numa semana ruim", "Nenhuma das duas"], "certa": 1, "ref": "passos", "explica": "Reduzir a promessa é o jeito mais rápido de aumentar a satisfação sem trabalhar mais. Cinco promessas pequenas cumpridas valem mais que uma grande pela metade."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "O sim é do tamanho da confiança", "texto": "Na primeira call você fecha o próximo passo, não o contrato."},
+        {"t": "Barato em relação ao valor", "texto": "Abaixo do patamar de decisão, nunca no \"bom demais para ser verdade\"."},
+        {"t": "Escopo pequeno protege os dois", "texto": "Os esqueletos aparecem trabalhando, não conversando."},
+        {"t": "A escada termina no acompanhamento", "texto": "Cada promessa cumprida compra o direito de subir um degrau."}
+      ]
+    }
+  ]
+}

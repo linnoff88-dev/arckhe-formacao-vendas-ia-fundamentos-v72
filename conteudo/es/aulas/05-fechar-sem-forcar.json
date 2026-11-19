@@ -1,0 +1,224 @@
+{
+  "slug": "fechar-sem-forcar",
+  "num": 5,
+  "menu": "Cerrar",
+  "titulo": "Cerrar sin forzar: el sí más pequeño",
+  "titulo_curto": "Cerrar sin forzar",
+  "minutos": 17,
+  "lead": "Quien llega a la primera conversación queriendo firmar un proyecto grande pide algo que el otro lado todavía no puede dar: falta confianza acumulada. Lo que se cierra en la primera llamada es el próximo paso. En esta clase el primer sí es un servicio de confianza pequeño, con alcance por escrito, y cada promesa cumplida sube un nivel.",
+  "objetivo": "proponer un primer sí pequeño de diagnóstico, revisión o enseñanza, con alcance por escrito y lo que queda fuera.",
+  "competencias": [
+    "desenhar-oferta-de-entrada",
+    "proteger-escopo",
+    "gerenciar-expectativa"
+  ],
+  "aprende": [
+    {
+      "t": "Pedir un sí del tamaño de la confianza que existe"
+    },
+    {
+      "t": "Encontrar el precio en que el cliente decide solo, sin parecer sospechoso"
+    },
+    {
+      "t": "Proteger el alcance de los esqueletos en el armario"
+    },
+    {
+      "t": "Decir \"ahora no\" y subir la escalera de alcance"
+    }
+  ],
+  "hero_alt": "Una consultora y el dueño de una panadería conversan con tranquilidad en una mesa al fondo de la panadería vacía.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La escalera de alcance",
+      "sub": "No saltas niveles con técnicas de persuasión. Subes con historial. Haz clic en cada nivel.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Primer sí",
+          "sub": "pequeño y rápido",
+          "detalhe": "Un mini diagnóstico de un proceso, la revisión de un uso de IA que el equipo ya tiene, una sesión de enseñanza para un área. Cabe en pocos días y no exige reunión de directorio."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Acceso desde dentro",
+          "sub": "lo que compró la entrega",
+          "detalhe": "Este nivel no es una venta: es el acceso que compró la primera entrega. Ves la planilla, el sistema y las personas de verdad. Trata cada entrega como una investigación pagada."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Trabajo delimitado",
+          "sub": "basado en lo que viste",
+          "detalhe": "La propuesta siguiente nace de lo que encontraste por dentro, no de lo que te contaron. La conversación deja de ser venta y se vuelve consultoría: él pregunta qué recomiendas."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Acompañamiento",
+          "sub": "mensual",
+          "forte": true,
+          "detalhe": "Con saldo de confianza, el pedido puede ser el acuerdo mensual: acompañar, revisar y enseñar de forma continua. El saldo cubre la diferencia de confianza."
+        }
+      ],
+      "legenda": "El tamaño del sí que puedes pedir es siempre proporcional a la confianza que ya existe."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Las reglas del primer sí",
+      "sub": "Cada una evita una forma común de perder al cliente.",
+      "passos": [
+        {
+          "titulo": "Por debajo del umbral de decisión",
+          "sub": "es más barato probar que decidir",
+          "texto": [
+            "Hay un valor por debajo del cual las personas dejan de deliberar. En pequeñas y medianas empresas contactadas en frío, ese umbral suele rondar los US$ 100, solo como referencia; adapta a tu mercado.",
+            "La lógica no es el dinero: discutirlo internamente costaría más tiempo que el valor en juego."
+          ],
+          "exemplo": {
+            "rot": "Pregunta en la llamada",
+            "texto": "\"Cuando prueban un proveedor nuevo, ¿hasta cuánto suele pasar sin convertirse en un proceso de aprobación?\""
+          }
+        },
+        {
+          "titulo": "Barato, no sospechoso",
+          "sub": "ni gratis",
+          "texto": [
+            "El primer sí es barato en relación con el valor percibido, nunca demasiado barato para el tamaño del problema: un precio fuera de escala se convierte en señal de estafa.",
+            "Gratis también empeora las cosas: sin precio, el cliente no calibra lo que recibe, no lo prioriza en su agenda y tú pierdes la referencia para el segundo pedido."
+          ]
+        },
+        {
+          "titulo": "Esqueletos en el armario",
+          "sub": "el riesgo del alcance grande",
+          "texto": [
+            "Toda empresa tiene la hoja de cálculo que sostiene todo, el sistema antiguo y la persona que nunca responde. El cliente convive con ellos desde hace tanto tiempo que ni los ve.",
+            "Pide ver una pantalla o un informe real antes de cotizar y escribe en el acuerdo lo que no está incluido."
+          ]
+        },
+        {
+          "titulo": "Prometer menos",
+          "sub": "satisfacción = realidad ÷ expectativa",
+          "texto": [
+            "Quien promete el mundo infla el denominador y asegura la decepción antes de empezar.",
+            "La prueba antes de prometer: \"¿cumpliría esto aunque la semana salga mal?\". Si no, estás creando una deuda que vence en la entrega."
+          ],
+          "exemplo": {
+            "rot": "Decir no construye confianza",
+            "texto": "\"Eso lo hacemos en la etapa dos.\" Preserva la idea del cliente, protege el plazo y crea el motivo de la próxima conversación."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El prompt diseña la oferta. La frase la usas cuando el cliente empieza a soltar ideas sin parar.",
+      "blocos": [
+        {
+          "rot": "Prompt · tu oferta de primer sí",
+          "icone": "chat",
+          "conteudo": "Eres un estratega de ventas para quien vende servicios de confianza\nen IA (diagnosticar, revisar, acompañar, enseñar).\nLo que vendo hoy: <1 frase>\nMi cliente objetivo: <sector, tamaño y cargo de quien decide>\n\nDiseña 3 ofertas de \"primer sí\", una para cada servicio que tenga\nsentido (diagnóstico corto, revisión, sesión de enseñanza). Cada una con:\n1. Nombre de la entrega (corto, sin jerga)\n2. Qué se entrega (máximo 3 ítems) y plazo (cabe en 5 días hábiles)\n3. Qué NO está incluido\n4. Rango de precio ilustrativo en el umbral en que el cliente decide solo\n   (lo voy a adaptar a mi mercado)\n5. El resultado que él percibe (tiempo, dinero o riesgo)\n6. Qué me revela esta entrega sobre su negocio\nOrdénalas por facilidad de entrega x valor percibido y explica en 2\nlíneas por qué ganó la nº 1. No propongas construir un agente ni un sistema."
+        },
+        {
+          "rot": "Frase · reducir sin rechazar",
+          "icone": "caneta",
+          "conteudo": "\"Me gustó todo esto, se puede hacer. Solo que no al mismo tiempo.\nDe las cosas que mencionaste, ¿cuál, si estuviera resuelta\nhasta <plazo corto, ej.: el viernes que viene>, ya cambiaría tu semana?\nEmpiezo por esa. Las otras entran en la conversación siguiente,\ncuando ya conozca de verdad tus <procesos / sistemas / datos>.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Sal con una oferta lista para la próxima conversación.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Oferta de primer sí",
+          "min": "25 min",
+          "texto": "Ejecuta el prompt y elige la oferta nº 1. Escribe en una nota: nombre, qué entrega, qué no entrega, plazo y rango de precio adaptado a tu mercado.",
+          "pronto": "la oferta elegida pasa las 3 pruebas: entregable en hasta 5 días hábiles sin acceso a sistemas internos, precio que el cliente decide solo y una línea de \"no está incluido\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Frase de \"ahora no\" ensayada",
+          "min": "10 min",
+          "texto": "Adapta la frase de reducir sin rechazar a tu servicio y ensáyala en voz alta cinco veces.",
+          "pronto": "dices la frase de memoria, sin pedir disculpas, y termina en una pregunta que le pide al cliente elegir una sola cosa."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Primera conversación con un cliente contactado en frío. ¿Qué pides al final?",
+          "opcoes": [
+            "El contrato largo a precio completo",
+            "Una entrega pequeña, rápida y barata, como un mini diagnóstico",
+            "Nada: esperas a que él vuelva"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Confianza cero pide el sí más pequeño. El contrato largo viene después de promesas cumplidas."
+        },
+        {
+          "p": "Para \"probar valor\", ofreces hacer el primer trabajo gratis. ¿Cuál es el problema?",
+          "opcoes": [
+            "Ninguno, es una inversión",
+            "El cliente no calibra lo que recibe, no lo prioriza y tú pierdes la referencia de precio",
+            "Solo el problema de perder dinero"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cobrar poco es distinto de no cobrar. Sin precio, la entrega no tiene peso en su agenda ni base para el segundo pedido."
+        },
+        {
+          "p": "El cliente empieza a pedir \"esto, y esto, y aquello\" ya en la primera entrega. ¿Qué hacer?",
+          "opcoes": [
+            "Aceptar todo para no perder la venta",
+            "Pedirle que elija una cosa y dejar las demás para la etapa dos",
+            "Rechazar al cliente"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Aceptar diez y entregar seis produce una excusa; elegir una y entregarla bien produce una prueba. \"Ahora no\" conserva la idea y crea la próxima conversación."
+        },
+        {
+          "p": "La satisfacción es la realidad dividida por la expectativa. ¿Qué controlas primero?",
+          "opcoes": [
+            "La realidad, trabajando más horas",
+            "La expectativa, prometiendo solo lo que cumples incluso en una semana mala",
+            "Ninguna de las dos"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Reducir la promesa es la forma más rápida de aumentar la satisfacción sin trabajar más. Cinco promesas pequeñas cumplidas valen más que una grande cumplida a medias."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "El sí es del tamaño de la confianza",
+          "texto": "En la primera llamada cierras el próximo paso, no el contrato."
+        },
+        {
+          "t": "Barato en relación con el valor",
+          "texto": "Por debajo del umbral de decisión, nunca en el \"demasiado bueno para ser verdad\"."
+        },
+        {
+          "t": "Un alcance pequeño protege a los dos",
+          "texto": "Los esqueletos aparecen trabajando, no conversando."
+        },
+        {
+          "t": "La escalera termina en el acompañamiento",
+          "texto": "Cada promesa cumplida compra el derecho de subir un nivel."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "confianca",
+  "num": 3,
+  "menu": "Confiança",
+  "titulo": "Confiança 101: a soma de micro-vendas",
+  "titulo_curto": "Confiança 101",
+  "minutos": 16,
+  "lead": "Um estranho que para você na rua com uma oferta ouve \"não\", e o \"não\" não é sobre o produto. É sobre a falta de histórico. Confiança não é simpatia: é um padrão de promessas cumpridas. Nesta aula você aprende a construí-la desde o primeiro minuto, sem forçar e sem mentir.",
+  "objetivo": "conduzir os primeiros minutos de uma conversa com calma, medir a temperatura e anunciar uma estrutura que termina num veredito honesto.",
+  "competencias": ["medir-temperatura-do-cliente", "abrir-conversa-com-estrutura", "criar-conexao-sem-mentir"],
+  "aprende": [
+    {"t": "Ver a venda como uma fila de pequenas vendas"},
+    {"t": "Medir a confiança pelo tamanho da resposta"},
+    {"t": "Criar conexão sem rapport fabricado"},
+    {"t": "Abrir a conversa com estrutura e promessa de veredito honesto"}
+  ],
+  "hero_alt": "Aperto de mão discreto entre duas pessoas no fim de uma reunião numa sala simples, com cadernos sobre a mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A fila de micro-vendas",
+      "sub": "Fechar contrato é só o último ponto de uma fila que começou muito antes. Clique em cada etapa.",
+      "nos": [
+        {"icone": "enviar", "titulo": "Assunto", "sub": "vende a abertura", "detalhe": "O assunto do e-mail tem um único trabalho: fazer a pessoa abrir. Se ninguém abriu, culpar \"o preço\" é olhar para o lugar errado."},
+        {"icone": "chat", "titulo": "Permissão", "sub": "vende a conversa", "detalhe": "Numa abordagem, pedir licença antes de apresentar já é uma venda em si."},
+        {"icone": "calendario", "titulo": "Comparecimento", "sub": "vende a presença", "detalhe": "Lembrete e um resumo curto antes da call existem para vender o comparecimento. Agendar e sumir até o dia é pedir a ausência."},
+        {"icone": "usuario", "titulo": "A call", "sub": "vende o primeiro sim", "forte": true, "detalhe": "Calma, estrutura anunciada, temperatura medida e um veredito honesto no fim, inclusive o de que você não pode ajudar."},
+        {"icone": "check", "titulo": "Primeiro sim", "sub": "pequeno", "detalhe": "Uma entrega pequena e cumprida no prazo. É o primeiro depósito de confiança. O contrato maior vem depois dele."}
+      ],
+      "legenda": "Olhe para as setas, não para as caixas: é entre uma etapa e outra que a maioria das vendas morre, cada uma por um motivo."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Os primeiros minutos",
+      "sub": "Quatro coisas que sustentam tudo o que vem depois.",
+      "passos": [
+        {"titulo": "Meça a temperatura", "sub": "pelo tamanho da resposta", "texto": ["Faça uma pergunta aberta, que não se responde com sim ou não, e meça o tamanho da resposta.", "Uma palavra (\"normal\") pede mais prova antes de perguntar mais. Um parágrafo com pergunta de volta libera você para aprofundar."], "exemplo": {"rot": "Pergunta aberta", "texto": "\"Como funciona o atendimento de vocês hoje?\""}},
+        {"titulo": "Conexão sem mentira", "sub": "o limite ético", "texto": ["Comente algo verdadeiro sobre o setor que você realmente estudou, ou um problema comum em empresas parecidas, e pergunte se acontece ali.", "Coincidência inventada e elogio decorado são percebidos. A partir daí, tudo o que você disser é filtrado como técnica de venda. Um vínculo verdadeiro e pequeno vale mais que um grande e falso."]},
+        {"titulo": "O básico da call", "sub": "câmera, horário, registro", "texto": ["Cinco minutos antes: câmera enquadrada, microfone testado, notificações caladas. Entre no horário, nem antes nem depois.", "Vista-se no registro do setor do cliente. Se ele não abre a câmera, você mantém a sua aberta e lê aquilo como temperatura baixa."]},
+        {"titulo": "Calma, não empolgação", "sub": "ninguém quer ser o primeiro", "texto": ["Se esta fosse a sua quarta reunião do dia, você estaria tranquilo. O cliente lê a tranquilidade como \"essa pessoa faz isso o tempo todo\".", "Educado, não animado. Voz estável. Ao falar do que anda fazendo, cite trabalho em andamento, mesmo que seja um piloto seu."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O banco de perguntas você roda uma vez por perfil de cliente. A abertura você ensaia até virar automática.",
+      "blocos": [
+        {"rot": "Prompt · banco de perguntas de temperatura", "icone": "chat", "conteudo": "Sou consultor e vendo <diagnóstico, revisão, acompanhamento ou ensino de IA>.\nMeu cliente ideal é <setor e porte da empresa>.\n\nEscreva 8 perguntas abertas para o começo de uma reunião com esse perfil.\nRegras: nenhuma pode ser respondida com sim ou não; 4 leves (contexto,\nrotina) e 4 que levem o cliente a descrever um problema operacional.\nPara cada pergunta, escreva o que uma resposta CURTA e o que uma resposta\nLONGA me dizem sobre o nível de confiança dele."},
+        {"rot": "Prompt · sua abertura em 60 segundos", "icone": "relogio", "conteudo": "Escreva a abertura falada de uma reunião de diagnóstico, com no máximo\n60 segundos de fala.\nContexto:\n- eu vendo <o serviço>\n- o cliente é <setor, porte e cargo de quem estará na call>\n- o contato veio de <prospecção ou indicação>\n\nA abertura precisa, nesta ordem:\n(1) cumprimentar em tom calmo, sem euforia;\n(2) anunciar a estrutura em quatro blocos: contexto, perguntas, o que temos,\n    veredito;\n(3) avisar que no final eu digo com honestidade se posso ou não ajudar, e\n    se não for comigo, quem procurar;\n(4) terminar com UMA pergunta aberta que meça a temperatura.\nTom: direto, sem jargão, sem superlativo. Devolva só o texto falado."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Faça antes da próxima conversa com cliente.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Banco de perguntas de temperatura", "min": "15 min", "texto": "Rode o prompt para o seu perfil de cliente da aula 2. Corte as perguntas que você não diria no cafezinho e guarde o resto numa nota que fica aberta durante a call.", "pronto": "você tem 8 perguntas abertas, nenhuma respondível com sim ou não, cada uma com a leitura da resposta curta e da longa."},
+        {"id": "e2", "titulo": "2 · Abertura de 60 segundos cronometrada", "min": "20 min", "texto": "Rode o prompt da abertura, ajuste para a sua boca e grave você falando. Assista sem som uma vez para ver postura e enquadramento, e com som para conferir o tom.", "pronto": "a abertura cabe em 60 segundos no cronômetro, anuncia os 4 blocos, promete o veredito honesto e termina numa pergunta aberta."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Você pergunta \"como funciona o atendimento de vocês hoje?\" e ouve \"normal\". O que isso indica?", "opcoes": ["Que o cliente não tem problema nenhum", "Que a confiança ainda é baixa e falta prova antes de perguntar mais", "Que é hora de dizer o preço para acelerar"], "certa": 1, "ref": "passos", "explica": "O termômetro é o tamanho da resposta. Uma palavra pede mais prova e mais contexto seu; não significa ausência de problema."},
+        {"p": "O prospecto nem abriu o seu primeiro e-mail. Onde está o problema?", "opcoes": ["No preço da proposta", "No assunto, que não vendeu a abertura", "No cliente, que não sabe o que perde"], "certa": 1, "ref": "diagrama", "explica": "Cada etapa da fila é uma venda separada. Culpar o preço quando a pessoa nem abriu a mensagem é consertar a etapa errada."},
+        {"p": "Para criar afinidade, você diz que tem \"um negócio igualzinho\" ao do cliente, o que não é verdade. Qual o risco?", "opcoes": ["Nenhum, é só quebra-gelo", "Começar a relação com uma mentira verificável; daí em diante tudo soa como técnica", "Só o risco de o cliente não gostar do seu negócio"], "certa": 1, "ref": "passos", "explica": "O limite é ético e prático: prospectos experientes reconhecem o padrão. Um vínculo verdadeiro e pequeno vale mais."},
+        {"p": "Por que prometer, na abertura, um veredito honesto, inclusive negativo?", "opcoes": ["Para parecer humilde", "Porque é o que separa uma reunião de diagnóstico de uma apresentação de vendas", "Para ter uma desculpa se a venda não sair"], "certa": 1, "ref": "codigo", "explica": "Estrutura sinaliza experiência, e a promessa de dizer \"não posso ajudar\" quando for o caso é o sinal mais forte de que você vende confiança, não qualquer coisa."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Confiança é histórico", "texto": "Promessas cumpridas, não simpatia. Sem histórico, o cliente só compra preço baixo."},
+        {"t": "Venda é uma fila", "texto": "Cada etapa falha por um motivo próprio; conserte a certa."},
+        {"t": "Temperatura", "texto": "O tamanho da resposta a uma pergunta aberta diz quanta confiança já existe."},
+        {"t": "Calma e estrutura", "texto": "Anuncie a conversa e prometa um veredito honesto."}
+      ]
+    }
+  ]
+}

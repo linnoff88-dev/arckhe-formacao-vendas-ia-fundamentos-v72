@@ -1,0 +1,124 @@
+{
+  "slug": "plano-30-dias",
+  "num": 8,
+  "menu": "30 dias",
+  "titulo": "Plano de 30 dias: um serviço de confiança entregue",
+  "titulo_curto": "Plano de 30 dias",
+  "minutos": 18,
+  "lead": "A meta destes 30 dias não é um contrato grande. É um sim pequeno: alguém que não te conhecia paga pouco por um primeiro diagnóstico, revisão ou sessão de ensino, você entrega no prazo e manda um relatório de uma página. Contrato maior é consequência dos meses seguintes, não do primeiro.",
+  "objetivo": "montar um plano de 30 dias com uma meta só: um sim pequeno entregue no prazo, com relatório de uma página.",
+  "competencias": ["planejar-30-dias", "medir-o-funil-semanal", "transformar-entrega-em-acompanhamento"],
+  "aprende": [
+    {"t": "Escrever o critério de sucesso dos 30 dias"},
+    {"t": "Encadear as quatro semanas"},
+    {"t": "Medir cinco números toda sexta"},
+    {"t": "Gerar o seu plano com datas"}
+  ],
+  "hero_alt": "Calendário de papel numa parede de cortiça com alguns dias marcados à mão.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "As quatro semanas e o loop",
+      "sub": "Cada semana só existe porque a anterior aconteceu. Clique em cada uma.",
+      "volta": "loop de confiança: promessa → entrega → escopo maior",
+      "nos": [
+        {"icone": "check", "titulo": "Semana 1", "sub": "provar", "detalhe": "Escolha um serviço só (diagnóstico, revisão ou ensino), faça em três negócios diferentes do mesmo setor e coloque gente real para usar ou ler. Guarde prints e números."},
+        {"icone": "lista", "titulo": "Semana 2", "sub": "contatar", "detalhe": "Uma lista do seu perfil de cliente, com o nome de quem decide, e uma meta diária de contatos cumprida mesmo nos dias ruins. Contato feito vale mais que linha na planilha."},
+        {"icone": "chat", "titulo": "Semana 3", "sub": "conversar e fechar", "detalhe": "Calls com estrutura, temperatura medida, três fios e a oferta pequena nascida do fio que o cliente puxou. Toda call termina com a próxima marcada."},
+        {"icone": "arquivo", "titulo": "Semana 4", "sub": "entregar e relatar", "forte": true, "detalhe": "Entregue antes do prazo, mostre o resultado em número no relatório de uma página, liste o que você descobriu por dentro e proponha o próximo degrau: o acompanhamento."}
+      ],
+      "legenda": "Do mês 2 em diante você não recomeça: gira o ciclo, e cada volta deixa uma prova para trás."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O critério e os números",
+      "sub": "Meça o que você controla.",
+      "passos": [
+        {"titulo": "O critério de sucesso", "sub": "quatro frases", "texto": ["No dia 30 você atingiu a meta se consegue dizer, sem inventar: fiz o serviço que vendo e três pessoas reais usaram ou leram; falei com empresas do meu perfil; conduzi calls de diagnóstico com quem decide; fechei um sim pequeno e entreguei no prazo, com relatório.", "\"Me sentir pronto\" não entra: não é medível e nunca chega."]},
+        {"titulo": "Cinco números toda sexta", "sub": "onde o funil entope", "texto": ["Contatos feitos, respostas, calls, ofertas e sins. Como referência de atividade para quem tem cerca de 2 horas por dia: 50 contatos, 2 calls e 2 ofertas por semana. Não é previsão de resultado; adapte ao seu mercado e ao seu tempo.", "Contatos e ofertas dependem de você. Sins dependem do cliente. Cobre-se pelos primeiros, comemore os segundos."]},
+        {"titulo": "Leia o número que travou", "sub": "uma etapa por vez", "texto": ["Poucos contatos: problema de agenda, bloqueie horário fixo. Poucas respostas: a abordagem fala de você, não do problema dele.", "Poucas calls: você não oferece horário na hora. Poucas ofertas: está diagnosticando sem propor. Nenhum sim: o primeiro pedido ainda está grande demais para a confiança que existe."]},
+        {"titulo": "O erro do mês 2", "sub": "parar de procurar", "texto": ["Fechar o primeiro cliente e parar de contatar. Quando o trabalho termina, você volta ao zero e perdeu o ritmo.", "Mantenha a meta de contatos mesmo na semana em que estiver entregando, e transforme cada entrega em assunto publicado."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O plano você roda uma vez. A revisão, toda sexta.",
+      "blocos": [
+        {"rot": "Prompt · seu plano de 30 dias", "icone": "calendario", "conteudo": "Você é meu diretor comercial. Vou vender <diagnóstico / revisão /\nacompanhamento / ensino de IA> para <perfil de cliente: setor, porte, cidade>.\n\nMonte meu plano de 30 dias em 4 semanas, com no máximo 3 tarefas por dia\nútil e o tempo estimado de cada uma. Regras:\n1. Semana 1: fazer o serviço em 3 negócios diferentes e colocar 3 pessoas\n   para usar ou ler.\n2. Semana 2: montar a lista com o nome de quem decide e fazer o primeiro\n   contato, com meta diária.\n3. Semana 3: conduzir calls de diagnóstico e fechar um primeiro trabalho\n   pequeno.\n4. Semana 4: entregar, mandar o relatório de uma página e propor o\n   acompanhamento.\nPara cada semana, 1 número que prova que ela deu certo. Devolva em tabela.\nMeu tempo por dia: <ex.: 2 horas>. Não invente estatística de mercado."},
+        {"rot": "Prompt · revisão de sexta-feira", "icone": "grafico", "conteudo": "Faça a revisão da minha semana. Os números:\n- contatos feitos: <n>\n- respostas recebidas: <n>\n- calls realizadas: <n>\n- ofertas feitas: <n>\n- sins fechados: <n>\n\n1. Calcule a taxa de conversão entre cada etapa.\n2. Aponte a ÚNICA etapa mais entupida e explique por quê.\n3. Proponha 3 ações concretas para a próxima semana, só para essa etapa.\n4. Diga qual número eu persigo na semana que vem e qual eu ignoro.\nSeja direto e não elogie os números."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "O plano com datas sai do gerador no fim da aula.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Plano de 30 dias com datas", "min": "20 min", "texto": "Rode o prompt do plano com o seu tempo real e depois gere o plano datado no fim desta aula. Importe o .ics no seu calendário.", "pronto": "o plano está em tabela, com no máximo 3 tarefas por dia e um número de sucesso por semana, e as datas estão no seu calendário."},
+        {"id": "e2", "titulo": "2 · Primeira revisão de sexta", "min": "15 min", "dias": "toda sexta", "texto": "No fim da primeira semana, anote os cinco números e rode a revisão de sexta.", "pronto": "a revisão aponta uma única etapa como gargalo, com 3 ações para ela, e você marcou qual número vai perseguir na semana seguinte."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Fim da semana 2: 300 empresas na planilha e nenhuma conversa. O que isso indica?", "opcoes": ["Ótimo progresso: lista grande é a base de tudo", "A semana virou preparação; a meta é contato feito, não linha na planilha", "O perfil de cliente está errado"], "certa": 1, "ref": "diagrama", "explica": "A tentação da semana 2 é aumentar a lista em vez de falar com ela. Se a lista cresceu e as conversas são zero, a semana foi um esconderijo."},
+        {"p": "Qual destas é uma boa meta para os 30 dias?", "opcoes": ["Fechar um contrato grande no primeiro mês", "Um sim pequeno entregue no prazo, com relatório de uma página", "Deixar o serviço perfeito antes de falar com alguém"], "certa": 1, "ref": "passos", "explica": "A meta é medível e depende de você. Contrato grande é consequência de promessas cumpridas, não do mês 1."},
+        {"p": "Você fez muitos contatos e calls, mas nenhuma oferta. Onde está o gargalo?", "opcoes": ["Na lista", "Você está diagnosticando sem propor; faça a oferta pequena na própria call", "No preço"], "certa": 1, "ref": "passos", "explica": "Cada número travado aponta uma etapa. Calls sem oferta significam que o primeiro sim não está sendo pedido."},
+        {"p": "Na semana 4, o que transforma a entrega pequena no próximo degrau?", "opcoes": ["Acrescentar de graça tudo o que o cliente pediu no caminho", "O relatório com o resultado em número, o que você viu por dentro e a proposta de acompanhamento", "Entregar e esperar ele perceber o valor"], "certa": 1, "ref": "mapa", "explica": "Se o cliente não sabe o que aconteceu, para ele não aconteceu. O relatório de uma página leva a decisão; o que você viu por dentro vira a próxima proposta."}
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "O mapa do curso",
+      "sub": "As quatro provas que você junta em 30 dias. Clique num exercício para ver o \"pronto quando\".",
+      "degraus": [
+        {"aula": "impostor", "icone": "check", "quando": "Semana 1", "titulo": "Provar", "sub": "O serviço feito três vezes", "saida": "Inventário de prova e uma conversa marcada.", "passo": "A base de tudo: fazer o serviço que você vende e registrar. Sem prova própria, o resto é discurso."},
+        {"aula": "identidade", "icone": "alvo", "quando": "Semana 2", "titulo": "Apresentar-se", "sub": "Perfil, frase e limite", "saida": "Frase de dez segundos e frase de limite.", "passo": "Requer a prova. Diga quem você ajuda, o que muda, o que você não faz e quando chama um especialista."},
+        {"aula": "objecoes", "icone": "chat", "quando": "Semana 3", "titulo": "Fechar", "sub": "Conta, escopo e data", "saida": "Frase de preço e conversa simulada no máximo.", "passo": "Requer a identidade. Meça o problema, peça o menor sim, reduza escopo em vez de dar desconto e saia com data."},
+        {"aula": "posicionamento-prova", "icone": "arquivo", "quando": "Semana 4", "titulo": "Relatar", "sub": "Um caso e uma página", "saida": "Relatório de uma página entregue.", "passo": "Requer a entrega. O relatório é a prova que fica e abre a conversa do acompanhamento."}
+      ],
+      "resultado": {"titulo": "Ao final do curso", "texto": "Você tem prova própria, uma identidade que diz o que sabe e o que não sabe, um primeiro sim entregue e um relatório que o cliente confere sozinho.", "total": "16 exercícios"},
+      "rolagem_fim": {"titulo": "O loop de confiança", "texto": "Promessa cumprida vira confiança, confiança vira escopo maior, e o ciclo recomeça mais alto. As aulas 3, 5, 7 e 8 entram no plano gerado abaixo."},
+      "legenda": "Confiança (aula 3), fechamento sem forçar (aula 5), roteiros (aula 7) e o plano (aula 8) entram no plano com datas."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Gere o seu plano com datas",
+      "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano inclui os 16 exercícios do curso.",
+      "curso": "Vendas com IA 3 · Fundamentos de Vender IA",
+      "horas_padrao": 5,
+      "degraus": [
+        {"titulo": "Aula 1 · Síndrome do impostor", "aula": "impostor"},
+        {"titulo": "Aula 2 · Identidade", "aula": "identidade"},
+        {"titulo": "Aula 3 · Confiança 101", "aula": "confianca"},
+        {"titulo": "Aula 4 · Posicionamento e prova", "aula": "posicionamento-prova"},
+        {"titulo": "Aula 5 · Fechar sem forçar", "aula": "fechar-sem-forcar"},
+        {"titulo": "Aula 6 · Objeções", "aula": "objecoes"},
+        {"titulo": "Aula 7 · Roteiros", "aula": "roteiros"},
+        {"titulo": "Aula 8 · Plano de 30 dias", "aula": "plano-30-dias"}
+      ],
+      "txt": {"titulo": "Plano — Vendas com IA 3 · Fundamentos de Vender IA", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e a regra que criei", "h": "h por semana", "exs": "exercícios"}
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Meta única", "texto": "Um sim pequeno em 30 dias, entregue no prazo, com relatório."},
+        {"t": "Quatro semanas encadeadas", "texto": "Provar, contatar, conversar e fechar, entregar e relatar."},
+        {"t": "Cinco números", "texto": "Contatos, respostas, calls, ofertas e sins mostram onde o funil trava."},
+        {"t": "O loop", "texto": "Promessa cumprida vira confiança, e confiança vira acompanhamento."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Próximo na ordem sugerida: curso 2, Playbook de Consultoria", "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/", "icone": "seta"},
+        {"t": "Lista e prospecção em detalhe: curso 4, Do Zero ao Primeiro Cliente", "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/", "icone": "seta"},
+        {"t": "Os quatro papéis do Profissional 2030", "href": "https://eventos.inema.pro/prof2030/", "icone": "seta"}
+      ]
+    }
+  ]
+}

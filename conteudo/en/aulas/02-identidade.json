@@ -1,0 +1,234 @@
+{
+  "slug": "identidade",
+  "num": 2,
+  "menu": "Identity",
+  "titulo": "Identity: the trusted advisor",
+  "titulo_curto": "Identity",
+  "minutos": 17,
+  "lead": "Nobody wakes up wanting an agent, an automation or an audit. People want to stop losing customers and get out from under their email. Whoever sells AI in 2030 sells that outcome, and sells it with a clear identity: someone who says what they know, what they don't know and when to call a specialist.",
+  "objetivo": "write who you help, the result you deliver, what you don't do and when you call a specialist, in a ten-second sentence.",
+  "competencias": [
+    "traduzir-tecnologia-em-resultado",
+    "definir-perfil-de-cliente",
+    "declarar-limites"
+  ],
+  "aprende": [
+    {
+      "t": "Translate what you do into a result for the customer"
+    },
+    {
+      "t": "Know which of the two doors the conversation started at"
+    },
+    {
+      "t": "Write the ideal customer profile with a cutoff"
+    },
+    {
+      "t": "Build the introduction sentence and the limit sentence"
+    }
+  ],
+  "hero_alt": "A consultant standing in a small woodworking shop listens calmly to the owner, holding a closed notebook.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The pieces of your identity",
+      "sub": "Five pieces, one sentence at the end. Click each one.",
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Who",
+          "sub": "ideal customer profile",
+          "detalhe": "Industry, size, region, who decides and what pain. It's not \"who I'll agree to serve\": it's who I want to go find. The cutoff is always available money and direct access to whoever signs."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Result",
+          "sub": "the after",
+          "detalhe": "\"Voice agent that answers calls\" becomes \"you stop losing the customer who calls and isn't answered.\" The tool is just the path."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Customer's fear",
+          "sub": "the objection, anticipated",
+          "detalhe": "Switching systems, firing people, being locked in. Saying the \"without\" in the sentence answers the fear before it becomes an objection."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Limits",
+          "sub": "what I don't do",
+          "forte": true,
+          "detalhe": "The trusted advisor can say \"I don't do that\" without apologizing, and knows when to call a specialist: legal opinion, penetration testing, incident response, changes to the IT system."
+        },
+        {
+          "icone": "chat",
+          "titulo": "The sentence",
+          "sub": "ten seconds",
+          "detalhe": "\"I help WHO get RESULT without PAIN.\" Followed, when it fits, by the limit sentence: \"I don't do X; when it comes up, I refer you to someone who does.\""
+        }
+      ],
+      "legenda": "Your ability to charge depends far more on how much people trust you than on how complex what you deliver is."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Where trust comes from in the first minute",
+      "sub": "The same meeting starts with opposite trust balances.",
+      "passos": [
+        {
+          "titulo": "The two doors",
+          "sub": "you go or they come",
+          "texto": [
+            "Either you go to the customer (prospecting), or they come to you (content, referral).",
+            "If you were the one who reached out, the first goal is to earn the right to ask questions. If they came to you, it's to quickly understand what they've already decided they want."
+          ],
+          "exemplo": {
+            "rot": "Before every meeting",
+            "texto": "Write at the top of your notes: \"I went\" or \"they came.\""
+          }
+        },
+        {
+          "titulo": "Authority",
+          "sub": "people who search already trust you",
+          "texto": [
+            "Someone looking for a doctor doesn't ask for proof: they describe the symptom and follow the prescription. People who find you through your content start from that position.",
+            "If you are the one making the call, there is default distrust, and it is healthy. Spend the first minutes showing concrete work, not credentials. If someone referred you, mention the referral early."
+          ]
+        },
+        {
+          "titulo": "Content compounds",
+          "sub": "prospecting doesn't",
+          "texto": [
+            "Prospecting is a faucet: turn it off and it stops. Content is compound interest: it takes months to pay off, and then it keeps paying.",
+            "At the start, about 80% prospecting and 20% content. Every job you deliver becomes a published topic, and the balance tips over time."
+          ],
+          "exemplo": {
+            "rot": "Heads up",
+            "texto": "It's common for your first posts to bring in no clients at all. Betting only on them, without a routine, leads to quitting before the curve turns."
+          }
+        },
+        {
+          "titulo": "Specific becomes a signal",
+          "sub": "generic becomes noise",
+          "texto": [
+            "Your client's inbox is full. You stand out by being specific to one type of company, not by being cheaper.",
+            "Defining a profile feels like turning down money. It is, and that is exactly why it works: the profile decides where your hours go."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Run them in order: the profile first, then the sentence. You write the boundary statement by hand.",
+      "blocos": [
+        {
+          "rot": "Prompt · your ideal customer profile",
+          "icone": "alvo",
+          "conteudo": "Act as a sales strategist. I want you to write my ideal customer\nprofile.\n\nThe service I deliver: <diagnose / review / advise on an ongoing basis / teach + the result>\nIndustries where I have worked or that I know well: <2 to 4>\nRegion where I can serve clients: <city, state or country>\nAmount I need to charge to make it worthwhile: <amount>\n\nDeliver:\n1. Three candidate profiles, each with industry, company size, revenue range,\n   who makes the buying decision and the main pain point.\n2. For each profile, the cutoff test: why smaller companies don't have\n   the budget and why larger companies hide who makes the decision.\n3. Recommend ONE profile and justify it in 3 lines.\n4. Five questions I can ask in a conversation to confirm whether the company\n   in front of me fits this profile.\nDon't invent market numbers: where data is missing, write \"to check\"."
+        },
+        {
+          "rot": "Prompt · your sentence in three versions",
+          "icone": "caneta",
+          "conteudo": "You are a copywriter specialized in positioning. Write my introduction\nsentence in the format: \"I help WHO achieve RESULT without PAIN.\"\n\nMy ideal customer profile: <paste the profile>\nThe service I deliver: <diagnosis, review, ongoing advisory, teaching>\nThe result in money or time: <what the client gains or stops losing>\nThe most common fear of this client: <switching systems, laying people off, being held hostage>\n\nRules:\n- Forbidden to use \"artificial intelligence\", \"solution\" and \"innovative\".\n- Maximum of 20 words.\n- Language the company owner would use, not technical language.\nDeliver 3 versions and say which one an owner would repeat to their partner."
+        },
+        {
+          "rot": "Template · boundary statement",
+          "icone": "escudo",
+          "conteudo": "WHAT I DO\nI help <who> achieve <result> without <pain>.\n\nWHAT I DON'T DO (and I say it without apologizing)\n- <e.g., I don't give legal opinions>\n- <e.g., I don't do penetration testing or incident response>\n- <e.g., I don't touch the IT system without IT in the room>\n\nWHEN I CALL A SPECIALIST\n- If <situation> comes up, I refer a <type of professional> and I help manage the handoff.\n\nSENTENCE TO SAY OUT LOUD\n\"I don't do that. When it comes up, I refer you to who does and I keep taking care of the part that is mine.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Both come out of this lesson and come back in every other one.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Ideal customer profile with a cutoff",
+          "min": "20 min",
+          "texto": "Run the profile prompt with your real details and choose one profile. Write the five confirmation questions in the same file.",
+          "pronto": "the chosen profile has a company size or revenue range, the job title of the decision-maker and the 5 questions; \"companies that want to innovate\" does not appear."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Introduction sentence and boundary statement",
+          "min": "20 min",
+          "texto": "Run the sentence prompt, choose one version and complete the boundary template with at least two \"I don't do\" items and one \"I call a specialist\" case. Read everything out loud.",
+          "pronto": "the sentence has up to 20 words, you can say it from memory without explaining afterward, and the boundary statement names at least 2 things you don't do."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which of these introductions sells best?",
+          "opcoes": [
+            "\"I work with artificial intelligence.\"",
+            "\"I help renovation companies answer every quote the same day without the owner staying up all night at the computer.\"",
+            "\"I use the newest model with an agent architecture.\""
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The client buys the after. A good sentence has who, result and the fear answered, with no acronyms. A tool name in the first sentence pushes people away."
+        },
+        {
+          "p": "The client asks for an opinion on whether their use of data is within the law. You are not a lawyer. What does the trusted advisor do?",
+          "opcoes": [
+            "Gives a safe-sounding opinion so as not to lose the client",
+            "Says they don't do that, refers someone who does and keeps taking care of the part that is theirs",
+            "Changes the subject"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Saying what you don't know and when to call a specialist is what separates those who sell trust from those who sell anything. Declining without apologizing also signals that you have judgment."
+        },
+        {
+          "p": "You are just starting out, with no clients and nothing published. Which split of effort makes sense?",
+          "opcoes": [
+            "100% content, because content compounds",
+            "About 80% prospecting and 20% content, flipping over time",
+            "100% prospecting and never publishing"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Prospecting pays the bills and creates topics to talk about. Content takes months to pay off; on its own, without income, it usually leads to quitting before the curve turns."
+        },
+        {
+          "p": "Why does defining an ideal customer profile with a cutoff work?",
+          "opcoes": [
+            "Because it stops you from serving every exception",
+            "Because it decides where your prospecting hours go and makes your message specific",
+            "Because big companies always pay more"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Without a cutoff, you talk to everyone the same way and convince no one. The profile doesn't forbid exceptions; it guides your effort."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Result, not technology",
+          "texto": "The client buys the after; the tool is just the path."
+        },
+        {
+          "t": "Two doors, two games",
+          "texto": "Whoever comes looking already trusts you; whoever you approach has to earn the right to ask."
+        },
+        {
+          "t": "Profile with a cutoff",
+          "texto": "Money available and direct access to whoever signs."
+        },
+        {
+          "t": "Sentence and limit",
+          "texto": "Who you help, what changes, what you don't do, and when you call in a specialist."
+        }
+      ]
+    }
+  ]
+}

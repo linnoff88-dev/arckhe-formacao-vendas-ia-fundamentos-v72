@@ -1,0 +1,84 @@
+{
+  "slug": "posicionamento-prova",
+  "num": 4,
+  "menu": "Prova",
+  "titulo": "Posicionamento e prova: um caso e uma página",
+  "titulo_curto": "Posicionamento e prova",
+  "minutos": 17,
+  "lead": "Existe o que aconteceu e existe o que o cliente viu acontecer. Só a segunda versão entra na decisão. Seu esforço invisível não é prova. Nesta aula a prova vira duas coisas concretas: um caso real, contado sem exagero, e um relatório de uma página que o cliente consegue conferir sozinho.",
+  "objetivo": "transformar um trabalho feito num caso real e num relatório de uma página que o cliente consegue conferir.",
+  "competencias": ["comunicar-trabalho-feito", "escrever-relatorio-de-uma-pagina", "provar-sem-inventar"],
+  "aprende": [
+    {"t": "Fazer o trabalho atravessar para o lado que o cliente vê"},
+    {"t": "Oferecer fios e deixar o cliente puxar"},
+    {"t": "Provar quando você ainda não tem casos"},
+    {"t": "Escrever o relatório de uma página"}
+  ],
+  "hero_alt": "Uma folha única de relatório sobre uma mesa escura, com uma mão apontando um gráfico simples de barras.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Do trabalho invisível à prova",
+      "sub": "Tudo o que não atravessa para o lado do cliente não participa da decisão. Clique em cada etapa.",
+      "nos": [
+        {"icone": "camadas", "titulo": "Trabalho feito", "sub": "invisível", "detalhe": "Você ajustou um processo no sábado, corrigiu um erro antes de virar problema. Se nada disso chegou ao cliente, o efeito comercial é zero, o mesmo de não ter feito."},
+        {"icone": "enviar", "titulo": "Comunicar no mesmo dia", "sub": "3 a 5 linhas", "detalhe": "O que mudou, o que isso evita, qual o próximo passo e quando. Curto o bastante para ler no celular entre dois compromissos."},
+        {"icone": "grafico", "titulo": "Registrar o efeito", "sub": "antes → depois", "detalhe": "Guarde o número antes e o número depois. Se ainda não tem, escreva \"ainda medindo\". Ninguém perdeu contrato por isso."},
+        {"icone": "pasta", "titulo": "Caso real", "sub": "específico", "detalhe": "Um diagnóstico, uma revisão ou uma sessão de ensino que você fez, contado com o detalhe que só quem fez sabe. Sem citar a empresa se ela não autorizou."},
+        {"icone": "arquivo", "titulo": "Relatório de uma página", "sub": "a prova que fica", "forte": true, "detalhe": "O que foi feito, o efeito em número (ou \"ainda medindo\"), o que ficou de fora e por quê, o risco ou limite, e o próximo passo com data. Cabe numa página e o cliente confere sozinho."}
+      ],
+      "legenda": "Sem exagero e sem invenção: o trabalho é comunicar o que é verdade."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Como a percepção se forma",
+      "sub": "Quatro ideias para a próxima conversa.",
+      "passos": [
+        {"titulo": "A noite que não existiu", "sub": "realidade percebida", "texto": ["Um funcionário vira a noite resolvendo um problema e sai às 6h59. O chefe chega às 7h00. Na percepção do chefe, ele saiu às 17h como todo mundo.", "Com cliente é igual: o fim de semana que você passou na solução dele não aconteceu se ele não recebeu nenhum sinal."]},
+        {"titulo": "Fios", "sub": "deixe o cliente puxar", "texto": ["Em vez de apresentar vinte minutos, diga uma frase com três aberturas e pare. Ele atravessa uma porta; ela é o problema real dele.", "Fale só do fio puxado. Os outros dois você esquece."], "exemplo": {"rot": "Três fios numa frase", "texto": "\"A gente mapeia onde o atendimento perde cliente, revisa o que a equipe já usa de IA e treina o time para usar com segurança.\""}},
+        {"titulo": "Fale para ele falar", "sub": "a proporção muda", "texto": ["No começo você fala mais. No meio, equilíbrio. No final, ele fala muito mais que você.", "Anote as palavras exatas que ele usa para o problema e use essas palavras no relatório e na proposta."]},
+        {"titulo": "Prova sem casos", "sub": "a linha que não se atravessa", "texto": ["Sem cliente para mostrar, fale do que você está fazendo agora, com detalhe específico. Detalhe é impossível de improvisar, por isso convence.", "Inventar cliente, número, percentual ou depoimento é fraude. Basta uma pergunta de acompanhamento para a história cair, e aí você perde a reputação, não só a venda."], "exemplo": {"rot": "Prova honesta", "texto": "Fazer um diagnóstico gratuito e falar do que encontrou, sem citar a empresa."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O relatório é a prova que fica. A atualização de sexta mantém o trabalho visível toda semana.",
+      "blocos": [
+        {"rot": "Relatório de uma página", "icone": "arquivo", "conteudo": "RELATÓRIO · <serviço: diagnóstico / revisão / acompanhamento / ensino>\n<empresa ou \"empresa do setor X\" se não houver autorização> · <data>\n\n1. O PROBLEMA, nas palavras do cliente\n   \"<frase exata que ele usou>\"\n\n2. O QUE FOI FEITO\n   - <item>\n   - <item>\n\n3. EFEITO\n   antes: <número>   depois: <número>   (ou: ainda medindo, até <data>)\n\n4. O QUE FICOU DE FORA E POR QUÊ\n   - <item> · <motivo: fora do escopo / precisa de especialista / precisa da TI>\n\n5. RISCO OU LIMITE QUE O CLIENTE PRECISA SABER\n   - <item>\n\n6. PRÓXIMO PASSO\n   <o quê> · <quem> · até <data>"},
+        {"rot": "Atualização de sexta-feira", "icone": "enviar", "conteudo": "Assunto: <nome do trabalho> · o que andou esta semana\n\nOi <nome>, resumo rápido:\n- Feito: <o que mudou, em linguagem de resultado>\n- Efeito: <número antes → número depois, ou \"ainda medindo\">\n- Próximo: <o próximo passo>, até <data>\n- Preciso de você: <nada, ou o item que depende dele>"},
+        {"rot": "Prompt · seus três fios da semana", "icone": "chat", "conteudo": "Você é meu editor comercial. Abaixo estão as minhas anotações do que eu\nfiz nesta semana:\n<em tópicos: o que diagnostiquei, revisei, acompanhei ou ensinei; o que\nquebrou; o que aprendi>\n\n1) Escreva 3 \"fios\": frases de no máximo 12 palavras, cada uma\n   descrevendo UM resultado para o cliente (resultado, não tecnologia).\n   Elas precisam caber numa mesma fala, separadas por vírgula.\n2) Para cada fio, a pergunta que um cliente faria se aquele fosse o\n   problema dele.\nRegra: só fatos que estão nas minhas anotações, sem adjetivo de propaganda."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Use um trabalho que você já fez, inclusive o do plano de 7 dias da aula 1.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Seu primeiro relatório de uma página", "min": "30 min", "texto": "Escolha um diagnóstico, revisão ou sessão de ensino que você fez (pode ser sem cobrar). Preencha o relatório com o que é verdade. Se a empresa não autorizou citar o nome, troque por \"empresa do setor X\".", "pronto": "o relatório cabe em uma página, tem número antes e depois ou \"ainda medindo\" com data, lista pelo menos 1 item que ficou de fora e não tem nenhuma frase que você não consiga comprovar hoje."},
+        {"id": "e2", "titulo": "2 · Três fios e quatro sextas", "min": "15 min", "dias": "4 semanas", "texto": "Rode o prompt dos fios com as anotações desta semana. Se você tem um cliente ou alguém acompanhando o seu trabalho, mande a atualização de sexta por quatro semanas seguidas.", "pronto": "você tem 3 fios que falam de resultado, nenhum começando com nome de ferramenta, e a primeira atualização de sexta foi enviada."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Você abriu três fios e o cliente perguntou sobre apenas um. O que fazer?", "opcoes": ["Explicar os três, para ele ver tudo o que você faz", "Focar só no fio que ele puxou: é o problema real dele", "Abrir mais três fios para aumentar as chances"], "certa": 1, "ref": "passos", "explica": "O fio puxado é a dor que ele já tentava resolver sozinho. Insistir nos outros é voltar a apresentar sem saber o que ele quer ouvir."},
+        {"p": "O cliente pergunta quanto o seu diagnóstico economizou. Você ainda não mediu. O que dizer?", "opcoes": ["Arredondar um percentual que parece razoável", "\"Ainda estou medindo; trago o número até tal data\"", "Citar o resultado de outra empresa como se fosse dele"], "certa": 1, "ref": "diagrama", "explica": "Número inventado é dívida que vence na primeira pergunta de acompanhamento. \"Ainda medindo\", com data, é prova de método."},
+        {"p": "Qual item NÃO pode faltar no relatório de uma página?", "opcoes": ["A lista de ferramentas usadas", "O que ficou de fora e por quê, com o próximo passo e a data", "Um depoimento elogioso"], "certa": 1, "ref": "codigo", "explica": "O que ficou de fora (e quando chamar um especialista) é o que mostra que você diz o que sabe e o que não sabe. Ferramenta não decide nada para o executivo."},
+        {"p": "Você corrigiu um erro no processo do cliente no sábado e não contou. Qual o efeito comercial?", "opcoes": ["Grande: o cliente vai perceber a melhora", "Zero: se ele não sabe, para ele não aconteceu", "Negativo: ele vai achar que você trabalha demais"], "certa": 1, "ref": "diagrama", "explica": "Trabalho invisível não constrói confiança. Comunique no mesmo dia em poucas linhas e registre o efeito."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Só a percepção decide", "texto": "O que o cliente não vê não entrou na conta dele."},
+        {"t": "Fios, não apresentação", "texto": "O fio puxado é a dor real; fale só dele."},
+        {"t": "Comunique tudo, invente nada", "texto": "Trabalho em andamento é prova honesta; número falso é dívida."},
+        {"t": "Um caso e uma página", "texto": "Feito, efeito, o que ficou de fora, risco e próximo passo."}
+      ]
+    }
+  ]
+}

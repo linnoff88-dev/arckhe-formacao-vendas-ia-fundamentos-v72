@@ -1,0 +1,253 @@
+{
+  "slug": "roteiros",
+  "num": 7,
+  "menu": "Guiones",
+  "titulo": "Guiones: estructura, no texto",
+  "titulo_curto": "Guiones",
+  "minutos": 16,
+  "lead": "Un guion no existe para leerse en voz alta. Existe para dar estructura, y la estructura hace que el otro lado sienta que ya lo has hecho muchas veces. Aquí están las frases de la llamada de diagnóstico, de las preguntas, del precio y del límite honesto, listas para que las adaptes a tu forma de hablar.",
+  "objetivo": "adaptar guiones de apertura, preguntas, precio y límite honesto a tu voz y leerlos en voz alta sin trabarte.",
+  "competencias": [
+    "usar-roteiro-como-estrutura",
+    "perguntar-dor-e-decisao",
+    "dar-veredito-honesto"
+  ],
+  "aprende": [
+    {
+      "t": "Adaptar un guion sin memorizarlo"
+    },
+    {
+      "t": "Abrir la conversación con estructura y tres hilos"
+    },
+    {
+      "t": "Separar preguntas de temperatura, de dolor y de decisión"
+    },
+    {
+      "t": "Decir el precio y decir lo que no haces"
+    }
+  ],
+  "hero_alt": "Profesional habla por teléfono de forma relajada, con una hoja de guion escrito a mano frente a él.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El arco de la conversación",
+      "sub": "Solo hablas en los primeros bloques. De la mitad en adelante, el trabajo es escuchar. Haz clic en cada bloque.",
+      "nos": [
+        {
+          "icone": "chat",
+          "titulo": "Apertura",
+          "sub": "calma",
+          "detalhe": "\"Hola, ¿todo bien? ¿Cómo estuvo el día por allá?\" Cámara encendida, tono de quien ya lo ha hecho muchas veces."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Estructura",
+          "sub": "cómo va a ser",
+          "detalhe": "Te cuento rapidito lo que hago, te pregunto cómo funciona por allá, y al final te digo con sinceridad si tengo algo que ayude o no."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Tres hilos",
+          "sub": "y silencio",
+          "detalhe": "Un trabajo real que estás haciendo, sin detalle técnico, y tres frentes en los que entras. Después, dos segundos de silencio para que elija el hilo."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Preguntas",
+          "sub": "temperatura, dolor, decisión",
+          "detalhe": "La temperatura mide la confianza por el tamaño de la respuesta. El dolor mide cuánto cuesta el problema. La decisión muestra quién más necesita estar de acuerdo."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Precio y próximo paso",
+          "sub": "en el mismo aliento",
+          "detalhe": "Amarra el precio al número del cliente, di el valor sin ceremonia, une el pago y el plazo y ofrece dos fechas."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Veredicto honesto",
+          "sub": "incluso el no",
+          "forte": true,
+          "detalhe": "Si no es contigo, dilo e indica quién lo hace. Si todo está redondo, di que no se toque nada. Eso es lo que separa a quien vende confianza de quien vende cualquier cosa."
+        }
+      ],
+      "legenda": "El guion es estructura: cambia las palabras, mantén el orden y la intención de cada bloque."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo usar un guion",
+      "sub": "Qué hacer y qué evitar.",
+      "passos": [
+        {
+          "titulo": "Adapta, no memorices",
+          "sub": "léelo en voz alta una vez",
+          "texto": [
+            "Reescribe cada línea con tus palabras, manteniendo el orden de los pasos. Cambia el sector del ejemplo por tu perfil de cliente ideal.",
+            "Toda frase que se te trabe en la boca, cámbiala. Un guion que no puedes decir con naturalidad es peor que ninguno."
+          ]
+        },
+        {
+          "titulo": "Acompaña la conversación",
+          "sub": "no el papel",
+          "texto": [
+            "Si el cliente cambió de tema, sigue al cliente. El guion sirve para que sepas dónde estás, no para obligarlo a volver.",
+            "No uses palabras que no usarías en la pausa del café."
+          ]
+        },
+        {
+          "titulo": "Pregunta antes de poner precio",
+          "sub": "la frase de prueba",
+          "texto": [
+            "Al final de la conversación, tienes que poder escribir \"este problema les cuesta cerca de tanto al mes\".",
+            "Si no puedes, faltó una pregunta de dolor, y todavía no puedes hablar de precio."
+          ]
+        },
+        {
+          "titulo": "El límite también tiene guion",
+          "sub": "decir lo que no sabes",
+          "texto": [
+            "\"Eso no lo hago\", \"todavía estoy midiendo\" y \"para eso necesitas a un especialista\" son frases de quien tiene criterio, no de quien falló.",
+            "Ensaya estas frases como ensayas el precio: lo que delata inseguridad es la duda antes de decirlas."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Guiones para copiar",
+      "sub": "Ábrelo al lado durante la conversación. Adapta antes de usar.",
+      "blocos": [
+        {
+          "rot": "Apertura y estructura de la llamada de diagnóstico",
+          "icone": "chat",
+          "conteudo": "[apertura · tono calmado, cámara encendida]\n\"Hola <nombre>, ¿todo bien? ¿Cómo estuvo el día por allá?\"\n\n[estructura]\n\"Déjame contarte cómo suelo llevar esto: te cuento rapidito\nlo que hago, te hago unas preguntas para entender cómo funciona por allá,\ny al final te digo con sinceridad si tengo algo que te ayude o no.\n¿Trato hecho?\"\n\n[contexto · un trabajo real, sin detalle técnico]\n\"Ahora estoy <diagnosticando / revisando / enseñando> <qué> para\n<tipo de empresa>. La parte pesada fue <dificultad concreta>.\"\n\n[tres hilos]\n\"En general entro por tres frentes: <frente 1>, <frente 2> y <frente 3>.\"\n\n[silencio de dos segundos]\n\n[transición]\n\"Antes de que yo suelte cualquier suposición: cuéntame cómo lo hacen hoy.\nNo quiero suponer.\""
+        },
+        {
+          "rot": "Banco de preguntas · temperatura, dolor, decisión",
+          "icone": "lista",
+          "conteudo": "TEMPERATURA (lee el TAMAÑO de la respuesta)\n- \"¿Cómo estuvo la semana por allá?\"\n- \"¿Hace cuánto estás en esta operación?\"\n- \"¿Cómo hacen <el proceso> hoy?\"\n→ respuesta de 3 palabras = guardia alta · respuesta con historia = puedes profundizar\n\nDOLOR (lee los NÚMEROS de la respuesta)\n- \"¿Cuántas <llamadas, pedidos, presupuestos> por día?\"\n- \"De esas, ¿cuántas pierden o dejan pasar?\"\n- \"¿Cuánto vale, en promedio, un <evento> cerrado?\"\n- \"¿Quién se encarga de esto hoy y cuánto tiempo al día le toma?\"\n- \"Si sigue así los próximos 12 meses, ¿cuál es el costo?\"\n\nDECISIÓN\n- \"Además de ti, ¿quién más tiene que estar de acuerdo?\"\n- \"¿Ya intentaron resolver esto antes? ¿Qué pasó?\""
+        },
+        {
+          "rot": "Guion de precio y próximo paso",
+          "icone": "grafico",
+          "conteudo": "[amarrar al problema, con el número de él/ella]\n\"Por lo que me contaste, esto les cuesta cerca de <valor por mes> hoy.\"\n\n[el precio, sin ceremonia]\n\"Para <el alcance pequeño>, son <valor>.\"\n\n[unir: pago y plazo, tono de rutina]\n\"La mayoría paga por transferencia o tarjeta, y yo suelo entregar esto\nen <plazo corto>.\"\n\n[próximo paso con dos fechas]\n\"Te mando el resumen hoy mismo. Para revisarlo juntos, tengo el miércoles a las 10h\no el jueves a las 16h. ¿Cuál te funciona mejor?\""
+        },
+        {
+          "rot": "Guion del límite honesto",
+          "icone": "escudo",
+          "conteudo": "[cuando no es contigo]\n\"Eso no lo hago. Para <dictamen jurídico / prueba de intrusión / cambio\nen el sistema>, necesitas a <tipo de especialista>. Puedo recomendarte a alguien y\nsigo encargándome de la parte de <tu servicio>.\"\n\n[cuando todo está redondo]\n\"Viendo lo que me mostraste, esto está funcionando. Mi consejo es\nno tocar nada ahora. Si aparece <señal>, me avisas.\"\n\n[cuando no tienes el número]\n\"Todavía estoy midiendo. Te traigo el número antes del <fecha>.\"\n\n[cuando el pedido crece a mitad de camino]\n\"Se puede hacer, solo que no ahora. Eso entra en la etapa dos.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Adapta y dilo en voz alta. Grabarte con el celular ayuda.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tres guiones en tu voz",
+          "min": "30 min",
+          "texto": "Adapta la apertura, el banco de preguntas y el guion de precio a tu perfil de cliente ideal y a tu servicio. Léelos en voz alta y cambia toda frase que se te trabe.",
+          "pronto": "los 3 guiones están guardados con tu sector y tu servicio, y los lees en voz alta de principio a fin sin tropezar en ninguna frase."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tus frases de límite",
+          "min": "15 min",
+          "texto": "Completa el guion del límite honesto con los especialistas que recomendarías y ensaya cada frase cinco veces, como ensayas el precio.",
+          "pronto": "dices de memoria las 4 frases de límite, sin pedir disculpas, y tienes al menos 1 especialista al que de verdad puedes recomendar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuál es la forma correcta de usar un guion?",
+          "opcoes": [
+            "Leer palabra por palabra para no olvidar nada",
+            "Mantener el orden y la intención de los bloques, con tus palabras",
+            "Seguir el guion aunque el cliente cambie de tema"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Leer palabra por palabra suena a robot de telemarketing. El guion da estructura; el habla es tuya."
+        },
+        {
+          "p": "Después de decir los tres hilos, ¿qué haces?",
+          "opcoes": [
+            "Explicas los tres en detalle",
+            "Te quedas en silencio y dejas que el cliente elija el hilo",
+            "Preguntas el presupuesto"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El hilo que él jala es el problema que duele. Si nadie jala ninguno, tus hilos no eran sobre él."
+        },
+        {
+          "p": "¿Cuál de estas es una pregunta de dolor?",
+          "opcoes": [
+            "\"¿Ustedes tienen problema con esto?\"",
+            "\"De esos, ¿cuántos pierden o dejan pasar?\"",
+            "\"¿Puedo mostrarte mi solución?\""
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Una pregunta de dolor trae un número. \"¿Tienen problema?\" se responde con \"no\" y se cierra el tema."
+        },
+        {
+          "p": "Revisaste el proceso del cliente y está funcionando bien. ¿Qué dices?",
+          "opcoes": [
+            "Inventas un ajuste para no irte sin venta",
+            "Dices que está funcionando, aconsejas no tocarlo ahora y acuerdas la señal para que te llame",
+            "Ofreces un proyecto más grande para todo"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "El veredicto honesto, incluso el de no tocar nada, es la prueba más fuerte de que vendes confianza. Él vuelve cuando aparezca la señal."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Estructura, no texto",
+          "texto": "Adáptalo a tu forma de hablar; memorizar suena peor que improvisar."
+        },
+        {
+          "t": "Habla poco al comienzo, escucha después",
+          "texto": "Tres hilos, silencio, y preguntas de temperatura, dolor y decisión."
+        },
+        {
+          "t": "Pregunta antes de poner precio",
+          "texto": "Sin el problema en número, cualquier valor es un tiro al aire."
+        },
+        {
+          "t": "El límite tiene guion",
+          "texto": "\"No lo hago\", \"todavía midiendo\", \"no lo toques ahora\" y \"llama a un especialista\"."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Llamada en frío y correo en frío: curso 4 de la formación, Do Zero ao Primeiro Cliente",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "La llamada de descubrimiento completa: curso 2, Playbook de Consultoria",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

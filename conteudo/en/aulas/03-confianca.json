@@ -1,0 +1,225 @@
+{
+  "slug": "confianca",
+  "num": 3,
+  "menu": "Trust",
+  "titulo": "Trust 101: the sum of micro-sales",
+  "titulo_curto": "Trust 101",
+  "minutos": 16,
+  "lead": "A stranger who stops you on the street with an offer hears \"no,\" and the \"no\" isn't about the product. It's about the lack of history. Trust isn't friendliness: it's a pattern of promises kept. In this lesson you learn to build it from the very first minute, without pushing and without lying.",
+  "objetivo": "lead the first minutes of a conversation calmly, measure the temperature, and announce a structure that ends in an honest verdict.",
+  "competencias": [
+    "medir-temperatura-do-cliente",
+    "abrir-conversa-com-estrutura",
+    "criar-conexao-sem-mentir"
+  ],
+  "aprende": [
+    {
+      "t": "See a sale as a queue of small sales"
+    },
+    {
+      "t": "Measure trust by the size of the answer"
+    },
+    {
+      "t": "Build connection without manufactured rapport"
+    },
+    {
+      "t": "Open the conversation with structure and a promise of an honest verdict"
+    }
+  ],
+  "hero_alt": "A quiet handshake between two people at the end of a meeting in a simple room, with notebooks on the table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The queue of micro-sales",
+      "sub": "Closing a contract is just the last point of a queue that started long before. Click each step.",
+      "nos": [
+        {
+          "icone": "enviar",
+          "titulo": "Subject line",
+          "sub": "sells the open",
+          "detalhe": "The email subject line has one job: get the person to open it. If nobody opened it, blaming \"the price\" is looking in the wrong place."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Permission",
+          "sub": "sells the conversation",
+          "detalhe": "In an outreach message, asking permission before you present is already a sale in itself."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Showing up",
+          "sub": "sells attendance",
+          "detalhe": "A reminder and a short summary before the call exist to sell attendance. Booking and disappearing until the day is asking for a no-show."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "The call",
+          "sub": "sells the first yes",
+          "forte": true,
+          "detalhe": "Calm, an announced structure, temperature measured, and an honest verdict at the end, including the verdict that you can't help."
+        },
+        {
+          "icone": "check",
+          "titulo": "First yes",
+          "sub": "small",
+          "detalhe": "A small deliverable, kept on schedule. It's the first deposit of trust. The bigger contract comes after it."
+        }
+      ],
+      "legenda": "Look at the arrows, not the boxes: it's between one step and the next that most sales die, each for a different reason."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The first minutes",
+      "sub": "Four things that support everything that comes after.",
+      "passos": [
+        {
+          "titulo": "Measure the temperature",
+          "sub": "by the length of the answer",
+          "texto": [
+            "Ask an open question, one that can't be answered with yes or no, and measure the length of the answer.",
+            "One word (\"normal\") calls for more proof before you ask more. A paragraph with a question back clears you to go deeper."
+          ],
+          "exemplo": {
+            "rot": "Open question",
+            "texto": "\"How does your customer service work today?\""
+          }
+        },
+        {
+          "titulo": "Connection without lying",
+          "sub": "the ethical limit",
+          "texto": [
+            "Mention something true about the industry that you actually studied, or a common problem in similar companies, and ask if it happens there.",
+            "Invented coincidences and memorized compliments get noticed. From then on, everything you say is filtered as a sales technique. A small, true bond is worth more than a big, fake one."
+          ]
+        },
+        {
+          "titulo": "The basics of the call",
+          "sub": "camera, timing, register",
+          "texto": [
+            "Five minutes before: camera framed, microphone tested, notifications silenced. Join on time, not early and not late.",
+            "Dress to match the client's industry. If they don't turn on their camera, you keep yours on and read that as low temperature."
+          ]
+        },
+        {
+          "titulo": "Calm, not excitement",
+          "sub": "nobody wants to be the first",
+          "texto": [
+            "If this were your fourth meeting of the day, you'd be relaxed. The client reads that calm as \"this person does this all the time.\"",
+            "Polite, not excited. Steady voice. When you talk about what you've been doing, mention work in progress, even if it's a pilot of your own."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "You run the question bank once per client profile. You rehearse the opening until it becomes automatic.",
+      "blocos": [
+        {
+          "rot": "Prompt · temperature question bank",
+          "icone": "chat",
+          "conteudo": "Sou consultor e vendo <diagnóstico, revisão, acompanhamento ou ensino de IA>.\nMeu cliente ideal é <setor e porte da empresa>.\n\nEscreva 8 perguntas abertas para o começo de uma reunião com esse perfil.\nRegras: nenhuma pode ser respondida com sim ou não; 4 leves (contexto,\nrotina) e 4 que levem o cliente a descrever um problema operacional.\nPara cada pergunta, escreva o que uma resposta CURTA e o que uma resposta\nLONGA me dizem sobre o nível de confiança dele."
+        },
+        {
+          "rot": "Prompt · your 60-second opening",
+          "icone": "relogio",
+          "conteudo": "Escreva a abertura falada de uma reunião de diagnóstico, com no máximo\n60 segundos de fala.\nContexto:\n- eu vendo <o serviço>\n- o cliente é <setor, porte e cargo de quem estará na call>\n- o contato veio de <prospecção ou indicação>\n\nA abertura precisa, nesta ordem:\n(1) cumprimentar em tom calmo, sem euforia;\n(2) anunciar a estrutura em quatro blocos: contexto, perguntas, o que temos,\n    veredito;\n(3) avisar que no final eu digo com honestidade se posso ou não ajudar, e\n    se não for comigo, quem procurar;\n(4) terminar com UMA pergunta aberta que meça a temperatura.\nTom: direto, sem jargão, sem superlativo. Devolva só o texto falado."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Do this before your next conversation with a client.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Temperature question bank",
+          "min": "15 min",
+          "texto": "Run the prompt for your ideal customer profile from lesson 2. Cut the questions you wouldn't ask over coffee and keep the rest in a note that stays open during the call.",
+          "pronto": "you have 8 open questions, none answerable with yes or no, each with the reading of the short and the long answer."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Timed 60-second opening",
+          "min": "20 min",
+          "texto": "Run the opening prompt, adjust it to your own voice, and record yourself speaking. Watch it once with the sound off to check posture and framing, and once with the sound on to check the tone.",
+          "pronto": "the opening fits in 60 seconds on the timer, announces the 4 blocks, promises the honest verdict, and ends with an open question."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "You ask \"how does your customer service work today?\" and you hear \"normal.\" What does that indicate?",
+          "opcoes": [
+            "That the client has no problem at all",
+            "That trust is still low and you need more proof before asking more",
+            "That it's time to state the price to speed things up"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The thermometer is the length of the answer. One word calls for more proof and more context from you; it doesn't mean there's no problem."
+        },
+        {
+          "p": "The prospect never even opened your first email. Where is the problem?",
+          "opcoes": [
+            "In the price of the proposal",
+            "In the subject line, which didn't sell the opening",
+            "In the client, who doesn't know what they're losing"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Each step in the queue is a separate sale. Blaming the price when the person never even opened the message is fixing the wrong step."
+        },
+        {
+          "p": "To build rapport, you say you have \"a business just like\" the client's, which isn't true. What's the risk?",
+          "opcoes": [
+            "None, it's just an icebreaker",
+            "Starting the relationship with a verifiable lie; from then on everything sounds like technique",
+            "Only the risk that the client won't like your business"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The limit is ethical and practical: experienced prospects recognize the pattern. A small, true bond is worth more."
+        },
+        {
+          "p": "Why promise an honest verdict up front, even a negative one?",
+          "opcoes": [
+            "To look humble",
+            "Because it is what separates a diagnostic meeting from a sales pitch",
+            "To have an excuse if the sale doesn't happen"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Structure signals experience, and the promise to say \"I can't help\" when that's the case is the strongest sign that you sell trust, not just anything."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Trust is a track record",
+          "texto": "Promises kept, not friendliness. Without a track record, the client only buys on low price."
+        },
+        {
+          "t": "Selling is a queue",
+          "texto": "Each step fails for its own reason; fix the right one."
+        },
+        {
+          "t": "Temperature",
+          "texto": "The length of the answer to an open question tells you how much trust already exists."
+        },
+        {
+          "t": "Calm and structure",
+          "texto": "Announce the conversation and promise an honest verdict."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "fechar-sem-forcar",
+  "num": 5,
+  "menu": "Close",
+  "titulo": "Closing without pushing: the smallest yes",
+  "titulo_curto": "Closing without pushing",
+  "minutos": 17,
+  "lead": "Someone who walks into the first conversation wanting to sign a big project is asking for something the other side can't give yet: there isn't enough accumulated trust. What you close on the first call is the next step. In this lesson, the first yes is a small trust-building service, with a written scope, and each promise kept moves you up a step.",
+  "objetivo": "propose a small first yes of diagnosis, review or teaching, with a written scope and what is left out.",
+  "competencias": [
+    "desenhar-oferta-de-entrada",
+    "proteger-escopo",
+    "gerenciar-expectativa"
+  ],
+  "aprende": [
+    {
+      "t": "Ask for a yes the size of the trust that exists"
+    },
+    {
+      "t": "Find the price where the client decides on their own, without seeming suspicious"
+    },
+    {
+      "t": "Protect the scope from skeletons in the closet"
+    },
+    {
+      "t": "Say \"not now\" and climb the scope ladder"
+    }
+  ],
+  "hero_alt": "A consultant and a bakery owner talk calmly at a table in the back of the empty bakery.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The scope ladder",
+      "sub": "You don't skip steps with persuasion techniques. You climb with a track record. Click on each step.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "First yes",
+          "sub": "small and fast",
+          "detalhe": "A mini diagnosis of one process, a review of an AI use the team already has, a teaching session for one department. It fits in a few days and doesn't require a board meeting."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Access from the inside",
+          "sub": "what the delivery bought",
+          "detalhe": "This step is not a sale: it's the access the first delivery bought. You see the real spreadsheet, the real system and the real people. Treat each delivery as paid investigation."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Defined work",
+          "sub": "based on what you saw",
+          "detalhe": "The next proposal comes from what you found on the inside, not from what you were told. The conversation stops being a sale and becomes consulting: they ask what you recommend."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Advisory",
+          "sub": "monthly",
+          "forte": true,
+          "detalhe": "With a balance of trust, the ask can be the monthly arrangement: advise on an ongoing basis, review and teach continuously. The balance pays for the trust gap."
+        }
+      ],
+      "legenda": "The size of the yes you can ask for is always proportional to the trust that already exists."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The rules of the first yes",
+      "sub": "Each one prevents a common way of losing the client.",
+      "passos": [
+        {
+          "titulo": "Below the decision threshold",
+          "sub": "cheaper to try than to decide",
+          "texto": [
+            "There is an amount below which people stop deliberating. For small and mid-sized companies approached cold, that threshold tends to sit around US$ 100, as a reference only; adapt to your market.",
+            "The logic isn't about the money: discussing it internally would cost more time than the amount at stake."
+          ],
+          "exemplo": {
+            "rot": "Ask on the call",
+            "texto": "\"When you test a new vendor, how much usually goes through without turning into an approval process?\""
+          }
+        },
+        {
+          "titulo": "Cheap, not suspicious",
+          "sub": "and not free either",
+          "texto": [
+            "The first yes is cheap relative to the perceived value, never too cheap for the size of the problem: a price out of scale becomes a sign of a scam.",
+            "Free makes it worse too: with no price, the client can't calibrate what they're getting, doesn't prioritize it on their calendar, and you lose the reference point for the second request."
+          ]
+        },
+        {
+          "titulo": "Skeletons in the closet",
+          "sub": "the risk of a big scope",
+          "texto": [
+            "Every company has the spreadsheet that holds everything up, the old system, and the person who never answers. The client has lived with them for so long that they no longer even see them.",
+            "Ask to see a real screen or report before you quote, and write down in the agreement what is not included."
+          ]
+        },
+        {
+          "titulo": "Promise less",
+          "sub": "satisfaction = reality ÷ expectation",
+          "texto": [
+            "Whoever promises the world inflates the denominator and guarantees disappointment before starting.",
+            "The test before you promise: \"would I deliver this even if my week goes wrong?\" If not, you're creating a debt that comes due at delivery."
+          ],
+          "exemplo": {
+            "rot": "Saying no builds trust",
+            "texto": "\"We'll do that in step two.\" It preserves the client's idea, protects the deadline, and creates the reason for the next conversation."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The prompt designs the offer. You use the phrase when the client starts dumping ideas on you.",
+      "blocos": [
+        {
+          "rot": "Prompt · your first-yes offer",
+          "icone": "chat",
+          "conteudo": "You are a sales strategist for people who sell trusted services\nin AI (diagnose, review, advise on an ongoing basis, teach).\nWhat I sell today: <1 sentence>\nMy target client: <industry, size and role of the decision maker>\n\nDesign 3 \"first yes\" offers, one for each service that makes\nsense (short diagnostic, review, teaching session). Each with:\n1. Name of the deliverable (short, no jargon)\n2. What is delivered (at most 3 items) and deadline (fits in 5 business days)\n3. What is NOT included\n4. Illustrative price range at the threshold where the client decides alone\n   (I will adapt it to my market)\n5. The result they perceive (time, money or risk)\n6. What this deliverable reveals to me about their business\nRank by ease of delivery x perceived value and explain in 2\nlines why #1 won. Do not propose building an agent or a system."
+        },
+        {
+          "rot": "Phrase · reduce without refusing",
+          "icone": "caneta",
+          "conteudo": "\"I liked all of this, it can be done. Just not all at the same time.\nOf the things you mentioned, which one, if it were solved\nby <short deadline, e.g.: next Friday>, would already change your week?\nI'll start with that one. The others come into the next conversation,\nonce I really know your <processes / systems / data>.\""
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Leave with an offer ready for the next conversation.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · First-yes offer",
+          "min": "25 min",
+          "texto": "Run the prompt and pick offer #1. Write down in a note: name, what it delivers, what it doesn't deliver, deadline, and a price range adapted to your market.",
+          "pronto": "the chosen offer passes the 3 tests: deliverable within 5 business days without access to internal systems, a price the client decides on alone, and one line saying \"not included\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Rehearsed \"not now\" phrase",
+          "min": "10 min",
+          "texto": "Adapt the reduce-without-refusing phrase to your service and rehearse it out loud five times.",
+          "pronto": "you say the phrase from memory, without apologizing, and it ends in a question that asks the client to pick just one thing."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "First conversation with a cold-approached client. What do you ask for at the end?",
+          "opcoes": [
+            "The long contract at full price",
+            "A small, fast, cheap deliverable, like a mini diagnostic",
+            "Nothing: you wait for them to come back"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Zero trust calls for the smallest yes. The long contract comes after promises kept."
+        },
+        {
+          "p": "To \"prove value,\" you offer to do the first job for free. What's the problem?",
+          "opcoes": [
+            "None, it's an investment",
+            "The client can't calibrate what they get, doesn't prioritize it, and you lose the price reference",
+            "Only the problem of losing money"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Charging little is different from not charging. With no price, the deliverable has no weight on their calendar and no basis for the second request."
+        },
+        {
+          "p": "The client starts asking for \"this, and this, and that\" already in the first deliverable. What do you do?",
+          "opcoes": [
+            "Accept everything so you don't lose the sale",
+            "Ask them to pick one thing and leave the others for step two",
+            "Turn the client down"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Accepting ten and delivering six produces an excuse; picking one and delivering it well produces proof. \"Not now\" keeps the idea alive and sets up the next conversation."
+        },
+        {
+          "p": "Satisfaction is reality divided by expectation. Which one do you control first?",
+          "opcoes": [
+            "Reality, by working more hours",
+            "Expectation, by promising only what you deliver even in a bad week",
+            "Neither"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Lowering the promise is the fastest way to raise satisfaction without working more. Five small promises kept are worth more than one big promise half kept."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The yes is the size of the trust",
+          "texto": "On the first call, you close the next step, not the contract."
+        },
+        {
+          "t": "Cheap compared to the value",
+          "texto": "Below the decision threshold, and never in \"too good to be true\" territory."
+        },
+        {
+          "t": "A small scope protects both of you",
+          "texto": "The skeletons show up when you're working, not when you're talking."
+        },
+        {
+          "t": "The ladder ends in monthly advisory",
+          "texto": "Each promise kept earns you the right to climb one step."
+        }
+      ]
+    }
+  ]
+}

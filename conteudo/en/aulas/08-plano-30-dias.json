@@ -1,0 +1,344 @@
+{
+  "slug": "plano-30-dias",
+  "num": 8,
+  "menu": "30 days",
+  "titulo": "30-day plan: one trusted service delivered",
+  "titulo_curto": "30-day plan",
+  "minutos": 18,
+  "lead": "The goal of these 30 days is not a big contract. It's a small yes: someone who didn't know you pays a little for a first diagnosis, review or teaching session, you deliver on time and send a one-page report. A bigger contract is a result of the following months, not of the first one.",
+  "objetivo": "build a 30-day plan with a single goal: one small yes delivered on time, with a one-page report.",
+  "competencias": [
+    "planejar-30-dias",
+    "medir-o-funil-semanal",
+    "transformar-entrega-em-acompanhamento"
+  ],
+  "aprende": [
+    {
+      "t": "Write the success criteria for the 30 days"
+    },
+    {
+      "t": "Chain the four weeks together"
+    },
+    {
+      "t": "Track five numbers every Friday"
+    },
+    {
+      "t": "Generate your plan with dates"
+    }
+  ],
+  "hero_alt": "Paper calendar on a corkboard wall with a few days marked by hand.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The four weeks and the loop",
+      "sub": "Each week only exists because the previous one happened. Click on each one.",
+      "volta": "trust loop: promise → delivery → bigger scope",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Week 1",
+          "sub": "prove",
+          "detalhe": "Choose just one service (diagnosis, review or teaching), do it for three different businesses in the same sector, and get real people to use or read it. Keep screenshots and numbers."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Week 2",
+          "sub": "reach out",
+          "detalhe": "A list of your ideal customer profile, with the name of the person who decides, and a daily contact goal you meet even on bad days. A contact made is worth more than a row in the spreadsheet."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Week 3",
+          "sub": "talk and close",
+          "detalhe": "Calls with structure, temperature measured, three threads, and the small offer born from the thread the client pulled. Every call ends with the next one booked."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Week 4",
+          "sub": "deliver and report",
+          "forte": true,
+          "detalhe": "Deliver ahead of the deadline, show the result in numbers in the one-page report, list what you discovered on the inside, and propose the next step: the monthly advisory."
+        }
+      ],
+      "legenda": "From month 2 on, you don't start over: you turn the cycle, and each turn leaves proof behind."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The criteria and the numbers",
+      "sub": "Measure what you control.",
+      "passos": [
+        {
+          "titulo": "The success criteria",
+          "sub": "four sentences",
+          "texto": [
+            "On day 30 you hit the goal if you can say, without making anything up: I did the service I sell and three real people used or read it; I talked to companies in my profile; I led diagnostic calls with the person who decides; I closed a small yes and delivered on time, with a report.",
+            "\"Feeling ready\" doesn't count: it can't be measured and it never arrives."
+          ]
+        },
+        {
+          "titulo": "Five numbers every Friday",
+          "sub": "where the funnel clogs",
+          "texto": [
+            "Contacts made, replies, calls, offers and yeses. As an activity reference for someone with about 2 hours a day: 50 contacts, 2 calls and 2 offers per week. It's not a forecast of results; adapt to your market and your time.",
+            "Contacts and offers depend on you. Yeses depend on the client. Hold yourself accountable for the first two, celebrate the last."
+          ]
+        },
+        {
+          "titulo": "Read the number that got stuck",
+          "sub": "one step at a time",
+          "texto": [
+            "Few contacts: a scheduling problem, block a fixed time. Few replies: your approach talks about you, not about their problem.",
+            "Few calls: you don't offer a time on the spot. Few offers: you're diagnosing without proposing. No yes: the first ask is still too big for the trust that exists."
+          ]
+        },
+        {
+          "titulo": "The month 2 mistake",
+          "sub": "stopping the search",
+          "texto": [
+            "Closing the first client and stopping outreach. When the work ends, you're back at zero and you've lost your rhythm.",
+            "Keep your contact goal even in the week you're delivering, and turn every delivery into something you publish."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "You run the plan once. The review, every Friday.",
+      "blocos": [
+        {
+          "rot": "Prompt · your 30-day plan",
+          "icone": "calendario",
+          "conteudo": "Você é meu diretor comercial. Vou vender <diagnóstico / revisão /\nacompanhamento / ensino de IA> para <perfil de cliente: setor, porte, cidade>.\n\nMonte meu plano de 30 dias em 4 semanas, com no máximo 3 tarefas por dia\nútil e o tempo estimado de cada uma. Regras:\n1. Semana 1: fazer o serviço em 3 negócios diferentes e colocar 3 pessoas\n   para usar ou ler.\n2. Semana 2: montar a lista com o nome de quem decide e fazer o primeiro\n   contato, com meta diária.\n3. Semana 3: conduzir calls de diagnóstico e fechar um primeiro trabalho\n   pequeno.\n4. Semana 4: entregar, mandar o relatório de uma página e propor o\n   acompanhamento.\nPara cada semana, 1 número que prova que ela deu certo. Devolva em tabela.\nMeu tempo por dia: <ex.: 2 horas>. Não invente estatística de mercado."
+        },
+        {
+          "rot": "Prompt · Friday review",
+          "icone": "grafico",
+          "conteudo": "Faça a revisão da minha semana. Os números:\n- contatos feitos: <n>\n- respostas recebidas: <n>\n- calls realizadas: <n>\n- ofertas feitas: <n>\n- sins fechados: <n>\n\n1. Calcule a taxa de conversão entre cada etapa.\n2. Aponte a ÚNICA etapa mais entupida e explique por quê.\n3. Proponha 3 ações concretas para a próxima semana, só para essa etapa.\n4. Diga qual número eu persigo na semana que vem e qual eu ignoro.\nSeja direto e não elogie os números."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The dated plan comes out of the generator at the end of the lesson.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · 30-day plan with dates",
+          "min": "20 min",
+          "texto": "Run the plan prompt with your real time, then generate the dated plan at the end of this lesson. Import the .ics into your calendar.",
+          "pronto": "the plan is in a table, with at most 3 tasks per day and one success number per week, and the dates are in your calendar."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · First Friday review",
+          "min": "15 min",
+          "dias": "toda sexta",
+          "texto": "At the end of the first week, write down the five numbers and run the Friday review.",
+          "pronto": "the review points to a single step as the bottleneck, with 3 actions for it, and you've marked which number you'll chase the following week."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "End of week 2: 300 companies in the spreadsheet and no conversations. What does that tell you?",
+          "opcoes": [
+            "Great progress: a big list is the foundation of everything",
+            "The week turned into preparation; the goal is a contact made, not a row in the spreadsheet",
+            "The ideal customer profile is wrong"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The temptation of week 2 is to grow the list instead of talking to it. If the list grew and conversations are zero, the week was a hiding place."
+        },
+        {
+          "p": "Which of these is a good goal for the 30 days?",
+          "opcoes": [
+            "Closing a big contract in the first month",
+            "A small yes delivered on time, with a one-page report",
+            "Perfecting the service before talking to anyone"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The goal is measurable and depends on you. A big contract is the result of promises kept, not of month 1."
+        },
+        {
+          "p": "You made lots of contacts and calls, but no offers. Where is the bottleneck?",
+          "opcoes": [
+            "In the list",
+            "You are diagnosing without proposing; make the small offer right on the call",
+            "In the price"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Each stuck number points to a stage. Calls without an offer mean the first yes is not being asked for."
+        },
+        {
+          "p": "In week 4, what turns the small delivery into the next step?",
+          "opcoes": [
+            "Adding for free everything the client asked for along the way",
+            "The report with the result as a number, what you saw on the inside, and the advisory proposal",
+            "Delivering and waiting for them to notice the value"
+          ],
+          "certa": 1,
+          "ref": "mapa",
+          "explica": "If the client doesn't know what happened, for them it didn't happen. The one-page report carries the decision; what you saw on the inside becomes the next proposal."
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "The four proofs you gather in 30 days. Click an exercise to see its \"done when\".",
+      "degraus": [
+        {
+          "aula": "impostor",
+          "icone": "check",
+          "quando": "Week 1",
+          "titulo": "Prove",
+          "sub": "The service done three times",
+          "saida": "Proof inventory and a scheduled conversation.",
+          "passo": "The foundation of everything: do the service you sell and document it. Without your own proof, the rest is just talk."
+        },
+        {
+          "aula": "identidade",
+          "icone": "alvo",
+          "quando": "Week 2",
+          "titulo": "Introduce yourself",
+          "sub": "Profile, sentence and limit",
+          "saida": "Ten-second sentence and limit sentence.",
+          "passo": "Requires the proof. Say who you help, what changes, what you don't do, and when you call in a specialist."
+        },
+        {
+          "aula": "objecoes",
+          "icone": "chat",
+          "quando": "Week 3",
+          "titulo": "Close",
+          "sub": "Number, scope and date",
+          "saida": "Price sentence and a simulated conversation at most.",
+          "passo": "Requires the identity. Measure the problem, ask for the smallest yes, reduce scope instead of giving a discount, and leave with a date."
+        },
+        {
+          "aula": "posicionamento-prova",
+          "icone": "arquivo",
+          "quando": "Week 4",
+          "titulo": "Report",
+          "sub": "One case and one page",
+          "saida": "One-page report delivered.",
+          "passo": "Requires the delivery. The report is the proof that stays and opens the advisory conversation."
+        }
+      ],
+      "resultado": {
+        "titulo": "By the end of the course",
+        "texto": "You have your own proof, an identity that says what you know and what you don't, a first yes delivered, and a report the client can check on their own.",
+        "total": "16 exercises"
+      },
+      "rolagem_fim": {
+        "titulo": "The trust loop",
+        "texto": "A kept promise becomes trust, trust becomes a bigger scope, and the cycle starts again higher. Lessons 3, 5, 7 and 8 go into the plan generated below."
+      },
+      "legenda": "Trust (lesson 3), closing without pushing (lesson 5), scripts (lesson 7) and the plan (lesson 8) go into the plan with dates."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Choose the start date and how much time you have per week. The plan includes the 16 exercises in the course.",
+      "curso": "Selling with AI 3 · Foundations of Selling AI",
+      "horas_padrao": 5,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · Impostor syndrome",
+          "aula": "impostor"
+        },
+        {
+          "titulo": "Lesson 2 · Identity",
+          "aula": "identidade"
+        },
+        {
+          "titulo": "Lesson 3 · Trust 101",
+          "aula": "confianca"
+        },
+        {
+          "titulo": "Lesson 4 · Positioning and proof",
+          "aula": "posicionamento-prova"
+        },
+        {
+          "titulo": "Lesson 5 · Closing without pushing",
+          "aula": "fechar-sem-forcar"
+        },
+        {
+          "titulo": "Lesson 6 · Objections",
+          "aula": "objecoes"
+        },
+        {
+          "titulo": "Lesson 7 · Scripts",
+          "aula": "roteiros"
+        },
+        {
+          "titulo": "Lesson 8 · 30-day plan",
+          "aula": "plano-30-dias"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Selling with AI 3 · Foundations of Selling AI",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "One goal",
+          "texto": "One small yes in 30 days, delivered on time, with a report."
+        },
+        {
+          "t": "Four linked weeks",
+          "texto": "Prove, reach out, talk and close, deliver and report."
+        },
+        {
+          "t": "Five numbers",
+          "texto": "Contacts, replies, calls, offers and yeses show where the funnel gets stuck."
+        },
+        {
+          "t": "The loop",
+          "texto": "A promise kept becomes trust, and trust becomes monthly advisory."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Next in the suggested order: course 2, Consulting Playbook",
+          "href": "https://inematds.github.io/formacao-vendas-ia-consultoria-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "List building and outreach in detail: course 4, From Zero to First Client",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "The four roles of Professional 2030",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

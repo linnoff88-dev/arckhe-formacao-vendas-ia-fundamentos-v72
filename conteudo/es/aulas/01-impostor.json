@@ -1,0 +1,230 @@
+{
+  "slug": "impostor",
+  "num": 1,
+  "menu": "Impostor",
+  "titulo": "Síndrome del impostor: prueba antes que discurso",
+  "titulo_curto": "Síndrome del impostor",
+  "minutos": 15,
+  "lead": "Sientes que no puedes cobrar por algo que todavía no has visto funcionar con tus propias manos. La sospecha es razonable, por eso un discurso motivacional no lo resuelve. Lo que sí resuelve es una prueba propia: hacer el servicio que vendes algunas veces, registrar lo que pasó y agendar una conversación.",
+  "objetivo": "cambiar la sensación de impostor por una prueba propia: hacer tres veces el servicio que vendes y agendar una conversación en 7 días.",
+  "competencias": [
+    "gerar-prova-propria",
+    "registrar-evidencia",
+    "sair-da-preparacao-infinita"
+  ],
+  "aprende": [
+    {
+      "t": "Ver la venta como conseguir el próximo paso"
+    },
+    {
+      "t": "Reconocer el ciclo del impostor y su única salida"
+    },
+    {
+      "t": "Hacer el servicio que vendes antes de defenderlo"
+    },
+    {
+      "t": "Armar tu plan anti-impostor de 7 días"
+    }
+  ],
+  "hero_alt": "Un profesional revisa a lápiz las hojas impresas de un diagnóstico, con carpetas de casos anteriores al lado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo del impostor y la salida",
+      "sub": "El ciclo se alimenta solo y nunca genera experiencia. Solo una flecha sale de él. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "cerebro",
+          "titulo": "\"No puedo cobrar\"",
+          "sub": "la sospecha",
+          "detalhe": "No es un miedo genérico a fallar. Es la sospecha, casi siempre correcta, de que estás prometiendo un resultado sin tener un historial propio de él."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Más preparación",
+          "sub": "parece progreso",
+          "detalhe": "Una herramienta más, otro nicho, la presentación rehecha. Seis meses después el repertorio técnico se duplicó y las conversaciones con clientes siguen en cero."
+        },
+        {
+          "icone": "check",
+          "titulo": "Hacer el servicio",
+          "sub": "la única salida",
+          "forte": true,
+          "detalhe": "¿Vendes diagnóstico? Diagnostica tres empresas, aunque no cobres. ¿Vendes revisión o enseñanza? Revisa tres procesos, enseña a tres personas. No necesitas creer que funciona: necesitas haberlo visto funcionar."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Registrar",
+          "sub": "dato histórico",
+          "detalhe": "Cuánto tiempo llevó, qué se rompió, dónde se trabó la persona. Eso se convierte en tu estimación y en las respuestas a las preguntas difíciles."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Conversación agendada",
+          "sub": "el detonante",
+          "detalhe": "No existe un certificado que haga aparecer la sensación de estar listo. Existe la primera conversación agendada, y funciona como detonante."
+        }
+      ],
+      "legenda": "La confianza en ti mismo no viene de la convicción. Viene de datos históricos propios."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cuatro ideas que destraban",
+      "sub": "Cada una responde a una excusa común.",
+      "passos": [
+        {
+          "titulo": "Todos venden",
+          "sub": "venta = próximo paso",
+          "texto": [
+            "Vender, aquí, es lograr que otra persona acepte el próximo paso contigo: responder, agendar la conversación, aprobar una prueba pequeña.",
+            "Ya lo haces todos los días, solo que no lo llamas así. Si ya vendes sin darte cuenta, el problema no es la aptitud: es el método."
+          ],
+          "exemplo": {
+            "rot": "Lectura que traba",
+            "texto": "\"Si el servicio es bueno, se vende solo.\" Un buen servicio que nadie conoce no factura."
+          }
+        },
+        {
+          "titulo": "Repetición que cuenta",
+          "sub": "la prueba del auto",
+          "texto": [
+            "Giras la llave del auto sin ansiedad porque arrancó las últimas cien veces. La confianza para decir el precio se construye igual: repetición registrada.",
+            "Cuenta: el mismo servicio en contextos distintos, con el tiempo anotado y otra persona usándolo. No cuenta: rehacer la prueba solo para ti o cambiar de herramienta en cada proyecto."
+          ]
+        },
+        {
+          "titulo": "La trampa opuesta",
+          "sub": "prepararse para siempre",
+          "texto": [
+            "\"Necesito hacer uno más\" puede volverse una excusa permanente. La línea de \"estar listo\" se corre un poco hacia adelante cada vez que te acercas.",
+            "La regla: hazlo hasta que puedas mostrar algo completo de punta a punta. De ahí en adelante, servicio y conversación van juntos."
+          ],
+          "exemplo": {
+            "rot": "Señal de fuga",
+            "texto": "Tienes más versiones de la presentación que conversaciones realizadas."
+          }
+        },
+        {
+          "titulo": "Nadie está listo",
+          "sub": "la claridad viene después",
+          "texto": [
+            "Quien ya está establecido también empezó sin saber cómo fijar precios ni dónde encontrar clientes. Empezó y fue corrigiendo en el camino.",
+            "Cambia \"¿estoy listo?\" por \"¿cuál es lo más pequeño que puedo entregar bien esta semana?\". La segunda pregunta tiene respuesta y cabe en una agenda."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Ejecuta el prompt en el asistente de IA que usas. El plan queda en un archivo con la fecha de hoy.",
+      "blocos": [
+        {
+          "rot": "Prompt · inventario de pruebas",
+          "icone": "chat",
+          "conteudo": "Eres mi formador de ventas. Yo vendo <el servicio: diagnóstico, revisión,\nacompañamiento o enseñanza> a <tipo de empresa que quiero atender>.\n\nAquí está todo lo que ya hice o probé, sin filtro:\n<una línea por ítem, incluso trabajos sin cobrar y pruebas que fallaron>\n\nHaz tres cosas, en este orden:\n1. Para cada ítem, escribe la EVIDENCIA en una frase que yo podría decir\n   en una conversación con un cliente, sin exagerar y sin inventar números.\n2. Señala las LAGUNAS: lo que un comprador de este servicio preguntaría y que yo\n   todavía no puedo responder con experiencia propia.\n3. Propón 3 cosas pequeñas que puedo hacer en 7 días para cerrar las\n   lagunas más graves, cada una con el resultado observable que me daría.\n\nSé duro. Si una evidencia es débil, dime que es débil y explica por qué."
+        },
+        {
+          "rot": "Plan anti-impostor · 7 días",
+          "icone": "calendario",
+          "conteudo": "PLAN ANTI-IMPOSTOR · inicio <fecha>\n\nDías 1 y 2 · elige UN servicio y hazlo una vez\n  - servicio: <diagnóstico / revisión / sesión de enseñanza>\n  - caso: <empresa real o ficticia, pero realista>\n  - si no terminas en 2 días, el alcance era grande: recórtalo a la mitad\n\nDías 3 y 4 · rehazlo en otros 2 contextos (sectores diferentes)\n  - tiempo de cada ejecución: ___ / ___ / ___\n  - qué se rompió: ___\n\nDía 5 · 3 personas de fuera lo usan o lo leen, sin explicación tuya\n  - dónde se trabaron: ___\n\nDía 6 · inventario de pruebas (prompt de arriba), una frase por evidencia\n\nDía 7 · una conversación agendada\n  - con quién: ___   fecha y hora: ___"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Hazlo esta semana. Las dos juntas rompen el ciclo con hechos, no con fuerza de voluntad.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Inventario de pruebas",
+          "min": "25 min",
+          "texto": "Enumera todo lo que ya hiciste relacionado con el servicio que quieres vender y ejecuta el prompt del inventario. Guarda la respuesta en un archivo con la fecha de hoy.",
+          "pronto": "el archivo tiene al menos 3 evidencias de una frase cada una, sin números inventados, y al menos 2 lagunas incómodas señaladas."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Plan de 7 días con la conversación agendada",
+          "min": "20 min",
+          "dias": "7 dias",
+          "texto": "Completa el plan anti-impostor. Antes de empezar el día 1, agenda en el calendario la conversación del día 7 con alguien que ya conoces. El objetivo no es vender: es hablar de lo que hiciste con alguien que no eres tú.",
+          "pronto": "la conversación del día 7 está en tu calendario con nombre, fecha y hora, y el servicio se hizo en 3 contextos con el tiempo anotado."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Sientes que no puedes cobrar por lo que vendes. ¿Cuál es el antídoto de esta clase?",
+          "opcoes": [
+            "Estudiar una herramienta más hasta sentirte seguro",
+            "Hacer el servicio que vendes algunas veces y registrar lo que pasó",
+            "Bajar el precio hasta que alguien acepte"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La sospecha del impostor es razonable: falta historial propio. Solo las pruebas lo resuelven. Estudiar más parece progreso, pero no genera ningún dato tuyo."
+        },
+        {
+          "p": "¿Cuál de estas repeticiones genera confianza de verdad?",
+          "opcoes": [
+            "Rehacer la misma prueba en tu máquina diez veces",
+            "Hacer el mismo diagnóstico en tres empresas de sectores diferentes, anotando el tiempo",
+            "Ver a alguien hacerlo y sentir que aprendiste"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Cuenta la repetición en contextos diferentes, con registro. Ver a alguien hacerlo deja el dato histórico con el otro, no contigo."
+        },
+        {
+          "p": "Postergas la primera conversación por un detalle que ningún cliente preguntaría. ¿Qué está pasando?",
+          "opcoes": [
+            "Cuidado profesional: mejor esperar",
+            "La preparación se volvió fuga; fija la fecha y muestra lo que esté listo hasta entonces",
+            "Señal de que el servicio no es para ti"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La línea de \"estar listo\" se mueve cada vez que te acercas. La fecha fija impide que siga avanzando."
+        },
+        {
+          "p": "En la conversación del día 7, ¿cuál es el objetivo?",
+          "opcoes": [
+            "Cerrar el primer contrato",
+            "Hablar de lo que hiciste con alguien que no eres tú",
+            "Presentar todas las herramientas que dominas"
+          ],
+          "certa": 1,
+          "ref": "pratica",
+          "explica": "El día 7 existe para sentarte en la silla. Vender viene después; la primera conversación ya rompe el ciclo."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Vender es el siguiente paso",
+          "texto": "Ya lo haces todos los días. Lo que falta es método, no aptitud."
+        },
+        {
+          "t": "El bloqueo es falta de prueba",
+          "texto": "El discurso no lo resuelve. Hacer el servicio y registrarlo, sí."
+        },
+        {
+          "t": "Repetición registrada",
+          "texto": "El mismo servicio, en contextos distintos, con el tiempo anotado."
+        },
+        {
+          "t": "Nadie está listo",
+          "texto": "La claridad es consecuencia de actuar. La conversación agendada es el detonante."
+        }
+      ]
+    }
+  ]
+}
