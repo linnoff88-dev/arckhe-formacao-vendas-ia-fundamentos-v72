@@ -3,13 +3,13 @@
   "lang": "pt-BR",
   "url": "https://linnoff88-dev.github.io/
   "nome": "Vendas com IA 3 · Fundamentos de Vender IA",
-  "sub": "Formação Vendas com IA · curso 3 de 5",
+  "sub": "Formaçêo Vendas com IA · curso 3 de 5",
   "volta": {
     "t": "Área Consultoria de IA",
     "href": "https://eventos.ARCKHÉ.pro/consultoria-ia/"
   },
   "lado_card": {
-    "rot": "Formação Vendas com IA",
+    "rot": "Formaçêo Vendas com IA",
     "t": "Curso 3 de 5",
     "texto": "Na ordem sugerida, o próximo é o curso 2: o playbook de consultoria, com a call de descoberta e o preço em degraus.",
     "link": "Ir para o curso 2",
@@ -18,9 +18,9 @@
   "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://eventos.ARCKHÉ.pro/consultoria-ia/\">eventos.ARCKHÉ.pro/consultoria-ia</a> · <a href=\"https://eventos.ARCKHÉ.pro/prof2030/\">Profissional 2030</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> <!-- ARCKHÉ-backlink:v1 --><br><a href=\"https://www.ARCKHÉ AI/cursos/332-formacao-vendas-com-ia-3-fundamentos-de-vender-ia-v7-2/\">Ficha completa deste curso no ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a><!-- /ARCKHÉ-backlink:v1 -->",
   "videos": {},
   "inicio": {
-    "kicker": "Formação Vendas com IA · curso 3 de 5 · 8 aulas",
-    "titulo": "Fundamentos de Vender IA: vender confiança, não construção",
-    "lead": "Construir ficou fácil. Confiar no que foi construído, não. Em oito aulas você troca a sensação de impostor por prova própria, se apresenta como quem diz o que sabe e o que não sabe, fecha sem forçar, responde objeções sem desconto e sai com um plano de 30 dias.",
+    "kicker": "Formaçêo Vendas com IA · curso 3 de 5 · 8 aulas",
+    "titulo": "Fundamentos de Vender IA: vender confiança, nêo construçêo",
+    "lead": "Construir ficou fácil. Confiar no que foi construído, nêo. Em oito aulas você troca a sensaçêo de impostor por prova própria, se apresenta como quem diz o que sabe e o que nêo sabe, fecha sem forçar, responde objeções sem desconto e sai com um plano de 30 dias.",
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver a área Consultoria de IA",
@@ -53,23 +53,23 @@
         "itens": [
           "Quem sabe usar IA, mas trava na hora de cobrar ou de puxar a conversa.",
           "Consultor, freelancer ou profissional técnico começando a vender para empresas.",
-          "Quem quer vender diagnóstico, revisão, acompanhamento e ensino, e não só \"eu construo o seu agente\"."
+          "Quem quer vender diagnóstico, revisêo, acompanhamento e ensino, e nêo só \"eu construo o seu agente\"."
         ]
       },
       {
         "t": "O que você sai fazendo",
         "itens": [
           "Mostrar prova própria em vez de discurso, sem inventar número.",
-          "Dizer em uma frase quem você ajuda, o que não faz e quando chama um especialista.",
-          "Pedir o menor sim, responder objeção reduzindo escopo e sair de toda conversa com data marcada.",
+          "Dizer em uma frase quem você ajuda, o que nêo faz e quando chama um especialista.",
+          "Pedir o menor sim, responder objeçêo reduzindo escopo e sair de toda conversa com data marcada.",
           "Entregar um relatório de uma página e seguir um plano de 30 dias."
         ]
       },
       {
         "t": "Onde este curso entra no Profissional 2030",
         "itens": [
-          "O <a href=\"https://eventos.ARCKHÉ.pro/prof2030/\">Profissional 2030</a> tem quatro papéis: Consultor, Auditor, Mentor e Treinador. Os quatro vendem confiança, não construção.",
-          "Este curso é a base dos quatro: a <b>identidade</b> de quem diagnostica, revisa, acompanha e ensina, e diz o que sabe e o que não sabe.",
+          "O <a href=\"https://eventos.ARCKHÉ.pro/prof2030/\">Profissional 2030</a> tem quatro papéis: Consultor, Auditor, Mentor e Treinador. Os quatro vendem confiança, nêo construçêo.",
+          "Este curso é a base dos quatro: a <b>identidade</b> de quem diagnostica, revisa, acompanha e ensina, e diz o que sabe e o que nêo sabe.",
           "Base comum que ele usa: ética e limites (quando chamar um especialista) e o relatório de uma página."
         ]
       }
@@ -89,7 +89,7 @@
     "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
     "copiar": "Copiar",
     "copiado": "Copiado",
-    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_simulacao": "Simulaçêo: exemplo ilustrativo",
     "selo_real": "Exemplo do repositório",
     "pronto_quando": "Pronto quando:",
     "fiz": "Fiz este exercício",
@@ -98,8 +98,8 @@
     "de": "de",
     "cert_tag": "competência",
     "correto": "Correto",
-    "errado": "Não é essa",
-    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "errado": "Nêo é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicaçêo aparece depois da sua tentativa.",
     "proxima_pergunta": "Próxima pergunta",
     "quiz_ver": "Ver resultado",
     "quiz_fim": "Teste concluído",
@@ -126,7 +126,7 @@
     "baixar_ics": "Baixar para o calendário (.ics)",
     "ind_estudo": "Estudo (aulas)",
     "ind_pratica": "Prática declarada",
-    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovaçêo vem na prova da certificaçêo.",
     "estudo": {
       "titulo": "Seu estudo",
       "continuar": "Continuar de onde parei",
@@ -139,7 +139,7 @@
       "notas": "Minhas anotações",
       "dados": "Copiar meus dados",
       "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
-      "nao_fez": "teste ainda não feito",
+      "nao_fez": "teste ainda nêo feito",
       "ultimo": "Último",
       "melhor": "Melhor",
       "tentativas": "tentativas",
@@ -148,21 +148,21 @@
       "rever": "Para rever",
       "resposta": "Resposta certa:",
       "ir_teste": "Refazer o teste",
-      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "sem_notas": "Nenhuma anotaçêo ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
       "so_marcado": "(só marcado)",
       "marcar": "Marcar",
       "anotar": "Anotar",
       "salvar": "Salvar",
       "apagar": "Apagar marca",
       "fechar": "Fechar",
-      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "nota_ph": "Escreva sua anotaçêo sobre este trecho…",
       "um_bloco": "Marque dentro de um parágrafo só.",
-      "nao_marca": "Este trecho não pode ser marcado.",
-      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "nao_marca": "Este trecho nêo pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e nêo apaga nada.",
       "exportar": "Baixar cópia",
       "importar": "Carregar cópia",
       "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
-      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_erro": "Arquivo nêo reconhecido. Nada foi alterado.",
       "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
       "export_ok": "Cópia baixada."
     },
@@ -174,7 +174,7 @@
     "conv_ruim": "Escolha fraca",
     "conv_fim": "Fim da conversa",
     "conv_placar": "Você fez {p} de {m} pontos possíveis.",
-    "conv_licao": "Lição:",
+    "conv_licao": "Liçêo:",
     "conv_recomecar": "Recomeçar a conversa",
     "conv_feita": "Seu melhor placar: {p} de {m} pontos."
   },

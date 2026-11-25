@@ -109,12 +109,12 @@
         {
           "rot": "Prompt · your 30-day plan",
           "icone": "calendario",
-          "conteudo": "Você é meu diretor comercial. Vou vender <diagnóstico / revisão /\nacompanhamento / ensino de IA> para <perfil de cliente: setor, porte, cidade>.\n\nMonte meu plano de 30 dias em 4 semanas, com no máximo 3 tarefas por dia\nútil e o tempo estimado de cada uma. Regras:\n1. Semana 1: fazer o serviço em 3 negócios diferentes e colocar 3 pessoas\n   para usar ou ler.\n2. Semana 2: montar a lista com o nome de quem decide e fazer o primeiro\n   contato, com meta diária.\n3. Semana 3: conduzir calls de diagnóstico e fechar um primeiro trabalho\n   pequeno.\n4. Semana 4: entregar, mandar o relatório de uma página e propor o\n   acompanhamento.\nPara cada semana, 1 número que prova que ela deu certo. Devolva em tabela.\nMeu tempo por dia: <ex.: 2 horas>. Não invente estatística de mercado."
+          "conteudo": "Você é meu diretor comercial. Vou vender <diagnóstico / revisêo /\nacompanhamento / ensino de IA> para <perfil de cliente: setor, porte, cidade>.\n\nMonte meu plano de 30 dias em 4 semanas, com no máximo 3 tarefas por dia\nútil e o tempo estimado de cada uma. Regras:\n1. Semana 1: fazer o serviço em 3 negócios diferentes e colocar 3 pessoas\n   para usar ou ler.\n2. Semana 2: montar a lista com o nome de quem decide e fazer o primeiro\n   contato, com meta diária.\n3. Semana 3: conduzir calls de diagnóstico e fechar um primeiro trabalho\n   pequeno.\n4. Semana 4: entregar, mandar o relatório de uma página e propor o\n   acompanhamento.\nPara cada semana, 1 número que prova que ela deu certo. Devolva em tabela.\nMeu tempo por dia: <ex.: 2 horas>. Nêo invente estatística de mercado."
         },
         {
           "rot": "Prompt · Friday review",
           "icone": "grafico",
-          "conteudo": "Faça a revisão da minha semana. Os números:\n- contatos feitos: <n>\n- respostas recebidas: <n>\n- calls realizadas: <n>\n- ofertas feitas: <n>\n- sins fechados: <n>\n\n1. Calcule a taxa de conversão entre cada etapa.\n2. Aponte a ÚNICA etapa mais entupida e explique por quê.\n3. Proponha 3 ações concretas para a próxima semana, só para essa etapa.\n4. Diga qual número eu persigo na semana que vem e qual eu ignoro.\nSeja direto e não elogie os números."
+          "conteudo": "Faça a revisêo da minha semana. Os números:\n- contatos feitos: <n>\n- respostas recebidas: <n>\n- calls realizadas: <n>\n- ofertas feitas: <n>\n- sins fechados: <n>\n\n1. Calcule a taxa de conversêo entre cada etapa.\n2. Aponte a ÚNICA etapa mais entupida e explique por quê.\n3. Proponha 3 ações concretas para a próxima semana, só para essa etapa.\n4. Diga qual número eu persigo na semana que vem e qual eu ignoro.\nSeja direto e nêo elogie os números."
         }
       ]
     },

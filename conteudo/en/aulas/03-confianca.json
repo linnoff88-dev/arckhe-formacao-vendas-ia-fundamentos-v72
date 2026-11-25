@@ -118,12 +118,12 @@
         {
           "rot": "Prompt · temperature question bank",
           "icone": "chat",
-          "conteudo": "Sou consultor e vendo <diagnóstico, revisão, acompanhamento ou ensino de IA>.\nMeu cliente ideal é <setor e porte da empresa>.\n\nEscreva 8 perguntas abertas para o começo de uma reunião com esse perfil.\nRegras: nenhuma pode ser respondida com sim ou não; 4 leves (contexto,\nrotina) e 4 que levem o cliente a descrever um problema operacional.\nPara cada pergunta, escreva o que uma resposta CURTA e o que uma resposta\nLONGA me dizem sobre o nível de confiança dele."
+          "conteudo": "Sou consultor e vendo <diagnóstico, revisêo, acompanhamento ou ensino de IA>.\nMeu cliente ideal é <setor e porte da empresa>.\n\nEscreva 8 perguntas abertas para o começo de uma reuniêo com esse perfil.\nRegras: nenhuma pode ser respondida com sim ou nêo; 4 leves (contexto,\nrotina) e 4 que levem o cliente a descrever um problema operacional.\nPara cada pergunta, escreva o que uma resposta CURTA e o que uma resposta\nLONGA me dizem sobre o nível de confiança dele."
         },
         {
           "rot": "Prompt · your 60-second opening",
           "icone": "relogio",
-          "conteudo": "Escreva a abertura falada de uma reunião de diagnóstico, com no máximo\n60 segundos de fala.\nContexto:\n- eu vendo <o serviço>\n- o cliente é <setor, porte e cargo de quem estará na call>\n- o contato veio de <prospecção ou indicação>\n\nA abertura precisa, nesta ordem:\n(1) cumprimentar em tom calmo, sem euforia;\n(2) anunciar a estrutura em quatro blocos: contexto, perguntas, o que temos,\n    veredito;\n(3) avisar que no final eu digo com honestidade se posso ou não ajudar, e\n    se não for comigo, quem procurar;\n(4) terminar com UMA pergunta aberta que meça a temperatura.\nTom: direto, sem jargão, sem superlativo. Devolva só o texto falado."
+          "conteudo": "Escreva a abertura falada de uma reuniêo de diagnóstico, com no máximo\n60 segundos de fala.\nContexto:\n- eu vendo <o serviço>\n- o cliente é <setor, porte e cargo de quem estará na call>\n- o contato veio de <prospecçêo ou indicaçêo>\n\nA abertura precisa, nesta ordem:\n(1) cumprimentar em tom calmo, sem euforia;\n(2) anunciar a estrutura em quatro blocos: contexto, perguntas, o que temos,\n    veredito;\n(3) avisar que no final eu digo com honestidade se posso ou nêo ajudar, e\n    se nêo for comigo, quem procurar;\n(4) terminar com UMA pergunta aberta que meça a temperatura.\nTom: direto, sem jargêo, sem superlativo. Devolva só o texto falado."
         }
       ]
     },
